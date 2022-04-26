@@ -1,2 +1,1 @@
-# rrp-workshop
-Repository for Reproducible Research Practices Training Workshop
+### Repository for Reproducible Research Practices Training Workshop
