@@ -3,12 +3,14 @@
 
 ## Learning objectives
 
+At the completion of this module, learners will be able to:
+
 - Understand the importance of project organization for reproducibility
 - Create a project directory with an example substructure including:
   - Separation between data, code, and results
-  - Documentation at each hierarchical level
+  - Essential documentation for reproducibility
   - Files and folders with consistent & compatible naming
-- Navigate directories and understand basic file paths
+- Navigate directories and interpret file paths
   
 ## Why does file organization matter?
 
