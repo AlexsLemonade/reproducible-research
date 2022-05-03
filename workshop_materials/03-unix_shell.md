@@ -37,6 +37,7 @@ At the completion of this module, learners will be able to:
 ## Concepts to introduce
 
 + Clarify terminology among: bash (zsh), shell, UNIX, Linux (Mac OSX as it was once known?), terminal
++ Terminology: stdin, stdout, stderr
 + Stephanie's greatest hits of UNIX (lots here is flexible!):
 	+ `whoami`,`pwd`, `touch`, `cd`, `cp`, `ls`, `mv`, `rm`, `mkdir`, `clear`, `history`, `man`, `|`, `less` /`cat`/similar, `echo`
 		+ Introduce flags in particular for `ls` , `rm`, `cp`, `mkdir`
@@ -45,7 +46,7 @@ At the completion of this module, learners will be able to:
 	+ Additional very good hits to potentially include:
 		+ `grep`, `head`, `tail`, `sort`, `cut` 
 		+ `sudo` _maybe_
-	+ Shortcuts: `tab` autocomplete, up/down arrows, `ctl+c`
+	+ Shortcuts: `tab` autocomplete, up/down arrows, `ctl+c`, redirecting with `>` vs `>>`
 		+ You cannot point/click to move the cursor position!
 + Light shell scripting
 	+ How to organize and name your shell scripts
