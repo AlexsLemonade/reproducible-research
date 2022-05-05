@@ -6,7 +6,8 @@ At the completion of this module, learners will be able to:
 
 + Understand the importance of using command line to achieve reproducible project "workflows"
 	+ In quotes because I don't mean actual workflow tools like snakemake
-+ Perform fundamental tasks in navigating the command line, including UNIX
++ Navigate the UNIX command line and run command line programs
++ Write shell scripts to record and repeat a series of command line steps
 + Understand what your bash profile file is and what the  `$PATH`  environment variable does, and be able to modify them
 + Automate running the same code on many files
 
