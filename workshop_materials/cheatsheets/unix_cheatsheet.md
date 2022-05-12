@@ -40,7 +40,7 @@ Shortcut/symbol | Description
 `.` | Represents the current directory you are in
 `..` | Represents one directory backwards. For example, the relative path `../..` means "two directories back"
 `*`  | Wildcard symbol
-`|`  | Pipe symbol (located on the backslash key). Join a string of UNIX commands together into a "pipeline"
+`\|`  | Pipe symbol (located on the backslash key). Join a string of UNIX commands together into a "pipeline"
 `>` and `>>` | Redirect ("send") output from the command line, for example to a file. <br> `>` will _overwrite_ the destination file, and `>>` will _append to_ the destination file
 
 
