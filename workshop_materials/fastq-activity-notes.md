@@ -48,10 +48,5 @@ gunzip ${FASTQ_FILENAME_GZ}
 # How many lines are in the file?
 echo "The number of lines is:"
 wc -l ${FASTQ_FILENAME}
-
-# How many reads are in the file?
-# We'll use a regular expression to find all lines that start with @:
-echo "The number of reads is:"
-grep -c "^@" ${FASTQ_FILENAME}
 ``` 
 
