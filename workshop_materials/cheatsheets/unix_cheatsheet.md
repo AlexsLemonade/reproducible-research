@@ -21,6 +21,7 @@ Command | Description | Usage
 `gunzip` | Compress or expand a `.gz` file |  `# Expand a .gz file` <br> `gunzip my-very-big-fastq-file.fastq.gz` <br><br> `# Compress a file into .gz file` <br> `gunzip my-very-big-fastq-file.fastq` 
 `curl` | **C**lient **URL**: Download the contents of a website |  `# Download and save an internet file and save ` <br> `curl https://interesting-web-content.com/interesting-file > file_to_save_interesting_web_content_in.txt` 
 `less` | Explore the contents of a file in terminal <br> Use `q` to exit | `less file_I_want_to_look_at.txt`
+`head` | Display the first ten lines of a file <br> Note that the corresponding `tail` command looks at the _last_ ten lines | `head file_I_want_to_peek_at.txt` <br><br> `# Use the -n flag to specify a different number of lines, for example 20:` <br> `head -n 20 file_I_want_to_peek_at.txt`
 `grep` | **G**lobal **r**egular **e**xpression **p**arser: Tool to search for text in files, including with [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) | `grep "text to search for" file_I_want_to_search_in.txt` <br><br> `# Use the -c flag to simply count the occurrences of the text` <br> `grep -c "text to search for" file_I_want_to_search_in.txt` <br><br> `# Use the -i flag to perform a case insensitive search` <br> `grep -i "case insensitive text to search for" file_I_want_to_search_in.txt`
 
 
@@ -39,6 +40,7 @@ Shortcut/symbol | Description
 `.` | Represents the current directory you are in
 `..` | Represents one directory backwards. For example, the relative path `../..` means "two directories back"
 `*`  | Wildcard symbol
+`|`  | Pipe symbol (located on the backslash key). Join a string of UNIX commands together into a "pipeline"
 `>` and `>>` | Redirect ("send") output from the command line, for example to a file. <br> `>` will _overwrite_ the destination file, and `>>` will _append to_ the destination file
 
 

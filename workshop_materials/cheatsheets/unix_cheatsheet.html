@@ -496,6 +496,15 @@ the contents of a website</td>
 <td align="left"><code>less file_I_want_to_look_at.txt</code></td>
 </tr>
 <tr class="even">
+<td align="left"><code>head</code></td>
+<td align="left">Display the first ten lines of a file <br> Note that
+the corresponding <code>tail</code> command looks at the <em>last</em>
+ten lines</td>
+<td align="left"><code>head file_I_want_to_peek_at.txt</code> <br><br>
+<code># Use the -n flag to specify a different number of lines, for example 20:</code>
+<br> <code>head -n 20 file_I_want_to_peek_at.txt</code></td>
+</tr>
+<tr class="odd">
 <td align="left"><code>grep</code></td>
 <td align="left"><strong>G</strong>lobal <strong>r</strong>egular
 <strong>e</strong>xpression <strong>p</strong>arser: Tool to search for
@@ -559,6 +568,11 @@ expressions</a></td>
 <td>Wildcard symbol</td>
 </tr>
 <tr class="even">
+<td><code>|</code></td>
+<td>Pipe symbol (located on the backslash key). Join a string of UNIX
+commands together into a “pipeline”</td>
+</tr>
+<tr class="odd">
 <td><code>&gt;</code> and <code>&gt;&gt;</code></td>
 <td>Redirect (“send”) output from the command line, for example to a
 file. <br> <code>&gt;</code> will <em>overwrite</em> the destination
