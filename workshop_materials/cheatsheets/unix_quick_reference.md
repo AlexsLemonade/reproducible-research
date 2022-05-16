@@ -8,7 +8,7 @@ Command | Description
 `cd` | **C**hange **d**irectory 
 `cp` | **C**o**p**y a file or directory. Use `cp -r` to copy a directory
 `mv` | **M**o**v**e or rename a file or directory
-`touch` | Create an new (empty) file, or update file modified by date
+`touch` | Create an new (empty) file, or update file modification date to "now"
 `mkdir` | **M**a**k**e a new **dir**ectory
 `rm` | **_Permanently_** **R**e**m**ove a file or directory. Use `rm -r` to remove a directory
 `echo` | Print
