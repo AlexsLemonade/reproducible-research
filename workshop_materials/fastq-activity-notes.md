@@ -49,6 +49,12 @@ curl -o "${FASTQ_DEST}/${FASTQ_FILE_R1}" ${FASTQ_URL}/${FASTQ_FILE_R1}
 curl -o "${FASTQ_DEST}/${FASTQ_FILE_R2}" ${FASTQ_URL}/${FASTQ_FILE_R2}
 
 
+# We can do any of these with `if`, for example:
+if [ ! -f ${FASTQ_DEST}/${FASTQ_FILE_R1} ]; then
+  curl -o "${FASTQ_DEST}/${FASTQ_FILE_R1}" ${FASTQ_URL}/${FASTQ_FILE_R1}
+fi  
+  
+
 # Use a for-loop:
 for FASTQ in ${FASTQ_FILE_R1} ${FASTQ_FILE_R2}; do
   # pick an option here:
