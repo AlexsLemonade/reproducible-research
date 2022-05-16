@@ -18,8 +18,7 @@ A rough sketch of the script we'll write together as an activity (building it up
 
 ```
 # Define file names
-FASTQ_FILENAME=NC16_S1_L004_R1_001.fastq
-FASTQ_FILENAME_GZ=${FASTQ_NAME}.gz
+FASTQ_FILE="NC16_S1_L004_R1_001.fastq.gz"
 FASTQ_URL=https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/${FASTQ_FILENAME_GZ}
 
 # Define and create directory for fastq to live in
