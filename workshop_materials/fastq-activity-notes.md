@@ -22,7 +22,9 @@ FASTQ_FILE="NC16_S1_L004_R1_001.fastq.gz"
 FASTQ_URL=https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/${FASTQ_FILENAME_GZ}
 
 # Define and create directory for fastq to live in
-FASTQ_DEST=path_for_fastq/ 
+STUDY_ID="SRP255885"
+
+FASTQ_DEST="data/raw/fastq/${STUDY_ID}"
 mkdir -p ${FASTQ_DEST} 
 
 # Use curl to download the file
