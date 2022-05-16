@@ -1,6 +1,5 @@
 # UNIX Cheatsheet
 
-<br><br>
 
 ### UNIX commands
 
