@@ -86,7 +86,7 @@ Shortcut/symbol | Description
   ```
   
 + `touch`: Create an new (empty) file
-  + When run on existing files, the `touch` command updates its "last modified by" date (it "touches" the file!)
+  + When run on an existing file, the `touch` command updates its "last modified" date (it "touches" the file!)
   
   ```sh
   # Create a new file
