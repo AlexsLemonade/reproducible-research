@@ -221,13 +221,11 @@ Shortcut/symbol | Description
   # Print a message from a script
   echo "Running Step 2"
   ```
-  
 
-  
 
-  
-+ **`curl`:**C**lient **URL**. Download the contents of a website 
-  + By default, the downloaded website text gets sent to the command line directly
+
++ `curl`:**C**lient **URL**. Download the contents of a file from a website or server 
+  + By default, the downloaded file contents get sent to the command line directly (which you almost never want!)
   
   ```sh
   # Download and save an internet file, using redirection
