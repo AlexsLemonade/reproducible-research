@@ -30,7 +30,7 @@ for FASTQ in $FASTQ_R1 $FASTQ_R2; do
   # Approach 1: Download with the filename from the url directly
   # This approach is preferred because it practices wildcard, AND ensures file name matches the internet
   curl -O "$FASTQ_URL"
-  mv *fastq.gz $FASTQ_DEST 
+  mv *.fastq.gz $FASTQ_DEST 
   
   # Approach 2: Download directly to the location you want
   #curl "$FASTQ_URL" > "$FASTQ_DEST/$FASTQ"
