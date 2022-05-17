@@ -151,7 +151,7 @@ Shortcut/symbol | Description
 ### Working with files
 
   
-+ **`head` (`tail`): Display the first (last) ten lines of a file
++ **`head`** (**`tail`**): Display the first (last) ten lines of a file
   
   ```sh
   # See first 10 lines of a file
