@@ -43,7 +43,7 @@ The goal of this activity is to interactively develop a script to download and s
   + Reflect: We're typing the same thing over and over interactively! Maybe using variables would help!
   + Explore the contents of the file with piping:
     + `cd` into `data/raw/fastq/SRP255885`
-    + Unzip the file and explain redirection: `gunzip NC16_S1_L004_R1_001.fastq.gz > NC16_S1_L004_R1_001.fastq`
+    + Unzip the file and explain redirection: `gunzip -c NC16_S1_L004_R1_001.fastq.gz > NC16_S1_L004_R1_001.fastq`
     + Show usage of `less` and `head` to see the file
     + Show usage of `wc` and then `wc -l` to see counts and just line counts
 + Now, we are ready to build up a script that will perform this for us on _both_ sets of paired reads.
