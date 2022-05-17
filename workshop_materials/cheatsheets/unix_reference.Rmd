@@ -1,20 +1,11 @@
-# UNIX Reference
-> Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
-
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [UNIX Shortcuts and symbols](#unix-shortcuts-and-symbols)
-- [UNIX commands](#unix-commands)
-  - [Navigating directories](#navigating-directories)
-  - [Manipulating files and directories](#manipulating-files-and-directories)
-  - [Working with files](#working-with-files)
-  - [Other tasks](#other-tasks)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
+---
+title: UNIX Reference
+author: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
 
 ## UNIX Shortcuts and symbols
 
@@ -224,7 +215,7 @@ Shortcut/symbol | Description
 
 
 
-+ `curl`:**C**lient **URL**. Download the contents of a file from a website or server 
++ **`curl`**: **C**lient **URL**. Download the contents of a file from a website or server 
   + By default, the downloaded file contents get sent to the command line directly (which you almost never want!)
   
   ```sh
