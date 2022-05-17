@@ -1,3 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
 # Define study ID
 STUDY_ID="SRP255885"
 
