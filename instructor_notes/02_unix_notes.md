@@ -30,7 +30,10 @@ The instructions below are meant as a guide for what the instructor will synchro
   + This provides a useful moment for them to personally reflect on how files have been previously handled.
 + Prompt trainees to return to their Desktop (or Documents, which may have more fodder for this task) with `cd`, as a more involved path that goes backwards and forwards: `cd ../Desktop/` (`cd ../Documents/`)
   + This is also a good opportunity to show use of `tab` autocompletion
-  + Once back on Desktop (Documents), run use `ls *.docx` (or some file extension they have on their Desktops that will be determined live!) to practice with wildcards.
++ Once back on Desktop (Documents), run use `ls *.docx` (or some file extension they have on their Desktops that will be determined live!) to practice with wildcards.
++ Now, we need to ensure everyone has a directory like `Projects` or similar where they can keep all their projects moving forward.
+  + Have them navigate to where they want this directory to be if it doesn't exist, and use `mkdir` to create it
+
 
 _At this time, we break to learn about git(hub), and we clone the exercises repository._ 
 
