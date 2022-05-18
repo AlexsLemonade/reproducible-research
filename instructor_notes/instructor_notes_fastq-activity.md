@@ -41,15 +41,22 @@ The goal of this activity is to interactively develop a script to download and s
   + Move the file to destination with `mv`
     + Option: This could also be a moment to slightly break from flow and demonstrate `cp` vs `mv`
   + Reflect: We're typing the same thing over and over interactively! Maybe using variables would help!
+    + Take a step back at this point and define some variables:
+      ```sh
+      FASTQ_DEST=data/raw/fastq/SRP255885
+      FASTQ=NC16_S1_L004_R1_001.fastq # without .gz to prepare for next steps...
+      ```
   + Explore the contents of the file with piping:
-    + `cd` into `data/raw/fastq/SRP255885`
-    + Unzip the file and explain redirection: `gunzip -c NC16_S1_L004_R1_001.fastq.gz > NC16_S1_L004_R1_001.fastq`
-    + Show usage of `less` and `head` to see the file
+    + `cd $FASTQ_DEST`
+    + Unzip the file and explain redirection with the following code:
+      + Show command to run: `gunzip -c NC16_S1_L004_R1_001.fastq.gz > NC16_S1_L004_R1_001.fastq`
+      + And then actually run it with variables: `gunzip -c $FASTQ.gz > $FASTQ`
+    + Show usage of `less` and `head` to see the uncompressed file
     + Show usage of `wc` and then `wc -l` to see counts and just line counts
 + Now, we are ready to build up a script that will perform this for us on _both_ sets of paired reads.
-  + Remove the file we've already downloaded with `rm`
+  + Remove the file (and its uncompressed version) we've already downloaded with `rm $FASTQ.*`
   + Navigate back to the directory `rrp-workshop-exercises/scripts/` (may involve creating this directory)
-  + Use `touch` to create a blank file for our script: `download_fastq.sh`, use `ls` to confirm it was created, and open in text editor
+  + Open text editor to create and save a script called `download_fastq.sh`
   + Build up with them the script contained in [`./instructor-download_fastq.sh`](./instructor-download_fastq.sh)
     + There are some options in this script, e.g. several ways to write `curl`. 
     + Whether only one or more of these are demonstrated should be decided on a workshop-by-workshop basis.
