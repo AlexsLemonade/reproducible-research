@@ -1,7 +1,7 @@
 # Proposed Outline
 
 
-+ After `download_fastq.sh` is created, we can look at GitKraken (or get fancy and run `git status`? Both?) and see there are diffs
++ After `download_fastq.sh` is created, we can look at GitKraken (**TODO** or get fancy and run `git status`? Both?) and see there are diffs
 + Transition to slides to learn about the add/commit/push cycle
   + They will have already seen slides on the general aspects of git(hub) and the specific concepts of cloning and forking
   + Must include https://xkcd.com/1296/ in slides 
