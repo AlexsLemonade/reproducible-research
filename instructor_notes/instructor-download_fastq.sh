@@ -10,7 +10,7 @@ FASTQ_R2="NC16_S1_L004_R2_001.fastq.gz"
 URL_PREFIX="https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889"
 
 # Define and create destination directory for FASTQ files to live in
-FASTQ_DEST="data/raw/fastq/$STUDY_ID"
+FASTQ_DEST="../data/raw/fastq/$STUDY_ID"
 mkdir -p $FASTQ_DEST 
 
 
