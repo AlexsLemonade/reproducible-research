@@ -40,26 +40,23 @@ The goal of this activity is to interactively develop a script to download and s
     + Useful change to practice `ls *gz` or similar
   + Move the file to destination with `mv`
     + Option: This could also be a moment to slightly break from flow and demonstrate `cp` vs `mv`
-  + Reflect: We're typing the same thing over and over interactively! Maybe using variables would help!
-    + Take a step back at this point and define some variables:
-      ```sh
-      FASTQ_DEST=data/raw/fastq/SRP255885
-      FASTQ=NC16_S1_L004_R1_001.fastq # without .gz to prepare for next steps...
-      ```
   + Explore the contents of the file with piping:
-    + `cd $FASTQ_DEST`
+    + `cd data/raw/fastq/SRP255885`
     + Unzip the file and explain redirection with the following code:
-      + Show command to run: `gunzip -c NC16_S1_L004_R1_001.fastq.gz > NC16_S1_L004_R1_001.fastq`
-      + And then actually run it with variables: `gunzip -c $FASTQ.gz > $FASTQ`
+      + `gunzip -c NC16_S1_L004_R1_001.fastq.gz > NC16_S1_L004_R1_001.fastq`
     + Show usage of `less` and `head` to see the uncompressed file
     + Show usage of `wc` and then `wc -l` to see counts and just line counts
 + Now, we are ready to build up a script that will perform this for us on _both_ sets of paired reads.
-  + Remove the file (and its uncompressed version) we've already downloaded with `rm $FASTQ.*`
+  + Remove the file (and its uncompressed version) we've already downloaded with `rm NC16_S1_L004_R1_001.*`
   + Navigate back to the directory `rrp-workshop-exercises/scripts/` (may involve creating this directory)
   + Open text editor to create and save a script called `download_fastq.sh`
-  + Build up with them the script contained in [`./instructor-download_fastq.sh`](./instructor-download_fastq.sh)
-    + There are some options in this script, e.g. several ways to write `curl`. 
-    + Whether only one or more of these are demonstrated should be decided on a workshop-by-workshop basis.
+  + Build up with them the script contained in _either_:
+    + [`./novariables-noloop-download_fastq.sh`](./novariables-noloop-download_fastq.sh): No variables _and_ no for loop
+    + [`./novariables-download_fastq.sh`](./novariables-download_fastq.sh): No variables _with_ a for loop (so there is a looping variable)
+  + Pending time, after script is written, take a step back to ask: How could we have improved this? One answer is _using more variables._ 
+    + This instructor version is in [`./variables-loop-download_fastq.sh`](./variables-loop-download_fastq.sh)
+    + Note this script version contains some options, specifically several ways to write `curl`. 
+      + Whether only one or more of these are demonstrated should be decided on a workshop-by-workshop basis.
 
 
 
