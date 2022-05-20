@@ -52,7 +52,7 @@ The goal of this activity is to interactively develop a script to download and s
   + Open text editor to create and save a script called `download_fastq.sh`
   + Build up with them the script contained in _either_:
     + [`./novariables-noloop-download_fastq.sh`](./novariables-noloop-download_fastq.sh): No variables _and_ no for loop
-    + [`./novariables-download_fastq.sh`](./novariables-download_fastq.sh): No variables _with_ a for loop (so there is a looping variable)
+    + [`./novariables-loop-download_fastq.sh`](./novariables-loop-download_fastq.sh): No variables _with_ a for loop (so there is a looping variable)
   + Pending time, after script is written, take a step back to ask: How could we have improved this? One answer is _using more variables._ 
     + This instructor version is in [`./variables-loop-download_fastq.sh`](./variables-loop-download_fastq.sh)
     + Note this script version contains some options, specifically several ways to write `curl`. 
