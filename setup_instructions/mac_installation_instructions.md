@@ -27,7 +27,7 @@ To install the command line tools, open the **Terminal** application by searchin
 <img src="screenshots/mac/open_terminal.png" alt="Search for Terminal in Mac Spotlight" width="300">
 
 
-> A note on using Terminal: Terminal will likely (and often atwhen you first start using it!) prompt you messages like, "Terminal would like to access files on Desktop." 
+> A note on using Terminal: Terminal will likely (and often when you first start using it!) prompt you with messages like, "Terminal would like to access files on Desktop." 
 > If/when you see this message, _always agree_!
 > Agreeing allows your Terminal to access your computer's file system.
 
