@@ -71,7 +71,7 @@ Click the link `Download R for macOS`:
 
 On the next page, click the link to install the **Intel 64-bit** of R, `R-4.2.0.pkg` (blue box in the image below).
 This Intel version will still work on M1 computers.
-We do **NOT** recommend installing the Apple silicon arm64 (crossed out in the image below) build because it tends to conflict with some Bioconductor packages which you may want to use in your own research.
+We do **NOT** recommend installing the Apple silicon arm64 build (crossed out in the image below) because it tends to conflict with some Bioconductor packages which you may want to use in your own research.
 
 
 <img src="screenshots/mac/cran_2.png" alt="Website with link to download R" width="300">
