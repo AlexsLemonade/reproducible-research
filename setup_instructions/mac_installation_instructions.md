@@ -45,7 +45,7 @@ A license agreement will then appear, which you should `Agree` to in order to co
 <img src="screenshots/mac/xcode-select--install_4.png" alt="xcode-select --install license" width="300">
 
 Finally, command line tools will install, and you can follow its progress in this window that will appear.
-Importantly, this screen tends to first appear with outrageous installation times, like 165 hours (!) below.
+This screen tends to first appear with outrageous installation times, like 165 hours (!) below.
 **Don't panic!** 
 These outrageous times will drop quickly, and the whole process will _really_ take about 10-20 minutes.
 
