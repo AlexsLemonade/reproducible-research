@@ -80,7 +80,8 @@ We do **NOT** recommend installing the Apple silicon arm64 (crossed out in the i
 
 Open the downloaded R installer, and follow instructions to install R onto your computer.
 Make sure to agree to the license in the setup menu and give your computer's password when prompted!
-<img src="screenshots/mac/r_installer.png" alt="R 4.2.0 Installer" width="200">
+
+<img src="screenshots/mac/r_installer.png" alt="R 4.2.0 Installer" width="300">
 
 
 
