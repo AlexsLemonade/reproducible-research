@@ -109,10 +109,11 @@ If prompted to install `Rosetta 2`, agree to the prompt and follow instructions 
 ### Installing necessary R packages
 
 For this workshop, you will need to have the following R packages installed: 
-+ `tidyverse`
-+ `rmarkdown`
-+ `optparse`
-+ `renv`
+
+* `tidyverse`
+* `rmarkdown`
+* `optparse`
+* `renv`
 
 If you already have these packages installed, you're good to go!
 
