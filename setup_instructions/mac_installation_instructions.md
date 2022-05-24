@@ -89,7 +89,7 @@ Make sure to agree to the license in the setup menu and give your computer's pas
 ### Installing the RStudio IDE
 
 
-First, navigate to the RStudio Download page website in the browser: https://www.rstudio.com/products/rstudio/download/. 
+First, navigate to the RStudio website's Download page in the browser: https://www.rstudio.com/products/rstudio/download/. 
 Click the link to Download the **Free** version of RStudio Desktop.
 
 <img src="screenshots/mac/rstudio_1.png" alt="RStudio Download Page" width="300">
