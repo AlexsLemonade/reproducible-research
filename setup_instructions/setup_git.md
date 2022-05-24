@@ -1,5 +1,5 @@
 ---
-title: Setting up `git` (and GitKraken?)
+title: Setting up `git`
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -116,9 +116,5 @@ Once you have saved your recovery codes to a secure location, click "I have save
 Celebrate your new 2FA setup!
 
 <img src="screenshots/github/celebrate.png" alt="Celebrate your Github 2FA" width="300">
-
-
-
-## Setting up GitKraken
 
 
