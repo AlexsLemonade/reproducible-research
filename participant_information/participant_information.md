@@ -15,7 +15,8 @@ Find helpful information related to health and safety, the workshop location, an
 Please be aware that with the goal of keeping everyone safe, healthy, and comfortable, we will comply with ALSF’s COVID-19 safety policy during this workshop. 
 The following protocols and practices will be enforced: 
 
-* Surgical or respirator masks will be required in the meeting room used for training. We will have extra surgical masks available during the workshop should you forget to wear one or wish to change your mask during the day.
+* You will be required to wear a surgical or respirator mask in the meeting room used for training. 
+We will have extra surgical masks available during the workshop should you forget to wear one or wish to change your mask during the day.
 * Hand sanitizer will be made available and HEPA filters will be used in the meeting room used for training.
 * Weather permitting, we will aim to hold our lunch break outside. 
 Outdoor tables and seating are available at the workshop location.
