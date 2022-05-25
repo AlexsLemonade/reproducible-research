@@ -3,13 +3,17 @@
 set -euo pipefail
 
 
+# Define paths 
 DATA_DIR=../data/processed/maf_files/
-MAF_FILE=Medulloblastoma.maf.tsv.gz
 RESULT_DIR=analysis/
+
+# Define input file
+MAF_FILE=Medulloblastoma.maf.tsv.gz
+
+# Define output file(s)
 RESULT_FILE=Medulloblastoma-gene_counts.tsv
 
-# Question: make this a for loop over the maf files?
-
+# Run the script to process the MAF file and export a table of gene counts
 Rscript 01_count-gene-mutations.R \ 
   --maf ${DATA_DIR}/${MAF_FILE} \
   --outfile ${RESULT_DIR}/${RESULT_FILE}
