@@ -120,6 +120,7 @@ Note that if you're using an Apple Silicon (M1) chip, you may be prompted to ins
 `Rosetta 2` is a software made by Apple to support the Intel to M1 transition, and it is currently needed to run RStudio on M1 chips.
 If prompted to install `Rosetta 2`, agree to the prompt and follow instructions accordingly.
 
+Once the installation process is completed, you can now safely delete (eject) the disk image file.
 
 
 ### Installing necessary R packages
@@ -173,7 +174,14 @@ Then, select the appropriate version for your computer's architecture.
 
 <img src="screenshots/mac/gitkraken_mac_2.png" alt="GitKraken Download options" width="500">
 
-The GitKraken installer will now download, and when completed, open it and follow all installation instructions.
+The GitKraken installer will now download.
+Double-click the downloaded disk image, and a window will appear where, as the instructions indicate, you should drag the GitKraken icon into the Applications folder icon (all within this window!).
+
+
+<img src="screenshots/mac/gitkraken_mac_3.png" alt="GitKraken Drag Download" width="500">
+
+This action completes the installation, and you can now safely delete (eject) the disk image file.
+
 
 
 
