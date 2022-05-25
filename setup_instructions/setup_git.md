@@ -67,8 +67,9 @@ Click the large green button to "Enable two-factor authentication":
 
 You will then see several options for what _type_ of 2FA you can set up.
 _For the best security, we **strongly** recommend that you click "Set up using an app."_
-This action requires that you install a separate app on your smart phone, such as the options 1Password, Authy, LastPass Authenticator, or Microsoft Authenticator. 
-An additional option you can use that is not directly listed is Google Authenticator.
+This action requires that you install a separate app on your smart phone to generate authentication codes if you don't already have one.  
+There are many options, including the ones listed by GitHub (1Password, Authy, etc.) or others like Google Authenticator.
+
 Click "Continue" after you have selected your option.
 
 <img src="screenshots/github/2fa_landing.png" alt="GitHub 2FA Setup Page 1" width="300">
