@@ -31,10 +31,10 @@ Onsite parking is available, both in front of and behind One Bala Plaza. You can
 
 If you are traveling to the workshop and staying overnight, the following hotels are within 1 mile of the workshop location. 
 
-* [Courtyard by Marriott Philadelphia City Avenue](https://www.marriott.com/en-us/hotels/phlav-courtyard-philadelphia-city-avenue/overview/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg5MDI0NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D)
-* [Hilton Philadelphia City Avenue](https://www.hilton.com/en/hotels/phlphhf-hilton-philadelphia-city-avenue/?SEO_id=GMB-AMER-HI-PHLPHHF&y_source=1_MTIyMDkwMC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D)
-* [Homewood Suites by Hilton Philadelphia-City Avenue](https://www.hilton.com/en/hotels/phlcahw-homewood-suites-philadelphia-city-avenue/?SEO_id=GMB-AMER-HW-PHLCAHW&y_source=1_MjA4NDA3NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D)
-* [Residence Inn Philadelphia Bala Cynwyd](https://www.marriott.com/en-us/hotels/phlrb-residence-inn-philadelphia-bala-cynwyd/overview/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MTcwOTc4NzAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D)
+* [Courtyard by Marriott Philadelphia City Avenue](https://www.marriott.com/en-us/hotels/phlav-courtyard-philadelphia-city-avenue/overview/)
+* [Hilton Philadelphia City Avenue](https://www.hilton.com/en/hotels/phlphhf-hilton-philadelphia-city-avenue/)
+* [Homewood Suites by Hilton Philadelphia-City Avenue](https://www.hilton.com/en/hotels/phlcahw-homewood-suites-philadelphia-city-avenue)
+* [Residence Inn Philadelphia Bala Cynwyd](https://www.marriott.com/en-us/hotels/phlrb-residence-inn-philadelphia-bala-cynwyd/overview/)
 
 ## Travel Reimbursement
 
