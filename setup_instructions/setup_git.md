@@ -24,7 +24,7 @@ Navigate in the browser to https://github.com, and click "Sign Up" in the top-ri
 <img src="screenshots/github/github_landing.png" alt="GitHub Sign In or Sign Up Page" width="300">
 
 
-GitHub will then lead you through a series of (outerspace-themed!) setup prompts one-at-a-time, beginning with your email, password, and username, as shown here for example:
+GitHub will then lead you through a series of (outerspace-themed!) setup prompts, beginning with your email, password, and username, as shown here for example:
 
 <img src="screenshots/github/github_email_password_uname.png" alt="GitHub Email and Username Prompt" width="300">
 
