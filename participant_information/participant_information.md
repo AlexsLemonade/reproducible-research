@@ -24,7 +24,10 @@ We will not withhold refunds if a participant must cancel because they are not f
 
 ## Workshop Location
 
-**The workshop will be held at** [**One Bala Plaza, Suite 513, Bala Cynwyd, PA 19004**](https://www.google.com/maps/place/One+Bala+Plaza/@40.0073079,-75.2221085,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b89e7102a3b5:0x77dce0b150a7df52!8m2!3d40.0073798!4d-75.2199724?utm_campaign=CCDL_Workshops&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--pRa135WXpaamTCddydLZAXVv6QwBlCpR9HqVWrGN1EmHMVqdhOeW6wlCMhaR6eCaT1Ekh), just outside of Philadelphia. Please note that Bala Plaza is an office park with multiple buildings. The workshop will take place in building one, on the 5th floor in room 513. If you have trouble finding the building or the room on the day of training, please use Slack to direct message `Jen O'Malley`. 
+**The workshop will be held at** [**One Bala Plaza, Suite 513, Bala Cynwyd, PA 19004**](https://www.google.com/maps/place/One+Bala+Plaza/@40.0073079,-75.2221085,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b89e7102a3b5:0x77dce0b150a7df52!8m2!3d40.0073798!4d-75.2199724?utm_campaign=CCDL_Workshops&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--pRa135WXpaamTCddydLZAXVv6QwBlCpR9HqVWrGN1EmHMVqdhOeW6wlCMhaR6eCaT1Ekh), just outside of Philadelphia. 
+Please note that Bala Plaza is an office park with multiple buildings. 
+The workshop will take place in Building One, on the 5th floor in Room 513. 
+If you have trouble finding the building or the room on the day of training, please use Slack to direct message `Jen O'Malley`. 
 
 ### Parking
 
