@@ -51,4 +51,4 @@ To qualify for reimbursement:
 
 * You will need to have included this request in your application.
 * The participant will be required to provide documentation of travel expenses (such as transportation and lodging receipts) and will fill out a reimbursement form after the workshop ends.
-* The participant must attend the entirety of the workshop.
+* You must attend the entirety of the workshop.
