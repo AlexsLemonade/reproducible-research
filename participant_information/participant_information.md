@@ -31,7 +31,8 @@ If you have trouble finding the building or the room on the day of training, ple
 
 ### Parking
 
-Onsite parking is available, both in front of and behind One Bala Plaza. You can enter the building through the front or rear entrance.
+Onsite parking is available, both in front of and behind One Bala Plaza. 
+You can enter the building through the front or rear entrance.
 
 ### Nearby Lodging
 
