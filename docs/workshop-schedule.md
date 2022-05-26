@@ -5,7 +5,7 @@
 | 9:00 - 10:15 am  | Welcome and introduction | 
 | 10:15 - 10:45 am | Organizing your projects and files |
 | 10:45 - 11:00 am | Coffee break | 
-| 11:00 - 11:45 am | UNIX Introduction: Slides and introduction to terminal |
+| 11:00 - 11:45 am | Introduction to UNIX and the command line |
 | 11:45 - 12:30 pm | Introduction to git <br> Forking and cloning a repository |
 | 12:30 - 1:15 pm  | Lunch |
 | 1:15 - 2:00 pm   | Shell scripting |
