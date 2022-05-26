@@ -21,9 +21,9 @@ for NAME in Ependymoma Ganglioglioma LGAT Medulloblastoma; do
     Rscript 01_count-gene-mutations.R \ 
       --maf ${DATA_DIR}/${MAF_FILE} \
       --outfile ${RESULT_DIR}/${RESULT_FILE}
-  
-  
-    # Run the notebook to visualize the results (or whatever it will do)
-    Rscript -e "rmarkdown::render('02_SOMETHING.Rmd')"
 
 done
+
+  
+# Run the notebook to visualize LGAT and Medulloblastoma counts
+Rscript -e "rmarkdown::render('02_plottting-mutation-counts.Rmd')"
