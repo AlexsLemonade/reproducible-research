@@ -12,6 +12,6 @@
 | 2:00 - 2:30 pm   | The "stage/commit/push" git cycle <br> `.gitignore` files |
 | 2:30 - 2:45 pm   | Coffee break |
 | 2:45 - 3:15 pm   | Scripts, notebooks, and literate programming |
-| 3:15 - 3:45 pm   | Using `renv` <br> Working with branches in git |
+| 3:15 - 3:45 pm   | Managing package versions with `renv` <br> Working with branches in git |
 | 3:45 - 4:15 pm   | Documenting your projects |
 | 4:15 - 5:00 pm   | Discuss your project(s) with Data Lab members |
