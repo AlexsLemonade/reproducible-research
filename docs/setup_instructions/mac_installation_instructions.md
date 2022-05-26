@@ -205,7 +205,8 @@ To install VS Code, navigate to https://code.visualstudio.com/download in the br
 Click on either the large "Mac" link to download VS Code to download the correct version for your system (this should be automatically detected).
 
 VS Code will now download as a `.zip` file.
-Open the `.zip` file by double clicking it, and it will decompress to the actual VS Code app called "Visual Studio Code."
+Depending on your browser and settings, this may decompress automatically.
+If it does not, open the `.zip` file by double clicking it, and it will decompress to the actual VS Code app called "Visual Studio Code."
 You can then drag (or copy) this app file into your computer's `Applications` folder to formally install it.
 
 <img src="screenshots/mac/vscode_decompressed.png" alt="Visual Studio Code Installation" width="500">
