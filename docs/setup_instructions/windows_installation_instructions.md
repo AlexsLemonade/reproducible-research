@@ -83,7 +83,11 @@ Since some of the commands below are long, though, you will probably want to be 
 
 To enable you to copy and paste, right click on the Ubuntu window title bar and select "Properties".
 
+<img src="screenshots/windows/ubuntu_properties_menu.png" alt="Ubuntu properties menu" width=250 >
+
 In the "Edit Options" tab, check the "Use Ctrl+Shit+C/V and Copy/Paste" box, then click the "OK" button.
+
+<img src="screenshots/windows/ubuntu_properties.png" alt="Ubuntu properties window" width=250 >
 
 Now you can use `Ctrl+Shift+C` and `Ctrl+Shift+V` to copy and paste in the Ubuntu window (just don't forget the `Shift`)!
 
@@ -98,10 +102,10 @@ If you already have R and RStudio installed for Windows, you can skip that secti
 First, navigate to the CRAN website in the browser: https://cran.r-project.org/.
 Click the link `Download R for Windows`:
 
-<img src="screenshots/mac/cran_1.png" alt="CRAN Landing Page" width="500">
+<img src="screenshots/windows/cran.png" alt="CRAN Landing Page" width="500">
 
 
-On the next page, click the link to install the **base** version of R, then click the `Download R-4.2.0 for Windows` link.
+On the next page, click the link to choose the **base** version of R, then click the `Download R-4.2.0 for Windows` link.
 
 Open the downloaded R installer, `R-4.2.0-win.exe`, and follow the prompts to install R onto your computer.
 Note that you will need to give permission to modify your system.
@@ -120,7 +124,7 @@ To install the most recent version of R in the WSL Ubuntu linux environment, we 
 First we will need to install some linux packages that are required for setting up R, and for some of the R packages we will be using.
 Open the Ubuntu app and type (or [paste](#enabling-copy-and-paste-in-ubuntu)) the following command:
 
- ```sh
+ ```
  sudo apt install --no-install-recommends software-properties-common dirmngr  libcurl4-openssl-dev libssl-dev libxml2-dev
  ```
 
@@ -130,21 +134,23 @@ Type `y` (or just Enter) to confirm, then wait for all of the installations to c
 The next step is to add the "signing key" that verifies the authenticity of the R packages from CRAN.
 Enter the following command (all on one line):
 
-```sh
+```
 wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
 ```
 
 You will see a block of random-looking text printed to the screen, ending with
 
-```sh
+```
 ---- END PGP PUBLIC KEY BLOCK -----
 ```
 
-Now we will tell `apt` where to look for the lastest version of R, by entering the following command (all on one line):
+Now we will tell `apt` where to look for the latest version of R, by entering the following command (all on one line):
 
-```sh
+```
 sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
 ```
+
+<img src="screenshots/windows/r_wsl_install_2.png" alt="add apt repository for cran" width=500>
 
 Finally, we are ready to actually install R!
 Enter
@@ -161,6 +167,8 @@ R --version
 ```
 
 You should see a message that R 4.2.0 (or the most current version of R) is installed.
+
+<img src="screenshots/windows/r_wsl_checkversion.png" alt="successfully installed R" width=500>
 
 ### Installing necessary R packages
 
@@ -209,11 +217,12 @@ At the R console prompt (which will look like this: `>`), type
 ```r
 install.packages(c("optparse", "renv", "rmarkdown", "tidyverse"))
 ```
+and press Enter.
 
- and press Enter.
-
-You will see a message that the default library location is not writeable, and asking "Would you like to use a personal library instead?"
+You may see a message that the default library location is not writeable, and asking "Would you like to use a personal library instead?"
 Type `yes` and press Enter, then `yes` again to accept the default library location.
+
+<img src="screenshots/windows/r_wsl_packages.png" alt="installing R packages in WSL" width="500">
 
 The installation will take some time, and you will see lots of messages scroll by as the source code for each package is "compiled" to work on your computer.
 You may see some warnings as the installation proceeds related to `timedatectl`, but these can be safely ignored.
