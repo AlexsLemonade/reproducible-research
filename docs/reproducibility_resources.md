@@ -52,6 +52,6 @@ Find useful resources on reproducibility topics.
 ## UNIX
 
 + [Big Book of R -  Oscar Baruffa](https://www.bigbookofr.com/) 
-+ [Organizing with UNIX - rafalab](https://rafalab.github.io/dsbook/unix.html)
++ [Organizing with UNIX - Rafael Irizarry](https://rafalab.github.io/dsbook/unix.html)
 + [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
 + [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/) 
