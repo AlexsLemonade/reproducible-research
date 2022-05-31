@@ -33,7 +33,7 @@ Find useful resources on reproducibility topics.
 
 ## Git 
 
-+ [Ten Simple Rules for Taking Advantage of Git and GitHub - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1004947)
++ [Ten Simple Rules for Taking Advantage of Git and GitHub - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1004947)
 + [Version control with Git - The Carpentries](https://swcarpentry.github.io/git-novice/)
 
 ## Project Organization
