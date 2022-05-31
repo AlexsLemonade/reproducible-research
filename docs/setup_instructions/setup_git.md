@@ -121,7 +121,7 @@ Celebrate your new 2FA setup!
 Now that you have set up your `git` account, you are ready to configure the GitKraken application you previously downloaded onto your computer.
 
 Open the installed GitKraken application.
-Note that if this is the first time you are opening GitKraken, you may see this message; click "Open" if you see this message.
+Note that if this is the first time you are opening GitKraken on a Mac, you may see this message; click "Open" if you see this message.
 
 <img src="screenshots/github/gitkraken_launch_warning.png" alt="macOS warning about GitKraken" width="200">
 
