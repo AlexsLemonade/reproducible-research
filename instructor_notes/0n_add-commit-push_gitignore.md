@@ -33,7 +33,7 @@ data/raw/fastq/SRP255885/
 .RData
 .Ruserdata
 .Rproj.user
-.DS_Store  (MacOS users only!)
+.DS_Store
 ```
 
 
