@@ -30,9 +30,12 @@ Find useful resources on reproducibility topics.
 + [Reproducibility Standards for Machine Learning in the Life Sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
 + [Ten Simple Rules for Quick and Dirty Scientific Programming - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008549)
 + [Ten Simple Rules for Reproducible Computational Research - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1003285)
++ [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/toronto_data_workshop.html) 
++ [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/reproducibility.html)
 
 ## Git 
 
++ [Happy Git and GitHub for the UseR](https://happygitwithr.com/)
 + [Ten Simple Rules for Taking Advantage of Git and GitHub - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1004947)
 + [Version control with Git - The Carpentries](https://swcarpentry.github.io/git-novice/)
 
@@ -51,7 +54,6 @@ Find useful resources on reproducibility topics.
 
 ## UNIX
 
-+ [Big Book of R -  Oscar Baruffa](https://www.bigbookofr.com/) 
 + [Organizing with UNIX - Rafael Irizarry](https://rafalab.github.io/dsbook/unix.html)
 + [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
 + [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/) 
