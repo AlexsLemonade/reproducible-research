@@ -203,7 +203,7 @@ If you choose to  install VS Code, navigate to https://code.visualstudio.com/dow
 
 <img src="screenshots/mac/vscode_download.png" alt="Visual Studio Code Download Page" width="500">
 
-Click on either the large "Mac" link to download VS Code to download the correct version for your system (this should be automatically detected).
+Click on either the "Mac" link to download VS Code.
 
 VS Code will now download as a `.zip` file.
 Depending on your browser and settings, this may decompress automatically.
