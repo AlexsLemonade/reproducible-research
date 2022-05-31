@@ -14,6 +14,7 @@ title: macOS Installation Instructions
   - [Installing necessary R packages](#installing-necessary-r-packages)
 - [GitKraken](#gitkraken)
 - [A suitable text editor](#a-suitable-text-editor)
+  - [Installing Visual Studio Code](#installing-visual-studio-code)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -197,20 +198,44 @@ Some alternatives you may have encountered are [Sublime Text](https://www.sublim
 **In spite of its compelling name, this is _NOT_ a recommend text editor for writing computer code!**
 **Please do not use TextEdit!**
 
+### Installing Visual Studio Code
 
-To install VS Code, navigate to https://code.visualstudio.com/download in the browser.
+If you choose to  install VS Code, navigate to https://code.visualstudio.com/download in the browser.
 
 <img src="screenshots/mac/vscode_download.png" alt="Visual Studio Code Download Page" width="500">
 
-Click on either the large "Mac" link to download VS Code to download the correct version for your system (this should be automatically detected).
+Click on either "Mac" link to download VS Code.
 
 VS Code will now download as a `.zip` file.
-Open the `.zip` file by double clicking it, and it will decompress to the actual VS Code app called "Visual Studio Code."
+Depending on your browser and settings, this may decompress automatically.
+If it does not, open the `.zip` file by double clicking it, and it will decompress to the actual VS Code app called "Visual Studio Code."
 You can then drag (or copy) this app file into your computer's `Applications` folder to formally install it.
 
 <img src="screenshots/mac/vscode_decompressed.png" alt="Visual Studio Code Installation" width="500">
 
 
+VS Code is a very powerful program with a ton of ways to customize it.
+All of the flexibility can be a tad overwhelming!
+There are hundreds of options that affect the program's behavior and hundreds of available extensions which expand its functionality, or just change the way it looks.
+We encourage you to explore a bit on your own; we'll be happy to share our favorite tricks during the workshop!
+VS Code provides some useful [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos) as you begin your journey!
 
+
+**Optional: Install the VS Code command line tool**
+
+One such extension that expands VS Code's function is a command line tool called `code` which you can use to open a file directly from the command line/terminal environment. 
+(If you are unfamiliar with the command line, we will talk about it during the workshop!)
+To install this tool, select the `View > Command Palette...` menu item:
+
+
+<img src="screenshots/mac/vscode_palette.png" alt="Visual Studio Code Command Palette" width="500">
+
+A little text box at the top of your window will then appear.
+Start to type `shell` in that box and you will see a menu of options pop up. 
+Select the one that says `Shell Command: Install 'code' command in the PATH` to install the extension.
+
+<img src="screenshots/mac/vscode_shell.png" alt="Visual Studio Code `code` shell command extension" width="500">
+
+You should get a message confirming a successful install, and then you will be all set!
 
 
