@@ -18,7 +18,7 @@ Find useful resources on reproducibility topics.
 + [Collections on Reproducibility - nature](https://www.nature.com/collections/prbfkwmwvz)
 + [Good Enough Practices in Scientific Computing - PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) 
 + [Guide for Reproducible Research - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html)
-+ [Introduction to Reproducibility in Cancer Informatics course - Informatics Technology for Cancer Research (ITCR](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) 
++ [Introduction to Reproducibility in Cancer Informatics course - Informatics Technology for Cancer Research (ITCR)](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) 
 	+ [References list](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/references.html)
 + [Advanced Reproducibility in Cancer Informatics course - ITCR](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html)
 + [Learning Bioinformatics at Home - Harvard Informatics Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
