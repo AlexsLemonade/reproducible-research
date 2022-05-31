@@ -43,11 +43,11 @@ Find useful resources on reproducibility topics.
 ## Shell
 
 + [Shell for Genomics - The Carpentries](https://datacarpentry.org/shell-genomics/)
-+ [The UNIX shell - The Carpentries](https://swcarpentry.github.io/shell-novice/)
++ [The UNIX Shell - The Carpentries](https://swcarpentry.github.io/shell-novice/)
 
 ## UNIX
 
 + [Big Book of R -  Oscar Baruffa](https://www.bigbookofr.com/) 
 + [Organizing with UNIX - rafalab](https://rafalab.github.io/dsbook/unix.html)
-+ [UNIX bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
-+ [UNIX tutorial for beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/) 
++ [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
++ [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/) 
