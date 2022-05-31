@@ -197,12 +197,13 @@ Some alternatives you may have encountered are [Sublime Text](https://www.sublim
 **In spite of its compelling name, this is _NOT_ a recommend text editor for writing computer code!**
 **Please do not use TextEdit!**
 
+### Installing Visual Studio Code
 
-To install VS Code, navigate to https://code.visualstudio.com/download in the browser.
+If you choose to  install VS Code, navigate to https://code.visualstudio.com/download in the browser.
 
 <img src="screenshots/mac/vscode_download.png" alt="Visual Studio Code Download Page" width="500">
 
-Click on either the large "Mac" link to download VS Code to download the correct version for your system (this should be automatically detected).
+Click on either the "Mac" link to download VS Code.
 
 VS Code will now download as a `.zip` file.
 Depending on your browser and settings, this may decompress automatically.
