@@ -28,7 +28,7 @@ Find useful resources on reproducibility topics.
 + [Learning Bioinformatics at Home - Harvard Informatics Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
 + [Reproducibility 4 Everyone](https://www.repro4everyone.org/)
 + [Reproducibility Standards for Machine Learning in the Life Sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
-+ [Ten Simple Rules for Quick and Dirty Scientific Programming - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008549)
++ [Ten Simple Rules for Quick and Dirty Scientific Programming - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008549)
 + [Ten Simple Rules for Reproducible Computational Research - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1003285)
 
 ## Git 
