@@ -20,7 +20,7 @@ Find useful resources on reproducibility topics.
 
 + [Bioinformatics Data Skills - Vince Buffalo](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/)
 + [Collections on Reproducibility - _Nature_](https://www.nature.com/collections/prbfkwmwvz)
-+ [Good Enough Practices in Scientific Computing - PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) 
++ [Good Enough Practices in Scientific Computing - _PLOS Computational Biology_](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) 
 + [Guide for Reproducible Research - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html)
 + [Introduction to Reproducibility in Cancer Informatics course - Informatics Technology for Cancer Research (ITCR)](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) 
 	+ [References list](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/references.html)
