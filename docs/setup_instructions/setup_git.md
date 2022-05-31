@@ -6,7 +6,7 @@ title: Setting up `git` and GitKraken
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ### Table of Contents
 
-- [Set up your computer](#set-up-your-computer)
+- [Setting up your computer](#setting-up-your-computer)
 - [Creating a GitHub account](#creating-a-github-account)
 - [Enabling Two-Factor Authentication (2FA) on GitHub](#enabling-two-factor-authentication-2fa-on-github)
 - [Setting up GitKraken](#setting-up-gitkraken)
@@ -14,7 +14,7 @@ title: Setting up `git` and GitKraken
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## Set up your computer
+## Setting up your computer
 
 Before setting up `git` and GitKraken, you'll need to follow these steps to install certain softwares on your computer: [Setup for macOS users](./installation_instructions_mac.html) or [Setup for Windows/PC users](./installation_instructions_windows.html). 
 
@@ -143,19 +143,41 @@ Click the associated link to sign in with GitHub:
 Your browser will then open for you to proceed with the authorization process that will link your GitHub account to your GitKraken application.
 Click "Continue Authorization" on this website.
 
-<img src="screenshots/github/gitkraken_authorization_landing.png" alt="GitKraken Authorization " width="500">
+<img src="screenshots/github/gitkraken_authorize_github.png" alt="GitKraken GitHub Authorization " width="500">
 
 
 If you are _not_ already signed into GitHub in your browser, you will then be prompted to sign into GitHub:
 
 <img src="screenshots/github/gitkraken_git_signin.png" alt="GitKraken GitHub signin website" width="500">
 
+Next, you will have to grant GitKraken permission to link with your GitHub account. 
+Click "Authorize Axosoft:"
 
-After you are signed into GitHub, you will be redirected to a website confirming that you successfully linked GitHub and GitKraken:
+<img src="screenshots/github/gitkraken_authorize_axosoft.png" alt="GitKraken Axosoft Authorization " width="500">
+
+
+Finally, you will be redirected to a website confirming that you successfully linked GitHub and GitKraken:
 
 
 <img src="screenshots/github/gitkraken_success.png" alt="GitKraken GitHub Successful connection" width="500">
 
+When you return to GitKraken, you will be prompted to set up your profile.
+Choose your favorite avatar, and add information as follows:
 
-Your GitKraken application is now ready to go!
+- `Profile Name`: We recommend leaving this at its default, "Default Profile"
+- `Author Name`: Enter the preferred name you wish to be publicly associated with the actions you'll perform on GitHub. 
+- `Author Email`: Enter the preferred email you wish to be publicly associated with the actions you'll perform on GitHub. This email does not have to be the same as the one you used to sign up for GitHub.
+
+<img src="screenshots/github/gitkraken_profile.png" alt="GitKraken Profile" width="500">
+
+
+
+Click create profile, and on the following screen select to open a "Repo Tab:"
+
+<img src="screenshots/github/gitkraken_repo_terminal.png" alt="GitKraken Choose Repo or Terminal Tab" width="500">
+
+ 
+Finally, you'll arrive on the GitKraken application's home view, and you're all set!
+
+<img src="screenshots/github/gitkraken_main.png" alt="GitKraken home view" width="500">
 
