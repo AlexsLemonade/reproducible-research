@@ -123,7 +123,7 @@ Now that you have set up your `git` account, you are ready to configure the GitK
 Open the installed GitKraken application.
 Note that if this is the first time you are opening GitKraken on a Mac, you may see this message; click "Open" if you see this message.
 
-<img src="screenshots/github/gitkraken_launch_warning.png" alt="macOS warning about GitKraken" width="200">
+<img src="screenshots/github/gitkraken_mac_warning.png" alt="macOS warning about GitKraken" width="200">
 
 
 When GitKraken opens, it will first prompt you to sign _up_ for GitKraken.
@@ -179,5 +179,5 @@ Click create profile, and on the following screen select to open a "Repo Tab:"
  
 Finally, you'll arrive on the GitKraken application's home view, and you're all set!
 
-<img src="screenshots/github/gitkraken_main.png" alt="GitKraken home view" width="500">
+<img src="screenshots/github/gitkraken_home.png" alt="GitKraken home view" width="500">
 
