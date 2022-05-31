@@ -216,7 +216,7 @@ VS Code is a very powerful program with a ton of ways to customize it.
 All of the flexibility can be a tad overwhelming!
 There are hundreds of options that affect the program's behavior and hundreds of available extensions which expand its functionality, or just change the way it looks.
 We encourage you to explore a bit on your own; we'll be happy to share our favorite tricks during the workshop!
-VS Code provides some useful [videos](https://code.visualstudio.com/docs/getstarted/introvideos) as you begin your journey!
+VS Code provides some useful [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos) as you begin your journey!
 
 
 **Optional: Install the VS Code command line tool**
