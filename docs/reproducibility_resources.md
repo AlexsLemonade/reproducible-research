@@ -41,7 +41,7 @@ Find useful resources on reproducibility topics.
 + [Code Ocean](https://codeocean.com/)
 + [Project Organization for Genomics - The Carpentries](https://datacarpentry.org/organization-genomics/)
 + [protocols.io](https://www.protocols.io/)
-+ [Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008316)
++ [Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008316)
 + [Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1007007)
 
 ## Shell
