@@ -14,6 +14,7 @@ title: macOS Installation Instructions
   - [Installing necessary R packages](#installing-necessary-r-packages)
 - [GitKraken](#gitkraken)
 - [A suitable text editor](#a-suitable-text-editor)
+  - [Installing Visual Studio Code](#installing-visual-studio-code)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
