@@ -1,4 +1,7 @@
-# Reproducibility Resources
+---
+title: Reproducibility Resources
+nav_title: Resources
+---
 
 Find useful resources on reproducibility topics. 
 
