@@ -21,7 +21,7 @@ Find useful resources on reproducibility topics.
 + [ITCR Introduction to Reproducibility in Cancer Informatics Course](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) 
 	+ [References list](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/references.html)
 + [ITCR Advanced Reproducibility Course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html)
-+ [Learning Bioinformatics at Home - Harvard Informatic Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
++ [Learning Bioinformatics at Home - Harvard Informatics Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
 + [Reproducibility 4 Everyone](https://www.repro4everyone.org/)
 + [Reproducibility standards for machine learning in the life sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
 + [Ten simple rules for quick and dirty scientific programming - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008549)
