@@ -234,4 +234,6 @@ Select the one that says `Shell Command: Install 'code' command in the PATH` to 
 
 <img src="screenshots/mac/vscode_shell.png" alt="Visual Studio Code `code` shell command extension" width="500">
 
+You should get a message confirming a successful install, and then you will be all set!
+
 
