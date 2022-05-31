@@ -18,14 +18,14 @@ Find useful resources on reproducibility topics.
 + [Collections on reproducibility - nature](https://www.nature.com/collections/prbfkwmwvz)
 + [Good enough practices in scientific computing - PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) 
 + [Guide for Reproducible Research - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html)
-+ [ITCR Introduction to Reproducibility in Cancer Informatics Course](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) 
++ [Introduction to Reproducibility in Cancer Informatics course - Informatics Technology for Cancer Research (ITCR](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) 
 	+ [References list](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/references.html)
-+ [ITCR Advanced Reproducibility Course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html)
++ [Advanced Reproducibility in Cancer Informatics course - ITCR](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html)
 + [Learning Bioinformatics at Home - Harvard Informatics Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
 + [Reproducibility 4 Everyone](https://www.repro4everyone.org/)
-+ [Reproducibility standards for machine learning in the life sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
-+ [Ten simple rules for quick and dirty scientific programming - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008549)
-+ [Ten simple rules for reproducible computational research - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1003285)
++ [Reproducibility Standards for Machine Learning in the Life Sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
++ [Ten Simple Rules for Quick and Dirty Scientific Programming - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008549)
++ [Ten simple Rules for Reproducible Computational Research - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1003285)
 
 ## Git 
 
@@ -35,14 +35,14 @@ Find useful resources on reproducibility topics.
 ## Project Organization
 
 + [Code Ocean](https://codeocean.com/)
-+ [Project organization for genomics - The Carpentries](https://datacarpentry.org/organization-genomics/)
++ [Project Organization for Genomics - The Carpentries](https://datacarpentry.org/organization-genomics/)
 + [protocols.io](https://www.protocols.io/)
-+ [Ten simple rules for writing Dockerfiles for reproducible data science - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008316)
-+ [Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1007007)
++ [Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1008316)
++ [Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks - PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1007007)
 
 ## Shell
 
-+ [Shell for genomics - The Carpentries](https://datacarpentry.org/shell-genomics/)
++ [Shell for Genomics - The Carpentries](https://datacarpentry.org/shell-genomics/)
 + [The UNIX shell - The Carpentries](https://swcarpentry.github.io/shell-novice/)
 
 ## UNIX
