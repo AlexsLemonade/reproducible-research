@@ -159,10 +159,7 @@ When you return to GitKraken, you may be prompted to activate a free trial of Gi
 We will only be using the free features of GitKraken during the workshop, so don't worry about when the trial will expire. 
 (The paid version adds a number of advanced features, the most useful of which is probably the ability to interact with private repositories on GitHub.)
 
-<img src="screenshots/github/gitkraken_free_trial.png" alt="GitKraken Free Trial Notice" width="400" style = "float:left">
-
-
-<img src="screenshots/github/gitkraken_eula.png" alt="GitKraken End User License Agreement" width="400" style = "float:right">
+<img src="screenshots/github/gitkraken_eula.png" alt="GitKraken End User License Agreement" width="400" >
 
 
 
