@@ -155,7 +155,11 @@ Finally, you will be redirected to a website confirming that you successfully li
 
 <img src="screenshots/github/gitkraken_success.png" alt="GitKraken GitHub Successful connection" width="500">
 
-When you return to GitKraken, you will be prompted to set up your profile.
+When you return to GitKraken, you may be prompted to activate a free trial of GitKraken and to agree to the license. 
+We will only be using the free features of GitKraken during the workshop, so don't worry about when the trial will expire. 
+(The paid version adds a number of advanced features, the most useful of which is probably the ability to interact with private repositories on GitHub.)
+
+After agreeing to the GitKraken license, you will be prompted to set up your profile.
 Choose your favorite avatar, and add information as follows:
 
 - `Profile Name`: We recommend leaving this at its default, "Default Profile"
