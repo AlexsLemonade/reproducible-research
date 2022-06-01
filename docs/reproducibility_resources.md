@@ -38,6 +38,7 @@ Find useful resources on reproducibility topics.
 + [Happy Git and GitHub for the UseR](https://happygitwithr.com/)
 + [Ten Simple Rules for Taking Advantage of Git and GitHub - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1004947)
 + [Version control with Git - The Carpentries](https://swcarpentry.github.io/git-novice/)
++ [New to Git - Gitkraken](https://support.gitkraken.com/start-here/guide/)
 
 ## Project Organization
 
