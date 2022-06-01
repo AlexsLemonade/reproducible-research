@@ -191,7 +191,7 @@ If you want to quiet the warning, you can go back to the [Install Rtools](#optio
 #### R for WSL
 To install the most recent version of R in the WSL Ubuntu Linux environment, we will follow the [instructions from CRAN](https://cran.r-project.org/bin/linux/ubuntu/#install-r), with some modifications.
 
-First we will need to install some Linux packages that are required for setting up R, and for some of the R packages we will be using.
+First we will need to install some Linux packages that are required for setting up R and for some of the R packages we will be using.
 Open the Ubuntu app and type (or [paste](#enabling-copy-and-paste-in-ubuntu)) the following command:
 
  ```
@@ -245,7 +245,7 @@ You should see a message that R 4.2.0 (or the most current version of R) is inst
 #### R packages for WSL
 
 To install R packages in the WSL copy of R, we will work again within the Ubuntu app.
-Open the Ubuntu app and type `R` at the prompt to open the R console.
+Open the Ubuntu app and type `R` at the prompt to launch the R console.
 
 At the R console prompt (which will look like this: `>`), type
 
