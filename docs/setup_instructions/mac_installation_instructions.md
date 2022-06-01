@@ -182,7 +182,7 @@ Double-click the downloaded disk image, and a window will appear where, as the i
 <img src="screenshots/mac/gitkraken_mac_3.png" alt="GitKraken Drag Download" width="500">
 
 This action completes the installation, and you can now safely delete (eject) the disk image file.
-To set up your GitHub account and GitKraken, see [these instructions](./setup_git.html).
+For more information on setting up a GitHub account and the initial GitKraken setup, see our [GitHub Setup instructions](setup_github.md).
 
 
 
