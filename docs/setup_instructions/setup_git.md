@@ -130,9 +130,9 @@ When GitKraken opens, it will first prompt you to sign _up_ for GitKraken.
 GitKraken's parent company Axosoft has its own account system to manage use of the advanced features of its software.
 Luckily, it is easy enough to use your GitHub account to login, which will save you from having to remember a separate login, so we recommend that option.
 
-Click the link to "Sign up with GitHub"
+Click the link to "Sign up with GitHub:"
 
-<img src="screenshots/github/gitkraken_signin.png" alt="Sign in with GitHub for GitKraken" width="500">
+<img src="screenshots/github/gitkraken_signup.png" alt="GitKraken Sign up with GitHub" width="500">
 
 Your browser will then open for you to proceed with the authorization process that will link your GitHub account to your GitKraken application.
 Click "Continue Authorization" on this website.
@@ -158,6 +158,14 @@ Finally, you will be redirected to a website confirming that you successfully li
 When you return to GitKraken, you may be prompted to activate a free trial of GitKraken and to agree to the license. 
 We will only be using the free features of GitKraken during the workshop, so don't worry about when the trial will expire. 
 (The paid version adds a number of advanced features, the most useful of which is probably the ability to interact with private repositories on GitHub.)
+
+<img src="screenshots/github/gitkraken_free_trial.png" alt="GitKraken Free Trial Notice" width="500">
+
+
+<img src="screenshots/github/gitkraken_eula.png" alt="GitKraken End User License Agreement" width="500">
+
+
+
 
 After agreeing to the GitKraken license, you will be prompted to set up your profile.
 Choose your favorite avatar, and add information as follows:
