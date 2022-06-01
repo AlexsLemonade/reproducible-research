@@ -3,7 +3,11 @@ title: Reproducibility Resources
 nav_title: Resources
 ---
 
-This list provides resources on reproducibility topics. Please note, this is not an exhaustive list. It includes multiple types of resources for varying levels of experience. We do not endorse every resource here for everyone. Resources are listed by topic and in alphabetical order, not in order of recommendation. 
+This list provides some links to resources on reproducibility topics that may be useful as you develop you reproducible research skills and practices.
+ 
+Please note, this is not an exhaustive list. 
+It includes multiple types of resources for varying levels of experience, so we would not necessarily recommend every resource here for everyone. 
+Resources are listed by topic and in alphabetical order, not in order of recommendation. 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
