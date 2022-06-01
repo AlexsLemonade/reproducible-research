@@ -8,9 +8,10 @@ title: Windows Installation Instructions
 ### Table of Contents
 
 - [Windows Subsystem for Linux (WSL)](#windows-subsystem-for-linux-wsl)
-  - [Enabling copy and paste in Ubuntu](#enabling-copy-and-paste-in-ubuntu)
+  - [Optional: Enabling copy and paste in Ubuntu](#optional-enabling-copy-and-paste-in-ubuntu)
 - [R and RStudio](#r-and-rstudio)
   - [Installing R for Windows](#installing-r-for-windows)
+    - [Optional: Install Rtools](#optional-install-rtools)
   - [Installing the RStudio IDE](#installing-the-rstudio-ide)
   - [Windows R packages](#windows-r-packages)
   - [Installing R for WSL (Ubuntu Linux)](#installing-r-for-wsl-ubuntu-linux)
@@ -64,7 +65,7 @@ After you type your password (each time), hit Enter to proceed to the next step.
 At this point, Ubuntu Linux should be installed and usable, but it may not have all of the latest updates, so we will do one more set of steps.
 Most software packages are managed on Ubuntu using a tool called `apt`, so we will use this to check for updates and install them.
 
-In the Ubuntu window, type `sudo apt update` and press Enter.
+In the Ubuntu window, which is a Linux "terminal", type `sudo apt update` and press Enter.
 `sudo` is a command that allows the following commands to be run with elevated privileges, and we use it for commands that may modify the system.
 So here we are running `apt update` with elevated privileges, and you will be prompted again to enter your *Linux* password to allow this.
 (Here again, you won't see your typing, but be assured that the computer is seeing what you type!)
@@ -78,13 +79,15 @@ Now type `sudo apt upgrade` and press Enter to apply all of the available update
 You will be shown a list of the packages that will be installed (a long list, most likely!) and asked to confirm the installation.
 Type `y` (or just Enter) to confirm, then wait for all of the installations to complete.
 
-### Enabling copy and paste in Ubuntu
+### Optional: Enabling copy and paste in Ubuntu
 
 Copy and paste don't work in the Ubuntu app quite as you might expect them to in the rest of Windows.
 There are a number of reasons for this, but part of it is that the "control" key (`Ctrl`) is used for different things in Ubuntu, so there is a risk conflicting instructions if you were to use `Ctrl+C` or `Ctrl+V` as you might in the rest of Windows.
 Since some of the later commands are long, so you will probably want to be able to paste them in!
 
-To enable you to copy and paste in the Linux environment, right click on the Ubuntu window title bar and select "Properties".
+You can paste into the Ubuntu terminal by right clicking in the Ubuntu window. You won't see a menu like you might normally expect; whatever you last copied will just paste in immediately.
+
+To enable copy and paste with keyboard shortcuts in the Linux environment, right click on the Ubuntu window title bar and select "Properties".
 
 <img src="screenshots/windows/ubuntu_properties_menu.png" alt="Ubuntu properties menu" width=250 >
 
@@ -94,11 +97,11 @@ In the "Edit Options" tab, check the "Use Ctrl+Shit+C/V and Copy/Paste" box, the
 
 Now you can use `Ctrl+Shift+C` and `Ctrl+Shift+V` to copy and paste in the Ubuntu window (just don't forget the `Shift`)!
 
-Bonus hint: You can also paste by right clicking in the Ubuntu window. You won't see a menu like you might normally expect; whatever you last copied will just paste in immediately.
+Bonus hint:
 
 ## R and RStudio
 
-This workshop does not require a specific R or RStudio version for this workshop.
+This workshop does not require a specific R or RStudio version.
 If you already have R and RStudio installed for Windows, you can skip that section, but *do not skip the WSL install*!
 
 For this workshop, you will also need to have the following R packages installed:
@@ -126,6 +129,19 @@ Open the downloaded R installer, `R-4.2.0-win.exe`, and follow the prompts to in
 Note that you will need to give permission to modify your system.
 For the remaining prompts, the default settings will be fine.
 
+#### Optional: Install Rtools
+
+Most packages for R are available in a "binary" format, which means that they have already been "compiled" for use on Windows.
+However, some packages are only available as source code, and may require compilation locally, for which you will need to install Rtools.
+(R will also aggressively warn about missing Rtools every time you install a package, so you may want to install it just to quiet the warnings.)
+
+For this installation, go to https://cran.r-project.org/bin/windows/Rtools.
+Select link the version of Rtools appropriate for your version of R; if you have just installed R above, this will be the "RTools 4.2" link.
+(Why is the "T" capitalized here and nowhere else? No idea.)
+Find the link for the installer (this page changes somewhat frequently, so you may have to search a bit) and click to download.
+
+Open the downloaded `.exe` file and follow the prompts to allow changes and install Rtools, accepting the default settings.
+
 ### Installing the RStudio IDE
 
 We will only be using the RStudio IDE from Windows, so this only needs to be installed once.
@@ -138,8 +154,6 @@ Click the button to download RStudio for Windows.
 The downloaded installer will have a name like `RStudio-2022.02.2-win.exe` (the exact name may vary depending on the current version).
 Open this file and follow the prompts to install RStudio onto your computer.
 You may need to give permission to modify your system.
-
-
 
 ### Windows R packages
 
@@ -164,6 +178,9 @@ After running this/these command(s), you will see some progress messages pass in
 The following image shows, for example, what these messages look like for a successful installation of `optparse`:
 
 <img src="screenshots/general/install_optparse.png" alt="Shows the process and output for installing the optparse package" width="500">
+
+You may see a warning that "Rtools is required to build R packages", but this can usually be safely ignored unless you see a later error.
+If you want to quiet the warning, you can go back to the [Install Rtools](#optional-install-rtools) section and follow the instructions there.
 
 ### Installing R for WSL (Ubuntu Linux)
 
@@ -201,7 +218,7 @@ sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_
 <img src="screenshots/windows/r_wsl_install_2.png" alt="add apt repository for cran" width=500>
 
 Finally, we are ready to actually install R!
-Enter
+Enter the following:
 
 ```sh
 sudo apt install r-base
