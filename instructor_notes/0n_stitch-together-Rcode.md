@@ -1,7 +1,7 @@
 # Instructor Notes: Stitching together scripts and notebooks
 
 
-At this point in the workshop, we will have discussed the contents of and and relationship between the two files: `analyses/mutation_counts/01_-_count_gene_mutations.R` and `analyses/mutation_counts/02_mutation-count-plots.Rmd`.
+At this point in the workshop, we will have discussed the contents of and and relationship between the two files: `analyses/mutation_counts/01_count-gene_mutations.R` and `analyses/mutation_counts/02_mutation-count-plots.Rmd`.
 The goal of this activity is to show how a shell script can be used to "stitch" together analysis files and automate the workflow.
 
 Instruct trainees to open their terminal and navigate to the `rrp-workshop-exercises/analyses/mutation_counts/` directory with `cd`, and then run the following so the trainees can see how to run a notebook directly from the command line.
