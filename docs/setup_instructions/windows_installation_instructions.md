@@ -10,12 +10,14 @@ title: Windows Installation Instructions
 - [Windows Subsystem for Linux (WSL)](#windows-subsystem-for-linux-wsl)
   - [Optional: Enabling copy and paste in Ubuntu](#optional-enabling-copy-and-paste-in-ubuntu)
 - [R and RStudio](#r-and-rstudio)
-  - [Installing R for Windows](#installing-r-for-windows)
+  - [Windows Installation of R, RStudio, and R Packages](#windows-installation-of-r-rstudio-and-r-packages)
+    - [R for Windows](#r-for-windows)
     - [Optional: Install Rtools](#optional-install-rtools)
-  - [Installing the RStudio IDE](#installing-the-rstudio-ide)
-  - [Windows R packages](#windows-r-packages)
-  - [Installing R for WSL (Ubuntu Linux)](#installing-r-for-wsl-ubuntu-linux)
-  - [WSL (Ubuntu) R packages](#wsl-ubuntu-r-packages)
+    - [RStudio for Windows](#rstudio-for-windows)
+    - [R packages for Windows](#r-packages-for-windows)
+  - [WSL (Ubuntu Linux) Installation of R, RStudio, and R Packages](#wsl-ubuntu-linux-installation-of-r-rstudio-and-r-packages)
+    - [R for WSL](#r-for-wsl)
+    - [R packages for WSL](#r-packages-for-wsl)
 - [GitKraken](#gitkraken)
 - [A suitable text editor](#a-suitable-text-editor)
   - [Installing Visual Studio Code](#installing-visual-studio-code)
@@ -102,7 +104,7 @@ Bonus hint:
 ## R and RStudio
 
 This workshop does not require a specific R or RStudio version.
-If you already have R and RStudio installed for Windows, you can skip that section, but *do not skip the WSL install*!
+If you already have R and RStudio installed for Windows, you can skip that section, but *do not skip the [WSL installation](#wsl-ubuntu-linux-installation) section*
 
 For this workshop, you will also need to have the following R packages installed:
 
@@ -113,9 +115,11 @@ For this workshop, you will also need to have the following R packages installed
 
 If you already have these packages installed, you're good to go!
 
-Otherwise, we may have to install them twice... once for Windows and once for WSL.
+Otherwise, we may have to install them twice... [once for Windows](#r-packages-for-windows) and [once for WSL](#r-packages-for-wsl).
 
-### Installing R for Windows
+### Windows Installation of R, RStudio, and R Packages
+
+#### R for Windows
 
 First, navigate to the CRAN website in the browser: https://cran.r-project.org/.
 Click the link `Download R for Windows`:
@@ -142,7 +146,7 @@ Find the link for the installer (this page changes somewhat frequently, so you m
 
 Open the downloaded `.exe` file and follow the prompts to allow changes and install Rtools, accepting the default settings.
 
-### Installing the RStudio IDE
+#### RStudio for Windows
 
 We will only be using the RStudio IDE from Windows, so this only needs to be installed once.
 
@@ -155,7 +159,7 @@ The downloaded installer will have a name like `RStudio-2022.02.2-win.exe` (the 
 Open this file and follow the prompts to install RStudio onto your computer.
 You may need to give permission to modify your system.
 
-### Windows R packages
+#### R packages for Windows
 
 Open RStudio (this assumes both R and RStudio have been installed).
 You can check if these packages are installed by scrolling through the `Packages` tab in the bottom-right pane of RStudio.
@@ -182,8 +186,9 @@ The following image shows, for example, what these messages look like for a succ
 You may see a warning that "Rtools is required to build R packages", but this can usually be safely ignored unless you see a later error.
 If you want to quiet the warning, you can go back to the [Install Rtools](#optional-install-rtools) section and follow the instructions there.
 
-### Installing R for WSL (Ubuntu Linux)
+### WSL (Ubuntu Linux) Installation of R, RStudio, and R Packages
 
+#### R for WSL
 To install the most recent version of R in the WSL Ubuntu Linux environment, we will follow the [instructions from CRAN](https://cran.r-project.org/bin/linux/ubuntu/#install-r), with some modifications.
 
 First we will need to install some Linux packages that are required for setting up R, and for some of the R packages we will be using.
@@ -237,7 +242,7 @@ You should see a message that R 4.2.0 (or the most current version of R) is inst
 
 
 
-### WSL (Ubuntu) R packages
+#### R packages for WSL
 
 To install R packages in the WSL copy of R, we will work again within the Ubuntu app.
 Open the Ubuntu app and type `R` at the prompt to open the R console.
