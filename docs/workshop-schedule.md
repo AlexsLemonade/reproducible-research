@@ -1,4 +1,7 @@
-## Schedule
+---
+title: Workshop Schedule
+nav_title: Schedule
+---
 
 | Time | Content |
 |------|---------|
