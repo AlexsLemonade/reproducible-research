@@ -3,7 +3,7 @@ title: Reproducibility Resources
 nav_title: Resources
 ---
 
-Find useful resources on reproducibility topics. 
+This list provides resources on reproducibility topics. Please note, this is not an exhaustive list. It includes multiple types of resources for varying levels of experience. We do not endorse every resource here for everyone. Resources are listed by topic and in alphabetical order, not in order of recommendation. 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -42,7 +42,6 @@ Find useful resources on reproducibility topics.
 
 ## Project Organization
 
-+ [Code Ocean](https://codeocean.com/)
 + [Project Organization for Genomics - The Carpentries](https://datacarpentry.org/organization-genomics/)
 + [protocols.io](https://www.protocols.io/)
 + [Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008316)
