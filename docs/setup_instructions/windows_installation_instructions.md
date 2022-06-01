@@ -56,6 +56,8 @@ When you launch Ubuntu App, the first thing you will see is that it has more wor
 When it is ready, you will be prompted to create a username and password for the Linux account.
 These are separate from your Windows login; be sure to choose a good password and store it somewhere securely.
 Note that when you are entering the password (which you will do twice for confirmation), you will see no indication of your typing, just a blank line.
+_Your password is still being entered even though you don't see any symbols!_
+After you type your password (each time), hit Enter to proceed to the next step.
 
 <img src="screenshots/windows/ubuntu_password.png" alt="Ubuntu password prompt" width=500>
 
@@ -65,6 +67,7 @@ Most software packages are managed on Ubuntu using a tool called `apt`, so we wi
 In the Ubuntu window, type `sudo apt update` and press Enter.
 `sudo` is a command that allows the following commands to be run with elevated privileges, and we use it for commands that may modify the system.
 So here we are running `apt update` with elevated privileges, and you will be prompted again to enter your *Linux* password to allow this.
+(Here again, you won't see your typing, but be assured that the computer is seeing what you type!)
 
 You will see messages for a number of files being downloaded, and finally a message that some number of packages can be upgraded.
 
