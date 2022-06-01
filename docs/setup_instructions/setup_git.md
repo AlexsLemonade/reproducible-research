@@ -127,16 +127,10 @@ Note that if this is the first time you are opening GitKraken on a Mac, you may 
 
 
 When GitKraken opens, it will first prompt you to sign _up_ for GitKraken.
-However, since you have already created a GitHub account for yourself, it would be better to _sign in_ to GitKraken with this GitHub account.
-Therefore, you should click "Sign in" here:
+GitKraken's parent company Axosoft has its own account system to manage use of the advanced features of its software.
+Luckily, it is easy enough to use your GitHub account to login, which will save you from having to remember a separate login, so we recommend that option.
 
-
-<img src="screenshots/github/gitkraken_signup.png" alt="Sign up for GitKraken" width="500">
-
-
-The page will then refresh and offer you the option to "Sign in with GitHub."
-Click the associated link to sign in with GitHub:
-
+Click the link to "Sign up with GitHub"
 
 <img src="screenshots/github/gitkraken_signin.png" alt="Sign in with GitHub for GitKraken" width="500">
 
