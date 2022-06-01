@@ -1,14 +1,20 @@
-# Participant Information
-
+---
+title: Participant Information
+nav_title: Logistics
+---
 Find helpful information related to health and safety, the workshop location, and travel.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+### Table of Contents
 
 - [COVID-19 Safety Policy](#covid-19-safety-policy)
 - [Workshop Location](#workshop-location)
-- [Travel Reimbursement](#travel-reimbursement) 
+  - [Parking](#parking)
+  - [Nearby Lodging](#nearby-lodging)
+- [Travel Reimbursement](#travel-reimbursement)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## COVID-19 Safety Policy
 
