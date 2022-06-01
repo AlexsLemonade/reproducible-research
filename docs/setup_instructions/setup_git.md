@@ -126,7 +126,7 @@ Note that if this is the first time you are opening GitKraken on a Mac, you may 
 <img src="screenshots/github/gitkraken_mac_warning.png" alt="macOS warning about GitKraken" width="200">
 
 
-When GitKraken opens, it will first prompt you to sign _up_ for GitKraken.
+When GitKraken opens, it will first prompt you to sign up for GitKraken.
 GitKraken's parent company Axosoft has its own account system to manage use of the advanced features of its software.
 Luckily, it is easy enough to use your GitHub account to login, which will save you from having to remember a separate login, so we recommend that option.
 
