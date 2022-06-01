@@ -267,8 +267,11 @@ You will be asked whether to save your workspace, and we recommend choosing `n`.
 
 ## GitKraken
 
-We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop. 
-This GUI can be installed from https://www.gitkraken.com/, where you can click "Download GitKraken Client Free" (_do not pay!!_):
+We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop.
+
+
+
+GitKraken can be installed from https://www.gitkraken.com/, where you can click "Download GitKraken Client Free" (_do not pay!!_):
 
 <img src="screenshots/windows/gitkraken_download.png" alt="GitKraken landing page" width="500">
 
@@ -279,6 +282,8 @@ At the completion of installation, GitKraken will launch and ask you to login.
 If you have already set up a GitHub account, you can use that to login, or simply close the window come back to finishing the setup later.
 
 <img src="screenshots/windows/gitkraken_launch.png" alt="GitKraken launch window" width="500">
+
+For more information on setting up a GitHub account and the initial GitKraken setup, see our [GitHub Setup instructions](setup_github.md).
 
 ## A suitable text editor
 
