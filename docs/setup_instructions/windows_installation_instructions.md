@@ -283,7 +283,7 @@ If you have already set up a GitHub account, you can use that to login, or simpl
 
 <img src="screenshots/windows/gitkraken_launch.png" alt="GitKraken launch window" width="500">
 
-For more information on setting up a GitHub account and the initial GitKraken setup, see our [GitHub Setup instructions](setup_github.md).
+For more information on setting up a GitHub account and the initial GitKraken setup, see our [GitHub Setup instructions](github_gitkraken_setup_instructions.md).
 
 ## A suitable text editor
 
