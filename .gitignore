@@ -3,3 +3,8 @@
 .RData
 .Ruserdata
 .DS_Store
+
+# Ruby and jekyll files
+_site
+.sass-cache
+Gemfile.lock
