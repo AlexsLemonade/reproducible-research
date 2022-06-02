@@ -8,6 +8,7 @@ The feature branch of interest here should contain a `renv.lock` file and other 
 
 At the end of this activity, workshop attendees should be able to:
 
+- Understand how to use `renv` to manage R package versions in R projects
 - Understand the concept of `git` branches and how to make them
 - Understand the concept of `git` merging and how to perform it within a given repository (not across forks)
   - Merge conflicts will _not_ be covered in depth, but we will mention it  
