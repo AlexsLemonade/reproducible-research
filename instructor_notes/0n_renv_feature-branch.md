@@ -22,6 +22,7 @@ Begin with the "Project Management" slides to introduce `renv`.
 Interactively demonstrate to trainees how to set up renv for their project using `renv::init()`.
 Show the created files, including `renv.lock`, updates to `.Rprofile`, and contents of the `renv` directory.
 Possibly note that `renv` adds its own `.gitignore` file!
+
 Trainees should now all have a `renv.lock` file and other renv-related changes in their _main branch_, but they should _not_ stage/commit/push these files, because we are going to instruct them to include it in a _feature branch_ instead.
 
 ### Part 2: Branches and merging
