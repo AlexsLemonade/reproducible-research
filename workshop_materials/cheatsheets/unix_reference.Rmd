@@ -99,6 +99,9 @@ Shortcut/symbol | Description
   
   # Use the -p flag to avoid errors if the directory already exists
   mkdir -p new_directory_that_might_already_have_been_created
+  
+  # The -p flag also allows you to make nested directories at once
+  mkdir -p make/all/these/directories/
   ```
   
   
@@ -229,6 +232,10 @@ Shortcut/symbol | Description
   # Use the -O flag to automatically save a file as the same name as it 
   #  appears on the internet (here, interesting_data.csv)
   curl -O https://database.com/interesting_data.csv
+  
+  # Use the -s flag to run curl quietly 
+  # For example, in combination with -O:
+  curl -sO https://database.com/interesting_data.csv
   ```
 
 + **`man`**:   See a command's documentation in the **man**ual
