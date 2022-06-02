@@ -8,7 +8,7 @@ nav_title: Schedule
 | 9:00 - 10:15 am  | [Welcome]() <br> [Why does reproducibility matter?]() |
 | 10:15 - 10:45 am | [Organizing your projects and files] |
 | 10:45 - 11:00 am | Coffee break | 
-| 11:00 - 11:45 am | [Introduction to UNIX and the command line] <br> [UNIX Reference](./workshop_materials/cheatsheets/unix_reference.html) <br> [UNIX Cheatsheet](./workshop_materials/cheatsheets/unix_quick_reference.pdf) |
+| 11:00 - 11:45 am | [Introduction to UNIX and the command line] <br> [UNIX Reference](./unix_reference.html) <br> [UNIX Cheatsheet](./unix_quick_reference.pdf) |
 | 11:45 - 12:30 pm | [Introduction to `git`; Forking and cloning a repository]() |
 | 12:30 - 1:15 pm  | Lunch |
 | 1:15 - 2:00 pm   | [Shell scripting]() |
