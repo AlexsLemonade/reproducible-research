@@ -8,5 +8,5 @@ Links to the Google Slides we present as part of the workshop can be found below
 4. [Shell Scripting](https://docs.google.com/presentation/d/1SDUyYVNgvDDRodVqmDQPVQ5wnjQesWfBTg0EAcdbcSo/edit?usp=sharing)
 5. [The Git Stage/Commit/Push workflow](https://docs.google.com/presentation/d/1_YckNhAkp_82PKR6PGS5SdaKDgoueYVTXaPi5pQV9ik/edit?usp=sharing)
 6. Organizing Scripts and Notebooks
-7. [Managing Environments](https://docs.google.com/presentation/d/1_YckNhAkp_82PKR6PGS5SdaKDgoueYVTXaPi5pQV9ik/edit?usp=sharing)
+7. [Managing Packages and Environments](https://docs.google.com/presentation/d/1GCbu2F6LeEPOu5DzDsTgwu1__9YDVydvPo911fBG1i0/edit?usp=sharing)
 8. [Git Branches](https://docs.google.com/presentation/d/1s7BSHgTSDuXIzI1ROS-JSneB6NXfQVWOec6lhc8eIWA/edit?usp=sharing)
