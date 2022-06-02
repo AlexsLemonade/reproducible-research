@@ -2,7 +2,7 @@
 
 This overall activity relies broadly on two new concepts: i) using `renv` to manage R projects, and ii) branching and merging. 
 This document provides instructions for teaching how to create and push to a feature branch, and subsequently merge into main.
-The feature branch of interest here should contain a `renv.lock` file from `renv` setup. 
+The feature branch of interest here should contain a `renv.lock` file and other renv-related files from `renv` setup. 
 
 ## Learning goals
 
@@ -16,11 +16,13 @@ At the end of this activity, workshop attendees should be able to:
 ## Activity 
 
 Begin with the "Project Management" slides to introduce `renv`.
-Interactively demonstrate to trainees how to create a `renv.lock` file for their project.
-Trainees should now all have a `renv.lock` file in their _main branch_, but they should _not_ stage/commit/push this file, because we are going to instruct them to include it in a _feature branch_ instead.
+Interactively demonstrate to trainees how to set up renv for their project using `renv::init()`
+Show the created files, including `renv.lock`, updates to `.Rprofile`, and contents of the `renv` directory.
+Possibly note that `renv` adds its own `.gitignore` file!
+Trainees should now all have a `renv.lock` file and other renv-related changes in their _main branch_, but they should _not_ stage/commit/push these files, because we are going to instruct them to include it in a _feature branch_ instead.
 At this time, transition to the "Branch" slides to introduce the concepts of branching and merging.
 After the slides, intreractively demonstrate how to create a new branch, which should be called something like `add-renv`.
-Trainees should then stage/commit/push their `renv.lock` file to a remote branch, which will be created during the `push`.
+Trainees should then stage/commit/push the `renv` files to a remote branch, which will be created during the `push`.
 GitKraken should now show diverged histories between `main` and `add-renv`.
 Instruct trainees to navigate to their remote repositories in the browser to see their new branch pushed.
 In particular, make sure trainees see the github message along the lines of "This branch 1 commit behind the main branch" inside the `add-renv` branch view.
