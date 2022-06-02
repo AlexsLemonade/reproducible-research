@@ -25,7 +25,7 @@ After any Q/A about the structure and contents of the script itself, go to the t
 bash 00_run-mutation-counts.sh
 ```
 
-At this point, there should be several outputs from this script, including one table for each MAF file in `analyses/mutation_counts/` and one figure for each of LGAT and Medulloblastoma in `plots/`.
+At this point, there should be several outputs from this script, including one table for each MAF file in `analyses/mutation_counts/` and one figure for each of LGAT and Medulloblastoma in `plots/mutation_counts`.
 
-Have them add, commit, and push these result files using GitKraken to continue emphasizing GitHub usage.
-Again, integrated into add/commit/push, instruct trainees to look at the file diffs so they understand the exact changes they made for this commit. 
+Have them stage, commit, and push these result files using GitKraken to continue emphasizing GitHub usage.
+Again, integrated into stage/commit/push, instruct trainees to look at the file diffs so they understand the exact changes they made for this commit. 
