@@ -1628,7 +1628,10 @@ cp -r directory_original directory_copy</code></pre></li>
 mkdir new_directory
 
 # Use the -p flag to avoid errors if the directory already exists
-mkdir -p new_directory_that_might_already_have_been_created</code></pre></li>
+mkdir -p new_directory_that_might_already_have_been_created
+
+# The -p flag also allows you to make nested directories at once
+mkdir -p make/all/these/directories/</code></pre></li>
 <li><p><strong><code>mv</code></strong>: <strong>M</strong>o<strong>v</strong>e or rename a file or directory.</p>
 <ul>
 <li>The <code>mv</code> command <em>removes</em> the original file. It is similar to “cut and paste.”</li>
@@ -1728,7 +1731,11 @@ curl https://database.com/interesting_data.csv -o interesting_data.csv
 
 # Use the -O flag to automatically save a file as the same name as it 
 #  appears on the internet (here, interesting_data.csv)
-curl -O https://database.com/interesting_data.csv</code></pre></li>
+curl -O https://database.com/interesting_data.csv
+
+# Use the -s flag to run curl quietly 
+# For example, in combination with -O:
+curl -sO https://database.com/interesting_data.csv</code></pre></li>
 <li><p><strong><code>man</code></strong>: See a command’s documentation in the <strong>man</strong>ual</p>
 <ul>
 <li><em>Caution</em>: The so-called “man pages” are not always very clear, but they are still often helpful, in particular for seeing different flags you can use with a command</li>
