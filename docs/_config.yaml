@@ -10,6 +10,8 @@ header_home:
   HOME.md
 header_pages:
   - participant_information.md
+  - setup_instructions/setup_overview.md
   - workshop-schedule.md
+
 
 
