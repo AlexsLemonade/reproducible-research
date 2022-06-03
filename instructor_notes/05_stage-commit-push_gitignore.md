@@ -60,4 +60,5 @@ data/raw/fastq/SRP255885/
 
 * Time-pending, this is also a nice opportunity to discuss `.gitkeep` files at a high-level, since directories `fastq/SRP255885/` (inside `data/raw/`) will not be pushed to the remote.
 * Because `data/raw/.gitkeep` exists, however, this directory remains tracked _even though it is empty._
-* If there is sufficient time, trainees are welcome to create a `.gitkeep` file inside of `fastq/SRP255885/` to preserve the spirit of this directory.
+* If there is sufficient time, trainees are welcome to create a `.gitkeep` file inside of `fastq/` to preserve the spirit of that directory.
+    * Since `data/raw/fastq/SRP255885/` is in the `.gitignore`, we can do this for `fastq/` but _not_ for the study ID directory `SRP255885/`
