@@ -41,28 +41,32 @@ Type `cmd` in the Windows search box to bring up the Command Prompt, then click 
 
 You will be prompted to allow changes to your system; say yes!
 
-When the Command Prompt window is open, type `wsl --install` into and press Enter.
+When the Command Prompt window is open, type `wsl --install -d ubuntu` and press Enter to install WSL and the Ubuntu version of Linux.
+("Ubuntu" is a one of the more popular versions of Linux, and the default version that comes with WSL.)
 You should start to see messages about the progress of the installation, which will take several minutes to complete (it may be a while, depending on the speed of your internet connection).
 
 <img src="screenshots/windows/wsl_install_1.png" alt="wsl install progress" width="300">
+
+If WSL and Ubuntu are already installed, you may see a short message, followed by the Ubuntu app opening.
 
 When installation is complete (be patient!), you will see a message asking you to reboot your computer to complete the setup.
 
 <img src="screenshots/windows/wsl_install_2.png" alt="wsl install complete" width="475">
 
-Restart your computer, then use the Windows Search Box to launch the **Ubuntu** app.
-("Ubuntu" is a one of the more popular versions of Linux, and is the default version that comes with WSL.)
-When you launch Ubuntu App, the first thing you will see is that it has more work to do to finish the installation.
+Restart your computer, then use the Windows Start menu to launch the **Ubuntu** app.
+
+When you launch Ubuntu App, the first thing you may see is that it has more work to do to finish the installation.
 
 <img src="screenshots/windows/ubuntu_launch.png" alt="Ubuntu installing" width=200>
 
-When it is ready, you will be prompted to create a username and password for the Linux account.
+When the Linux installation is ready, you will be prompted to create a username and password for the Linux account.
 These are separate from your Windows login; be sure to choose a good password and store it somewhere securely.
 Note that when you are entering the password (which you will do twice for confirmation), you will see no indication of your typing, just a blank line.
 _Your password is still being entered even though you don't see any symbols!_
 After you type your password (each time), hit Enter to proceed to the next step.
 
 <img src="screenshots/windows/ubuntu_password.png" alt="Ubuntu password prompt" width=500>
+
 
 At this point, Ubuntu Linux should be installed and usable, but it may not have all of the latest updates, so we will do one more set of steps.
 Most software packages are managed on Ubuntu using a tool called `apt`, so we will use this to check for updates and install them.
@@ -93,7 +97,7 @@ To enable copy and paste with keyboard shortcuts in the Linux environment, right
 
 <img src="screenshots/windows/ubuntu_properties_menu.png" alt="Ubuntu properties menu" width=250 >
 
-In the "Edit Options" tab, check the "Use Ctrl+Shit+C/V and Copy/Paste" box, then click the "OK" button.
+In the "Edit Options" tab, check the "Use Ctrl+Shift+C/V and Copy/Paste" box, then click the "OK" button.
 
 <img src="screenshots/windows/ubuntu_properties.png" alt="Ubuntu properties window" width=250 >
 
