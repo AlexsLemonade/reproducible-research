@@ -1,0 +1,17 @@
+title: Data Lab Reproducibility Workshop
+author: Childhood Cancer Data Lab
+email: training@ccdatalab.org
+twitter_username: CancerDataLab
+github_username:  AlexsLemonade
+# Theme and theme options
+theme: minima
+# Pages to appear in site header.
+header_home:
+  HOME.md
+header_pages:
+  - participant_information.md
+  - setup_instructions/setup_overview.md
+  - workshop-schedule.md
+
+
+
