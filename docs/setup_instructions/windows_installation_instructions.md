@@ -15,7 +15,7 @@ title: Windows Installation Instructions
     - [Optional: Install Rtools](#optional-install-rtools)
     - [RStudio for Windows](#rstudio-for-windows)
     - [R packages for Windows](#r-packages-for-windows)
-  - [WSL (Ubuntu Linux) Installation of R, RStudio, and R Packages](#wsl-ubuntu-linux-installation-of-r-rstudio-and-r-packages)
+  - [WSL (Ubuntu Linux) Installation of R and R Packages](#wsl-ubuntu-linux-installation-of-r-and-r-packages)
     - [R for WSL](#r-for-wsl)
     - [R packages for WSL](#r-packages-for-wsl)
 - [GitKraken](#gitkraken)
@@ -25,6 +25,7 @@ title: Windows Installation Instructions
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
+> Please be aware this setup process will take 1-2 hours to complete! 
 
 ## Windows Subsystem for Linux (WSL)
 
@@ -89,7 +90,7 @@ Type `y` (or just Enter) to confirm, then wait for all of the installations to c
 
 Copy and paste don't work in the Ubuntu app quite as you might expect them to in the rest of Windows.
 There are a number of reasons for this, but part of it is that the "control" key (`Ctrl`) is used for different things in Ubuntu, so there is a risk conflicting instructions if you were to use `Ctrl+C` or `Ctrl+V` as you might in the rest of Windows.
-Since some of the later commands are long, so you will probably want to be able to paste them in!
+Since some of the later commands are long, you will probably want to be able to paste them in!
 
 You can paste into the Ubuntu terminal by right clicking in the Ubuntu window. You won't see a menu like you might normally expect; whatever you last copied will just paste in immediately.
 
@@ -108,7 +109,9 @@ Bonus hint:
 ## R and RStudio
 
 This workshop does not require a specific R or RStudio version.
-If you already have R and RStudio installed for Windows, you can skip that section, but *do not skip the [WSL installation](#wsl-ubuntu-linux-installation) section*
+To be able to run R both interactive via RStudio _and_ from the Ubuntu command line, you will need to install R and certain R packages on both the Linux and Windows sides of your computer, as described in the remaining instructions.
+However, you will _only_ need to install RStudio on the Windows side.
+If you already have R and RStudio installed for Windows, you can skip that section, but *do not skip the [WSL installation of R and R packages](#wsl-ubuntu-linux-installation-of-r-and-r-packages) section*.
 
 For this workshop, you will also need to have the following R packages installed:
 
@@ -152,8 +155,6 @@ Open the downloaded `.exe` file and follow the prompts to allow changes and inst
 
 #### RStudio for Windows
 
-We will only be using the RStudio IDE from Windows, so this only needs to be installed once.
-
 First, navigate to the RStudio website's Download page in the browser: https://www.rstudio.com/products/rstudio/download/#download.
 Click the button to download RStudio for Windows.
 
@@ -166,13 +167,13 @@ You may need to give permission to modify your system.
 #### R packages for Windows
 
 Open RStudio (this assumes both R and RStudio have been installed).
-You can check if these packages are installed by scrolling through the `Packages` tab in the bottom-right pane of RStudio.
+You can check if the required packages (`tidyverse`, `rmarkdown`, `optparse`, and `renv`) are installed by scrolling through the `Packages` tab in the bottom-right pane of RStudio.
 If you see the package of interest listed, then you know it's installed.
 For example, the image below tells us that `optparse` is already installed and no additional action is required to install this package:
 
 <img src="screenshots/general/check_pkg_install.png" alt="Shows that the optparse package is already installed on this computer" width="500">
 
-If you need to install any of the require packages, use the function `install.packages()` in Console, as follows:
+If you need to install any of the required packages, use the function `install.packages()` in Console, as follows:
 
 ```r
 # Install optparse only, for example:
@@ -190,13 +191,13 @@ The following image shows, for example, what these messages look like for a succ
 You may see a warning that "Rtools is required to build R packages", but this can usually be safely ignored unless you see a later error.
 If you want to quiet the warning, you can go back to the [Install Rtools](#optional-install-rtools) section and follow the instructions there.
 
-### WSL (Ubuntu Linux) Installation of R, RStudio, and R Packages
+### WSL (Ubuntu Linux) Installation of R and R Packages
 
 #### R for WSL
 To install the most recent version of R in the WSL Ubuntu Linux environment, we will follow the [instructions from CRAN](https://cran.r-project.org/bin/linux/ubuntu/#install-r), with some modifications.
 
 First we will need to install some Linux packages that are required for setting up R and for some of the R packages we will be using.
-Open the Ubuntu app and type (or [paste](#enabling-copy-and-paste-in-ubuntu)) the following command:
+Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ubuntu)) the following command:
 
  ```
  sudo apt install --no-install-recommends software-properties-common dirmngr  libcurl4-openssl-dev libssl-dev libxml2-dev
