@@ -55,7 +55,7 @@ When installation is complete (be patient!), you will see a message asking you t
 
 Restart your computer, then use the Windows Start menu to launch the **Ubuntu** app.
 
-When you launch Ubuntu App, the first thing you may see is that it has more work to do to finish the installation.
+When you launch the Ubuntu App, the first thing you may see is that it has more work to do to finish the installation.
 
 <img src="screenshots/windows/ubuntu_launch.png" alt="Ubuntu installing" width=200>
 
