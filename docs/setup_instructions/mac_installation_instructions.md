@@ -142,7 +142,7 @@ If you see the package of interest listed, then you know it's installed.
 For example, the image below tells us that `optparse` is already installed and no additional action is required to install this package:
 
 
-<img src="screenshots/mac_and_pc/check_pkg_install.png" alt="Shows that the optparse package is already installed on this computer" width="500">
+<img src="screenshots/general/check_pkg_install.png" alt="Shows that the optparse package is already installed on this computer" width="500">
 
 
 If you need to install any of the require packages, use the function `install.packages()` in Console, as follows:
@@ -158,7 +158,7 @@ install.packages(c("optparse", "renv", "rmarkdown", "tidyverse"))
 After running this/these command(s), you will see some progress messages pass in Console (maybe in a different color from this image, but that's ok!!).
 The following image shows, for example, what these messages look like for a successful installation of `optparse`:
 
-<img src="screenshots/mac_and_pc/install_optparse.png" alt="Shows the process and output for installing the optparse package" width="500">
+<img src="screenshots/general/install_optparse.png" alt="Shows the process and output for installing the optparse package" width="500">
 
 > Note: While installing packages, you may be prompted to install Command Line Tools if you didn't install it already.
 > If you see this message, agree to it and follow all installation steps for Command Line Tools.
@@ -182,6 +182,7 @@ Double-click the downloaded disk image, and a window will appear where, as the i
 <img src="screenshots/mac/gitkraken_mac_3.png" alt="GitKraken Drag Download" width="500">
 
 This action completes the installation, and you can now safely delete (eject) the disk image file.
+For more information on setting up a GitHub account and the initial GitKraken setup, see our [GitHub Setup instructions](github_gitkraken_setup_instructions.md).
 
 
 
