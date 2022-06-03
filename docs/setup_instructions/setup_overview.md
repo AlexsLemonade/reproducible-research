@@ -13,7 +13,7 @@ You may already have some of this software installed, but we encourage you to re
 - [macOS installation instructions](mac_installation_instructions.md)
 - [Windows installation instructions](windows_installation_instructions.md)
 
-Finally, you will also need to create a [GitHub](https://github.com) account if you do not already have one, and to configure GitKraken.
+Finally, you will also need to create a [GitHub](https://github.com) account if you do not already have one and configure the GitKraken application.
 
 - [GitHub and GitKraken setup](github_gitkraken_setup_instructions.md)
 
