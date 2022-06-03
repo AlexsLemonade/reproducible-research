@@ -12,8 +12,9 @@ The <b><a href="https://www.ccdatalab.org/" title="Alex's Lemonade Stand Foundat
 The Childhood Cancer Data Lab is an initiative of <b><a href="https://www.alexslemonade.org/" title="Alex's Lemonade Stand Foundation">Alex's Lemonade Stand Foundation</a></b>.
 </p>
 
-This pilot workshop will introduce concepts of reproducible computational research for genomics, including tools for organizing, managing, and sharing your code.
+This pilot workshop will introduce concepts in reproducible computational research for genomics, including tools and approaches for organizing, managing, and sharing your code.
 
-Before the workshop starts, please be sure to visit our [Pre-workshop Setup page](setup_instructions/setup_overview.md) for instructions on preparing your computer for the workshop.
+Before the workshop starts, be sure to visit our [Pre-workshop Setup page](setup_instructions/setup_overview.md) for instructions on preparing your computer for the workshop.
+Completing these setup steps is required for full participation in the hands-on activities.
 
 You will also want to review the [Participant Information](participant_information.md) page for details about the workshop location and other logistics.
