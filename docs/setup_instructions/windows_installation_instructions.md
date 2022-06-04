@@ -109,7 +109,7 @@ Bonus hint:
 ## R and RStudio
 
 This workshop does not require a specific R or RStudio version.
-To be able to run R both interactive via RStudio _and_ from the Ubuntu command line, you will need to install R and certain R packages on both the Linux and Windows sides of your computer, as described in the remaining instructions.
+To be able to run R both interactively via RStudio _and_ from the Ubuntu command line, you will need to install R and certain R packages on both the Linux and Windows sides of your computer, as described in the remaining instructions.
 However, you will _only_ need to install RStudio on the Windows side.
 If you already have R and RStudio installed for Windows, you can skip that section, but *do not skip the [WSL installation of R and R packages](#wsl-ubuntu-linux-installation-of-r-and-r-packages) section*.
 
