@@ -25,7 +25,7 @@ title: Windows Installation Instructions
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-> Please be aware this setup process will take 1-2 hours to complete! 
+> Please be aware this setup process may take 1-2 hours to complete! 
 
 ## Windows Subsystem for Linux (WSL)
 
