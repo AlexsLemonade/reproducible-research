@@ -50,7 +50,7 @@ mv $FASTQ_R2 $FASTQ_DEST
 
 
 ########################## Curling ############################
-##### A few alternative approaches for curling are shown below, with R1 for example. 
+##### A few alternative approaches for downloading with curl are shown below, with R1 for example. 
 ##### Depending on how the workshop is moving along, multiple versions can be optionally introduced.
 ##### The versions shown below will place the downloaded file into the destination directory 
 #####    as part of the same step without needing a separate line to mv.
