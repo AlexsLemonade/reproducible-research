@@ -37,7 +37,7 @@ mv NC16_S1_L004_R2_001.fastq.gz ../data/raw/fastq/SRP255885/
 
 
 
-########################## Curling ############################
+############### Downloading files with curl ###################
 ##### A few alternative approaches for curling are shown below, with R1 for example. 
 ##### Depending on how the workshop is moving along, multiple versions can be optionally introduced.
 ##### The versions shown below will place the downloaded file into the destination directory 
