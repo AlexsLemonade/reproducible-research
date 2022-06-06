@@ -23,4 +23,6 @@ done
 
   
 # Run the notebook to visualize LGAT and Medulloblastoma counts
+#  Using `Rscript -e` allows us to include a very short script (in quotes) directly on 
+#  the command line without writing a separate script file first
 Rscript -e "rmarkdown::render('02_mutation-count-plots.Rmd')"
