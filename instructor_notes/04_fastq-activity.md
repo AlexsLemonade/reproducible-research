@@ -49,15 +49,13 @@ The goal of this activity is to interactively develop a script to download and s
 + Now, we are ready to build up a script that will perform this for us on _both_ sets of paired reads.
   + Remove the file (and its uncompressed version) we've already downloaded with `rm NC16_S1_L004_R1_001.*`
   + Navigate back to the directory `rrp-workshop-exercises/scripts/` (may involve creating this directory)
-  + Open text editor to create and save a script called `download_fastq.sh`
-  + Build up with them the script contained in _either_:
-    + [`./novariables-noloop-download_fastq.sh`](./novariables-noloop-download_fastq.sh): No variables _and_ no for loop
-    + [`./novariables-loop-download_fastq.sh`](./novariables-loop-download_fastq.sh): No variables _with_ a for loop (so there is a looping variable)
-  + Pending time, after script is written, take a step back to ask: How could we have improved this? One answer is _using more variables._ 
-    + This instructor version is in [`./variables-loop-download_fastq.sh`](./variables-loop-download_fastq.sh)
+  + Open text editor to create and save a script called `download-fastq.sh`
+  + Build up with them the script contained in [`./novariables_download-fastq.sh`](./novariables_download-fastq.sh)
     + Note this script version contains some options, specifically several ways to write `curl`. 
-      + Whether only one or more of these are demonstrated should be decided on a workshop-by-workshop basis.
-
+    + Whether only one or more of these are demonstrated should be decided on a workshop-by-workshop basis.
+  + Pending time, after script is written, take a step back to ask: How could we have improved this? One answer is _using variables._ 
+    + This instructor version is in [`./variables_download-fastq.sh`](./variables_download-fastq.sh)
+    
 
 
 
