@@ -145,7 +145,7 @@ For example, the image below tells us that `optparse` is already installed and n
 <img src="screenshots/general/check_pkg_install.png" alt="Shows that the optparse package is already installed on this computer" width="500">
 
 
-If you need to install any of the require packages, use the function `install.packages()` in Console, as follows:
+If you need to install any of the required packages, use the function `install.packages()` in Console, as follows:
 
 ```sh
 # Install optparse only, for example:
