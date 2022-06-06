@@ -27,7 +27,7 @@ This section is partially a review/reiteration of that content, followed by runn
   * option setting & error checking
   * constants (note that in this case these are set after options)
 
-* During the above (notably option setting) demonstrate usage of the r script
+* During the above (notably option setting) demonstrate usage of the R script
   * Point out optparse section, showing section for each flag
   * Show the help feature you get for free with options:
 
@@ -39,12 +39,12 @@ This section is partially a review/reiteration of that content, followed by runn
   * Show the command running with correct options
 
   ```sh
-  Rscript 01_count-gene-mutations.R --maf ../../data/processed/maf_files/LGAT.maf.tsv.gz -o LGAT_gene-mutations.tsv
+  Rscript 01_count-gene-mutations.R --maf ../../data/processed/maf_files/LGAT.maf.tsv.gz --outfile LGAT_gene-mutations.tsv
   ```
 
   * Possibly: include a typo in the MAF file, and show the error message!
 
-* Have the trainees open the rendered notebook `analyses/mutation_counts/01_count-gene-mutations.nb.html` in the browser
+* Have the trainees open the rendered notebook `analyses/mutation_counts/02_mutation-count-plots.nb.html` in the browser.
   * Point out the lovely rendering that we get for free!
   * Walk through components
     * setup block: ask what input files are required!
