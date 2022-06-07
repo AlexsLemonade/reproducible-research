@@ -8,7 +8,7 @@ nav_title: Schedule
 | 9:00 - 10:15 am  | [Welcome](https://docs.google.com/presentation/d/1GgqWl6las6ekQtKLmPzJ8UD_cftIbJjDTS2gJpStcMQ/edit?usp=sharing) <br> [Why does reproducibility matter?](https://docs.google.com/presentation/d/1qfulAR4jD0KS7NfrLHpwT6SWl-7APBmqNnAwGpXX5oo/edit?usp=sharing) |
 | 10:15 - 10:45 am | [Project Organization](https://docs.google.com/presentation/d/1ncqxXlC0-PGEK-yE7S-nDYnMPhrOUPbI95EJy283wCs/edit?usp=sharing) |
 | 10:45 - 11:00 am | Coffee break | 
-| 11:00 - 11:30 am | [Introduction to UNIX and the command line](https://docs.google.com/presentation/d/1WPXkItJZEUXMY20cLrdMXHiBC2PyunR14RUSDg4nfIc/edit?usp=sharing) <br> [Resource: UNIX Reference](./unix_reference.html) <br> [Resource: UNIX Cheatsheet](./unix_quick_reference.pdf) |
+| 11:00 - 11:30 am | [Introduction to UNIX and the command line](https://docs.google.com/presentation/d/1WPXkItJZEUXMY20cLrdMXHiBC2PyunR14RUSDg4nfIc/edit?usp=sharing) <br> [Resource: UNIX Reference](resources/unix_reference.html) <br> [Resource: UNIX Cheatsheet](resources/unix_quick_reference.pdf) |
 | 11:30 - 12:00 pm | [Introduction to Git; Forking and cloning a repository](https://docs.google.com/presentation/d/1eiGZA4PYBKJx5HDCo3UDOAB7q415gg96TehxilCHwlA/edit?usp=sharing) |
 | 12:00 - 1:00 pm  | Lunch |
 | 1:00 - 1:45 pm   | [Shell scripting](https://docs.google.com/presentation/d/1SDUyYVNgvDDRodVqmDQPVQ5wnjQesWfBTg0EAcdbcSo/edit?usp=sharing) |
