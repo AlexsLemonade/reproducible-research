@@ -6,7 +6,8 @@ set -euo pipefail
 # MacDown application on macOS _before_ running this script.
 
 # Directory where cheatsheets will be copied to
-DEST_DIR=../../docs/
+DEST_DIR=../../docs/resources/
+mkdir -p $DEST_DIR
 
 # Render the Rmarkdown
 Rscript -e "rmarkdown::render('unix_reference.Rmd')"
