@@ -16,7 +16,7 @@ At the end of this activity, workshop attendees should be able to:
 
 ## Activity Part 1: Exploring & running the R script & notebook
 
-At this point we will have completed a slide presentation that describes the R script contents.
+At this point we will have completed a slide presentation that describes the R script and notebook contents.
 This section is partially a review/reiteration of that content, followed by running the script on the command line.
 
 
