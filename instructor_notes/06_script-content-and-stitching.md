@@ -1,23 +1,63 @@
-# Instructor Notes: Stitching together scripts and notebooks
+# Instructor Notes: Rscript content, usage & simple workflows with shell scripts
 
 
 
-This document provides instructions for teaching how to use shell scripting to automatically run related scripts in order, "stitched" together. 
+This document provides instructions for teaching about the script contents, followed by how to use shell scripting to automatically run related scripts in order, "stitched" together.
 
 ## Learning goals
 
 At the end of this activity, workshop attendees should be able to:
 
-* Understand how to render Rmarkdown documents/notebooks on the command line 
-* Understand how shell scripts can be used to automate analyses
-* Understand some limitations of shell scripting to automate analyses
+* Examine the structure of provided shell scripts
+* Run R scripts with arguments from the command line, including the use of `--help`
+* Render Rmarkdown documents/notebooks on the command line
+* Understand how shell scripts can be used to automate multi-step analyses
+* Recognize some limitations of shell scripting to automate analyses
+
+## Activity Part 1: Exploring & running the R script & notebook
+
+At this point we will have completed a slide presentation that describes the R script and notebook contents.
+This section is partially a review/reiteration of that content, followed by running the script on the command line.
 
 
-## Activity
+* In RStudio, have trainees open `analyses/mutation_counts/01_count-gene-mutations.R`
+* Briefly walk through the components of the R script, including the following:
+  * header comments
+  * package imports
+  * option setting & error checking
+  * constants (note that in this case these are set after options)
+
+* During the above (notably option setting) demonstrate usage of the R script
+  * Point out optparse section, showing section for each flag
+  * Show the help feature you get for free with options:
+
+  ```sh
+  cd analyses/mutation_counts # if needed
+
+  Rscript 01_count-gene-mutations.R -h
+  ```
+  * Show the command running with correct options
+
+  ```sh
+  Rscript 01_count-gene-mutations.R --maf ../../data/processed/maf_files/LGAT.maf.tsv.gz --outfile LGAT_gene-mutations.tsv
+  ```
+
+  * Possibly: include a typo in the MAF file, and show the error message!
+
+* Have the trainees open the rendered notebook `analyses/mutation_counts/02_mutation-count-plots.nb.html` in the browser.
+  * Point out the lovely rendering that we get for free in this self-contained file!
+  * Walk through components of the notebook (briefly)
+    * setup block: ask what input files are required!
+    * location of the function definitions
+    * integrated plots
+* Open source file (`analyses/mutation_counts/02_mutation-count-plots.Rmd`) in RStudio
+  * Point out RStudio's "Restart R and Run All Chunks" option
+  * Note that not all input files are present, so rendering may fail (Leads into the next part!)
 
 
-* At this point in the workshop, we will have introduced the contents of and and relationship between the two files: `analyses/mutation_counts/01_count-gene_mutations.R` and `analyses/mutation_counts/02_mutation-count-plots.Rmd`.
-* The goal of this activity is to show how a shell script can be used to "stitch" together analysis files and automate the workflow.
+## Activity Part 2: Stitching together parts
+
+The goal of this activity is to show how a shell script can be used to "stitch" together analysis files and automate the workflow.
 
 
 * Instruct trainees to open their terminal and navigate to the `rrp-workshop-exercises/analyses/mutation_counts/` directory with `cd` (if they weren't there before), and then run the following code that:
