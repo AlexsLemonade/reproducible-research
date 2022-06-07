@@ -45,11 +45,12 @@ This section is partially a review/reiteration of that content, followed by runn
   * Possibly: include a typo in the MAF file, and show the error message!
 
 * Have the trainees open the rendered notebook `analyses/mutation_counts/02_mutation-count-plots.nb.html` in the browser.
-  * Point out the lovely rendering that we get for free!
-  * Walk through components
+  * Point out the lovely rendering that we get for free in this self-contained file!
+  * Walk through components of the notebook (briefly)
     * setup block: ask what input files are required!
     * location of the function definitions
     * integrated plots
+* Open source file (`analyses/mutation_counts/02_mutation-count-plots.Rmd`) in RStudio
   * Point out RStudio's "Restart R and Run All Chunks" option
   * Note that not all input files are present, so rendering may fail (Leads into the next part!)
 
