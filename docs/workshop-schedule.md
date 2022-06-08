@@ -25,4 +25,4 @@ Each topic is linked to a Google Slides document with the content we plan to pre
 
 
 
-A single pdf with all slides can be downloaded here: <br> [Reproducibility Workshop Slides (PDF)](resources/2022-06-10_reproducibility-workshop-slides.pdf)
+A single pdf with all slides can be downloaded here: <br> [Reproducibility Workshop Slides (pdf)](resources/2022-06-10_reproducibility-workshop-slides.pdf)
