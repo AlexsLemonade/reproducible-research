@@ -72,7 +72,7 @@ Examples of unacceptable behavior by participants at any CCDL training event/pla
 
 - publication of private communication without consent
 
-If you feel harassed or treated inappropriately at any time, please contact the Director of the CCDL at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org)
+If you feel harassed or treated inappropriately at any time, please contact the Director of the CCDL at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org).
 
 ### Consequences of Unacceptable behavior
 
