@@ -16,6 +16,7 @@ This pilot workshop will introduce concepts in reproducible computational resear
 
 Before the workshop starts, be sure to visit our [Pre-workshop Setup page](setup_instructions/setup_overview.md) for instructions on preparing your computer for the workshop.
 _Completing these setup steps is **required** for full participation in the hands-on activities._
+
 Please also review our [Code of Conduct](code-of-conduct.md).
 
 You will also want to review the [Participant Information](participant_information.md) page for details about the workshop location and other logistics.
