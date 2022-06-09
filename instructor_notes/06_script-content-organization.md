@@ -19,6 +19,8 @@ At the end of this activity, workshop attendees should be able to:
 At this point we will have completed a slide presentation that describes the R script and notebook contents.
 This section is partially a review/reiteration of that content, followed by running the script on the command line.
 
+* Have trainees navigate to the local copy of their github repository and open the `rrp-workshop-exercises.Rproj` file.
+  * Point out the Project menu and discuss the project option settings for reproducibility (`.RData` saving and restore)
 
 * In RStudio, have trainees open `analyses/mutation_counts/01_count-gene-mutations.R`
 * Briefly walk through the components of the R script, including the following:
