@@ -1510,8 +1510,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">UNIX Reference</h1>
-<h4 class="author">Childhood Cancer Data Lab, Alex’s Lemonade Stand
-Foundation</h4>
+<h4 class="author">Childhood Cancer Data Lab, Alex’s Lemonade Stand Foundation</h4>
 
 </div>
 
@@ -1552,10 +1551,7 @@ Foundation</h4>
 </tr>
 <tr class="even">
 <td><code>..</code></td>
-<td>Represents one directory backwards. <br><br> For example, the
-relative path <code>..</code> refers to “one directory back,” the
-relative path <code>../..</code> refers to “two directories back,” and
-so on.</td>
+<td>Represents one directory backwards. <br><br> For example, the relative path <code>..</code> refers to “one directory back,” the relative path <code>../..</code> refers to “two directories back,” and so on.</td>
 </tr>
 <tr class="odd">
 <td><code>*</code></td>
@@ -1563,15 +1559,11 @@ so on.</td>
 </tr>
 <tr class="even">
 <td><code>|</code></td>
-<td>Pipe symbol (located on the backslash key). Join a string of UNIX
-commands together into a “pipeline.”</td>
+<td>Pipe symbol (located on the backslash key). Join a string of UNIX commands together into a “pipeline.”</td>
 </tr>
 <tr class="odd">
 <td><code>&gt;</code> and <code>&gt;&gt;</code></td>
-<td>Redirect (“send”) output from the command line, for example to a
-file. <br><br> <code>&gt;</code> will <em>overwrite</em> the destination
-file, and <code>&gt;&gt;</code> will <em>append to</em> the destination
-file.</td>
+<td>Redirect (“send”) output from the command line, for example to a file. <br><br> <code>&gt;</code> will <em>overwrite</em> the destination file, and <code>&gt;&gt;</code> will <em>append to</em> the destination file.</td>
 </tr>
 </tbody>
 </table>
@@ -1581,8 +1573,7 @@ file.</td>
 <div id="navigating-directories" class="section level3">
 <h3>Navigating directories</h3>
 <ul>
-<li><p><strong><code>cd</code></strong>: <strong>C</strong>hange
-<strong>d</strong>irectory</p>
+<li><p><strong><code>cd</code></strong>: <strong>C</strong>hange <strong>d</strong>irectory</p>
 <pre class="sh"><code># Change directory to the given path
 cd path/where/I/want/to/go
 
@@ -1592,8 +1583,7 @@ cd ..
 # Two ways to go to your home directory:
 cd 
 cd ~</code></pre></li>
-<li><p><strong><code>ls</code></strong>:
-<strong>L</strong>i<strong>s</strong>t files and directories</p>
+<li><p><strong><code>ls</code></strong>: <strong>L</strong>i<strong>s</strong>t files and directories</p>
 <pre class="sh"><code># List contents of working directory
 ls
 
@@ -1612,8 +1602,7 @@ ls -h
 # Flags can be combined, in any order, for example to
 # show all files in long format with human-readable sizes
 ls -lah</code></pre></li>
-<li><p><strong><code>pwd</code></strong>: <strong>P</strong>rint the
-<strong>w</strong>orking <strong>d</strong>irectory.</p>
+<li><p><strong><code>pwd</code></strong>: <strong>P</strong>rint the <strong>w</strong>orking <strong>d</strong>irectory.</p>
 <ul>
 <li>Display the full path of the current/working directory</li>
 </ul>
@@ -1624,11 +1613,9 @@ pwd</code></pre></li>
 <div id="manipulating-files-and-directories" class="section level3">
 <h3>Manipulating files and directories</h3>
 <ul>
-<li><p><strong><code>cp</code></strong>:
-<strong>C</strong>o<strong>p</strong>y a file or directory.</p>
+<li><p><strong><code>cp</code></strong>: <strong>C</strong>o<strong>p</strong>y a file or directory.</p>
 <ul>
-<li>The <code>cp</code> command does not change the original file. It is
-similar to “copy and paste.”</li>
+<li>The <code>cp</code> command does not change the original file. It is similar to “copy and paste.”</li>
 </ul>
 <pre class="sh"><code># Make a copy of oldfile.txt called newfile.txt
 cp oldfile.txt newfile.txt
@@ -1636,9 +1623,7 @@ cp oldfile.txt newfile.txt
 # Make a copy of the directory directory_original to be called directory_copy
 # Copying directories requires the -r flag
 cp -r directory_original directory_copy</code></pre></li>
-<li><p><strong><code>mkdir</code></strong>:
-<strong>M</strong>a<strong>k</strong>e a new
-<strong>dir</strong>ectory</p>
+<li><p><strong><code>mkdir</code></strong>: <strong>M</strong>a<strong>k</strong>e a new <strong>dir</strong>ectory</p>
 <pre class="sh"><code># Create a new directory called new_directory
 mkdir new_directory
 
@@ -1647,23 +1632,18 @@ mkdir -p new_directory_that_might_already_have_been_created
 
 # The -p flag also allows you to make nested directories at once
 mkdir -p make/all/these/directories/</code></pre></li>
-<li><p><strong><code>mv</code></strong>:
-<strong>M</strong>o<strong>v</strong>e or rename a file or
-directory.</p>
+<li><p><strong><code>mv</code></strong>: <strong>M</strong>o<strong>v</strong>e or rename a file or directory.</p>
 <ul>
-<li>The <code>mv</code> command <em>removes</em> the original file. It
-is similar to “cut and paste.”</li>
+<li>The <code>mv</code> command <em>removes</em> the original file. It is similar to “cut and paste.”</li>
 </ul>
 <pre class="sh"><code># Rename a file from oldname.txt to newname.txt
 mv oldfile.txt newfile.txt
 
 # Move file.txt into a new directory
 mv file.txt path/to/new/directory/file.txt</code></pre></li>
-<li><p><strong><code>rm</code></strong>:
-<strong>R</strong>e<strong>m</strong>ove a file or directory</p>
+<li><p><strong><code>rm</code></strong>: <strong>R</strong>e<strong>m</strong>ove a file or directory</p>
 <ul>
-<li><strong>This is <em>permanent.</em></strong> You cannot recover
-files deleted with <code>rm</code></li>
+<li><strong>This is <em>permanent.</em></strong> You cannot recover files deleted with <code>rm</code></li>
 </ul>
 <pre class="sh"><code># Permanently delete a file 
 rm file_I_dont_need.txt
@@ -1671,11 +1651,9 @@ rm file_I_dont_need.txt
 # Permanently delete a directory
 # Removing directories requires the -r flag
 rm -r directory_I_dont_need/</code></pre></li>
-<li><p><strong><code>touch</code></strong>: Create an new (empty)
-file</p>
+<li><p><strong><code>touch</code></strong>: Create an new (empty) file</p>
 <ul>
-<li>When run on existing files, the <code>touch</code> command updates
-its “last modified by” date (it “touches” the file!)</li>
+<li>When run on existing files, the <code>touch</code> command updates its “last modified by” date (it “touches” the file!)</li>
 </ul>
 <pre class="sh"><code># Create a new file
 touch name_of_the_new_file_you_want_to_create.txt
@@ -1687,9 +1665,7 @@ touch existing_file_to_update_modification.txt</code></pre></li>
 <div id="working-with-files" class="section level3">
 <h3>Working with files</h3>
 <ul>
-<li><p><strong><code>head</code></strong>
-(<strong><code>tail</code></strong>): Display the first (last) ten lines
-of a file</p>
+<li><p><strong><code>head</code></strong> (<strong><code>tail</code></strong>): Display the first (last) ten lines of a file</p>
 <pre class="sh"><code># See first 10 lines of a file
 head file_I_want_to_peek_at.txt
 
@@ -1699,44 +1675,33 @@ tail file_I_want_to_peek_at.txt
 # Use the -n flag to specify a different number of lines, 
 #  for example 20:
 head -n 20 file_I_want_to_peek_at.txt</code></pre></li>
-<li><p><strong><code>less</code></strong>: View the contents of a file
-in the terminal</p>
+<li><p><strong><code>less</code></strong>: View the contents of a file in the terminal</p>
 <ul>
-<li>This command was named <code>less</code> named because it is an
-improved version of the related command <code>more</code>, which also
-lets you view file contents, and…“less is more.”</li>
+<li>This command was named <code>less</code> named because it is an improved version of the related command <code>more</code>, which also lets you view file contents, and…“less is more.”</li>
 <li>You can scroll through the view with up and down arrows</li>
 <li>You can exit the view by typing <code>q</code></li>
 </ul>
 <pre class="sh"><code># View a file&#39;s contents 
 less file_I_want_to_look_at.txt</code></pre></li>
-<li><p><strong><code>gunzip</code></strong>: Decompress a
-<code>.gz</code>-compressed file</p>
+<li><p><strong><code>gunzip</code></strong>: Decompress a <code>.gz</code>-compressed file</p>
 <ul>
-<li>The <code>gunzip</code> command removes the original file and
-creates a new file of the same name but <em>without</em> the added
-extension <code>.gz</code></li>
+<li>The <code>gunzip</code> command removes the original file and creates a new file of the same name but <em>without</em> the added extension <code>.gz</code></li>
 </ul>
 <pre class="sh"><code># Decompress very_big_file.txt.gz and create very_big_file.txt
 gunzip very_big_file.txt.gz
 
 # Use the -c flag and redirection to retain the original file
 gunzip -c very_big_file.txt.gz &gt; very_big_file.txt</code></pre></li>
-<li><p><strong><code>gzip</code></strong>: Compress a file to
-<code>.gz</code> format</p>
+<li><p><strong><code>gzip</code></strong>: Compress a file to <code>.gz</code> format</p>
 <ul>
-<li>The <code>gzip</code> command removes the original file and a
-creates a new file of the same name but with the added <code>.gz</code>
-extension</li>
+<li>The <code>gzip</code> command removes the original file and a creates a new file of the same name but with the added <code>.gz</code> extension</li>
 </ul>
 <pre class="sh"><code># Compress very_big_file.txt and create very_big_file.txt.gz
 gzip very_big_file.txt
 
 # Use the -c flag and redirection to retain the original file
 gzip -c very_big_file.txt &gt; very_big_file.txt.gz</code></pre></li>
-<li><p><strong><code>wc</code></strong>: <strong>W</strong>ord
-<strong>c</strong>ount. Count the number of words, lines, characters,
-and/or bytes in a file</p>
+<li><p><strong><code>wc</code></strong>: <strong>W</strong>ord <strong>c</strong>ount. Count the number of words, lines, characters, and/or bytes in a file</p>
 <pre class="sh"><code># Count all values (words, lines, characters, and bytes)
 wc file_I_want_to_count.txt
 
@@ -1753,12 +1718,9 @@ wc -w</code></pre></li>
 <li><p><strong><code>echo</code></strong>: Print</p>
 <pre class="sh"><code># Print a message from a script
 echo &quot;Running Step 2&quot;</code></pre></li>
-<li><p><strong><code>curl</code></strong>: <strong>C</strong>lient
-<strong>URL</strong>. Download the contents of a file from a website or
-server</p>
+<li><p><strong><code>curl</code></strong>: <strong>C</strong>lient <strong>URL</strong>. Download the contents of a file from a website or server</p>
 <ul>
-<li>By default, the downloaded file contents get sent to the command
-line directly (which you almost never want!)</li>
+<li>By default, the downloaded file contents get sent to the command line directly (which you almost never want!)</li>
 </ul>
 <pre class="sh"><code># Download and save an internet file, using redirection
 curl https://database.com/interesting_data.csv &gt; interesting_data.csv
@@ -1774,14 +1736,10 @@ curl -O https://database.com/interesting_data.csv
 # Use the -s flag to run curl quietly 
 # For example, in combination with -O:
 curl -sO https://database.com/interesting_data.csv</code></pre></li>
-<li><p><strong><code>man</code></strong>: See a command’s documentation
-in the <strong>man</strong>ual</p>
+<li><p><strong><code>man</code></strong>: See a command’s documentation in the <strong>man</strong>ual</p>
 <ul>
-<li><em>Caution</em>: The so-called “man pages” are not always very
-clear, but they are still often helpful, in particular for seeing
-different flags you can use with a command</li>
-<li>You can scroll through the documentation with up and down
-arrows</li>
+<li><em>Caution</em>: The so-called “man pages” are not always very clear, but they are still often helpful, in particular for seeing different flags you can use with a command</li>
+<li>You can scroll through the documentation with up and down arrows</li>
 <li>You can exit the documentation by typing <code>q</code></li>
 </ul>
 <pre class="sh"><code># See the documentation for the echo command
