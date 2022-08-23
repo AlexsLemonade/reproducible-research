@@ -2,10 +2,16 @@
 title: Participant Information
 nav_title: Logistics
 ---
-Find helpful information related to health and safety, the workshop location, and travel.
+
+
+**Coming soon:** Find helpful information related to health and safety and the workshop location.
+
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<!--
+
 ### Table of Contents
 
 - [COVID-19 Safety Policy](#covid-19-safety-policy)
@@ -14,7 +20,11 @@ Find helpful information related to health and safety, the workshop location, an
   - [Nearby Lodging](#nearby-lodging)
 - [Travel Reimbursement](#travel-reimbursement)
 
+-->
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!--
 
 ## COVID-19 Safety Policy
 
@@ -59,3 +69,5 @@ To qualify for reimbursement:
 * You will need to have included this request in your application.
 * You will be required to provide documentation of travel expenses (such as transportation and lodging receipts) and to fill out a reimbursement form after the workshop ends.
 * You must attend the entirety of the workshop.
+
+-->
