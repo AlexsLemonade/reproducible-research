@@ -3,9 +3,11 @@ title: Workshop Schedule
 nav_title: Schedule
 ---
 
-Below is the schedule for the Data Lab Reproducible Research Practices Workshop on June 10, 2022.
+⚠️ **Please note:** The schedule below is from a past Data Lab Reproducible Research Practices Workshop that took place in June 2022.
+It will be modified for the October 2022 workshop.
 
-Each topic is linked to a Google Slides document with the content we plan to present.
+This schedule is an example of what participants can expect. 
+Each topic is linked to a Google Slides document with the content we presented in June.
 
 | Time | Topic |
 |------|---------|
