@@ -256,7 +256,7 @@ Open the Ubuntu app and type `R` at the prompt to launch the R console.
 At the R console prompt (which will look like this: `>`), type
 
 ```r
-install.packages(c("optparse", "renv", "rmarkdown", "tidyverse"))
+install.packages(c("tidyverse", "rmarkdown", "optparse", "renv", "here"))
 ```
 and press Enter.
 
