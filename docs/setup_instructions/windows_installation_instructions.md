@@ -25,7 +25,7 @@ title: Windows Installation Instructions
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-> Please be aware this setup process may take 1-2 hours to complete! 
+> Please be aware this setup process may take 1-2 hours to complete!
 
 ## Windows Subsystem for Linux (WSL)
 
@@ -119,6 +119,7 @@ For this workshop, you will also need to have the following R packages installed
 * `rmarkdown`
 * `optparse`
 * `renv`
+* `here`
 
 If you already have these packages installed, you're good to go!
 
@@ -180,7 +181,7 @@ If you need to install any of the required packages, use the function `install.p
 install.packages("optparse")
 
 # Install all necessary packages at once:
-install.packages(c("optparse", "renv", "rmarkdown", "tidyverse"))
+install.packages(c("tidyverse", "rmarkdown", "optparse", "renv", "here"))
 ```
 
 After running this/these command(s), you will see some progress messages pass in Console (maybe in a different color from this image, but that's ok!!).
