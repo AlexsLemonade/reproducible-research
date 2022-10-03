@@ -26,9 +26,8 @@ The goal of this activity is to interactively develop a script to download and s
 + **Alternatively**, if internet speed is prohibitively slow for downloading these full FASTQ files, we have subsetted versions that contain only the first 10,000 reads.
   + Download links:
     + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R1_001.fastq.gz
-      + An uncompressed version is also available: https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R1_001.fastq
-    + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R2_001.fastq.gz
-      + An uncompressed version is also available: https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R2_001.fastq
+      + An uncompressed version is also available: https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-NC16_S1_L004_R1_001.fastq
+    + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-NC16_S1_L004_R2_001.fastq.gz
   + These links are not shown in the provided solution scripts.
   When presenting this alternative approach, the instructor should clearly explain that we are specifically and only using these subsetted versions from the repository in order to save time during the workshop.
 
