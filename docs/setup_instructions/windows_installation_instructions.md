@@ -43,7 +43,7 @@ Type `cmd` in the Windows search box to bring up the Command Prompt, then click 
 You will be prompted to allow changes to your system; say yes!
 
 When the Command Prompt window is open, type `wsl --install -d ubuntu` and press Enter to install WSL and the Ubuntu version of Linux.
-("Ubuntu" is a one of the more popular versions of Linux, and the default version that comes with WSL.)
+("Ubuntu" is one of the more popular versions of Linux, and the default version that comes with WSL.)
 You should start to see messages about the progress of the installation, which will take several minutes to complete (it may be a while, depending on the speed of your internet connection).
 
 <img src="screenshots/windows/wsl_install_1.png" alt="wsl install progress" width="300">

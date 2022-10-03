@@ -31,7 +31,7 @@ You can find the Terminal app with a few different approaches:
   <img src="screenshots/mac/spotlight_terminal.png" alt="Search for Terminal in Mac Spotlight" width="400">
 
 
-+ From Finder, and navigate to the "Applications" folder, then the "Utilities" folder, and open Terminal from there:
++ From Finder, navigate to the "Applications" folder, then the "Utilities" folder, and open Terminal from there:
 
   <img src="screenshots/mac/utilities_terminal.png" alt="Open Terminal from Utilities" width="500">
 
@@ -80,7 +80,7 @@ These outrageous times will drop quickly, and the whole process will _really_ ta
 
 ## R and RStudio
 
-This workshop does not require a specific R or RStudio version for this workshop.
+This workshop does not require a specific R or RStudio version.
 If you already have R and RStudio installed, you can skip this section!
 
 ### Installing R
