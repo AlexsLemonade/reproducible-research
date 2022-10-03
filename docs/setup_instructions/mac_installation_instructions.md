@@ -128,11 +128,11 @@ Once the installation process is completed, you can now safely delete (eject) th
 
 For this workshop, you will need to have the following R packages installed:
 
-* `tidyverse`
-* `rmarkdown`
+* `here`
 * `optparse`
 * `renv`
-* `here`
+* `rmarkdown`
+* `tidyverse`
 
 If you already have these packages installed, you're good to go!
 

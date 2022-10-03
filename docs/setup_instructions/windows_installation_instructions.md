@@ -115,11 +115,12 @@ If you already have R and RStudio installed for Windows, you can skip that secti
 
 For this workshop, you will also need to have the following R packages installed:
 
-* `tidyverse`
-* `rmarkdown`
+* `here`
 * `optparse`
 * `renv`
-* `here`
+* `rmarkdown`
+* `tidyverse`
+
 
 If you already have these packages installed, you're good to go!
 
@@ -181,7 +182,7 @@ If you need to install any of the required packages, use the function `install.p
 install.packages("optparse")
 
 # Install all necessary packages at once:
-install.packages(c("tidyverse", "rmarkdown", "optparse", "renv", "here"))
+install.packages(c("here", "optparse", "renv", "rmarkdown", "tidyverse"))
 ```
 
 After running this/these command(s), you will see some progress messages pass in Console (maybe in a different color from this image, but that's ok!!).
@@ -256,7 +257,7 @@ Open the Ubuntu app and type `R` at the prompt to launch the R console.
 At the R console prompt (which will look like this: `>`), type
 
 ```r
-install.packages(c("tidyverse", "rmarkdown", "optparse", "renv", "here"))
+install.packages(c("here", "optparse", "renv", "rmarkdown", "tidyverse"))
 ```
 and press Enter.
 
