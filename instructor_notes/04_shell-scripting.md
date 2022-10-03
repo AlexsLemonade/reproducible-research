@@ -13,15 +13,25 @@ At the end of this activity, workshop attendees should be able to:
 + Write a simple shell script with useful skills like defining, writing a for loop, and printing
 
 
-## Activity 
+## Activity
 
 The goal of this activity is to interactively develop a script to download and save these two paired FASTQ files:
 
 + Paired FASTQ files from (Study ID SRP255885)[https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885], and RNA-seq dataset about medulloblastoma
-  + Download links: 
+  + Download links:
     + https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/NC16_S1_L004_R1_001.fastq.gz
     + https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/NC16_S1_L004_R2_001.fastq.gz
   + Compressed files are 105.9 and 116.5 MB, which is not too big to slam their computers but also too big for github
+
++ **Alternatively**, if internet speed is prohibitively slow for downloading these full FASTQ files, we have subsetted versions that contain only the first 10,000 reads.
+  + Download links:
+    + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R1_001.fastq.gz
+      + An uncompressed version is also available: https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R1_001.fastq
+    + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R2_001.fastq.gz
+      + An uncompressed version is also available: https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R2_001.fastq
+  + These links are not shown in the provided solution scripts.
+  When presenting this alternative approach, the instructor should clearly explain that we are specifically and only using these subsetted versions from the repository in order to save time during the workshop.
+
 
 
 + On the command line, use `cd` to navigate to the top level of the repository that was just cloned.
@@ -36,6 +46,7 @@ The goal of this activity is to interactively develop a script to download and s
     + Goal: `data/raw/fastq/SRP255885`
     + Use this opportunity to introduce `mkdir` and the benefit of `mkdir -p`
   + Curl _one_ of the files: `curl -O https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/NC16_S1_L004_R1_001.fastq.gz`
+    + Again, if the internet speed requires time-saving measures, use the given alternate link above to download a subsetted version from this repository.
   + Use `ls` and then `ls -h` to confirm file was created and then see its size
     + Useful change to practice `ls *gz` or similar
   + Move the file to destination with `mv`
@@ -51,11 +62,11 @@ The goal of this activity is to interactively develop a script to download and s
   + Navigate back to the directory `rrp-workshop-exercises/scripts/` (may involve creating this directory)
   + Open text editor to create and save a script called `download-fastq.sh`
   + Build up with them the script contained in [`./novariables_download-fastq.sh`](./novariables_download-fastq.sh)
-    + Note this script version contains some options, specifically several ways to write `curl`. 
+    + Note this script version contains some options, specifically several ways to write `curl`.
     + Whether only one or more of these are demonstrated should be decided on a workshop-by-workshop basis.
-  + Pending time, after script is written, take a step back to ask: How could we have improved this? One answer is _using variables._ 
+  + Pending time, after script is written, take a step back to ask: How could we have improved this? One answer is _using variables._
     + This instructor version is in [`./variables_download-fastq.sh`](./variables_download-fastq.sh)
-    
+
 
 
 
