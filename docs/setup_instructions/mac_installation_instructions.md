@@ -153,7 +153,7 @@ If you need to install any of the required packages, use the function `install.p
 install.packages("optparse")
 
 # Install all necessary packages at once:
-install.packages(c("tidyverse", "rmarkdown", "optparse", "renv", "here"))
+install.packages(c("here", "optparse", "renv", "rmarkdown", "tidyverse"))
 ```
 
 After running this/these command(s), you will see some progress messages pass in Console (maybe in a different color from this image, but that's ok!!).
