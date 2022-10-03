@@ -30,6 +30,7 @@ The goal of this activity is to interactively develop a script to download and s
     + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-NC16_S1_L004_R2_001.fastq.gz
   + These links are not shown in the provided solution scripts.
   When presenting this alternative approach, the instructor should clearly explain that we are specifically and only using these subsetted versions from the repository in order to save time during the workshop.
+  In addition, instructors can navigate to these URLs live to ensure participants more easily can get the links, which are long to type.
 
 
 
