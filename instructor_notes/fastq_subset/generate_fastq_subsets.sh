@@ -12,13 +12,15 @@ function subset_fastq() {
     curl -sO https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/$1.gz
 
     # Unzip and take first 10000 records (40000 lines)
-    gunzip -f $1.gz \
+    gunzip -fc $1.gz \
     | head -n 40000 \
     | gzip \
     > subset-${1}.gz
 
-    # Remove uncompressed file
-    rm $1
+    # Remove original file. Note we keep the -c flag above and remove here,
+    #   since otherwise the final file is empty
+    rm $1.gz
+
 }
 
 
