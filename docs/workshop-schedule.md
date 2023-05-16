@@ -4,7 +4,7 @@ nav_title: Schedule
 ---
 
 ⚠️ **Please note:** The schedule below is from a past Data Lab Reproducible Research Practices Workshop that took place in June 2022.
-It will be modified for the October 2022 workshop.
+It will be modified for the October 2023 workshop.
 
 This schedule is an example of what participants can expect. 
 Each topic is linked to a Google Slides document with the content we presented in June.
