@@ -4,70 +4,59 @@ nav_title: Logistics
 ---
 
 
-**Coming soon:** Find helpful information related to health and safety and the workshop location.
-
+Find helpful information related to health and safety and the workshop location.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-<!--
-
 ### Table of Contents
 
-- [COVID-19 Safety Policy](#covid-19-safety-policy)
 - [Workshop Location](#workshop-location)
-  - [Parking](#parking)
-  - [Nearby Lodging](#nearby-lodging)
 - [Travel Reimbursement](#travel-reimbursement)
-
--->
+- [Health and Safety](#health-and-safety)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<!--
-
-## COVID-19 Safety Policy
-
-Please be aware that with the goal of keeping everyone safe, healthy, and comfortable, we will comply with ALSF’s COVID-19 safety policy during this workshop. 
-The following protocols and practices will be enforced: 
-
-* You will be required to wear a surgical or respirator mask in the meeting room used for training. 
-We will have extra surgical masks available during the workshop should you forget to wear one or wish to change your mask during the day.
-* Hand sanitizer will be made available and HEPA filters will be used in the meeting room used for training.
-* Weather permitting, we will aim to hold our lunch break outside. 
-Outdoor tables and seating are available at the workshop location.
-* If you are not feeling well, please do not attend the workshop. 
-We will not withhold refunds if a participant must cancel because they are not feeling well. 
-
 ## Workshop Location
 
-**The workshop will be held at** [**One Bala Plaza, Suite 513, Bala Cynwyd, PA 19004**](https://www.google.com/maps/place/One+Bala+Plaza/@40.0073079,-75.2221085,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b89e7102a3b5:0x77dce0b150a7df52!8m2!3d40.0073798!4d-75.2199724?utm_campaign=CCDL_Workshops&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--pRa135WXpaamTCddydLZAXVv6QwBlCpR9HqVWrGN1EmHMVqdhOeW6wlCMhaR6eCaT1Ekh), just outside of Philadelphia. 
-Please note that Bala Plaza is an office park with multiple buildings. 
-The workshop will take place in Building One, on the 5th floor in Room 513. 
+**The workshop will be held at The Inn at Penn, a Hilton Hotel, located at [3600 Sansom St, Philadelphia, PA 19104](https://www.google.com/maps/place/The+Inn+at+Penn,+a+Hilton+Hotel/@39.9537829,-75.1983565,17z/data=!3m1!4b1!4m9!3m8!1s0x89c6c6575236ba05:0x2ab1dcf9ee499b6b!5m2!4m1!1i2!8m2!3d39.9537829!4d-75.1957816!16s%2Fg%2F1hc24w67l?entry=ttu)**. 
+We will meet in Conference Room 603. 
 If you have trouble finding the building or the room on the day of training, please use Slack to direct message `Jen O'Malley`. 
 
-### Parking
+The Inn at Penn is located in West Philadelphia in the [University City](https://www.universitycity.org/) area.
+The neighborhood is well-known for being home to the University of Pennsylvania and Drexel University.
+It is a largely walkable area with plenty of restaurants and attractions! 
 
-Onsite parking is available, both in front of and behind One Bala Plaza. 
-You can enter the building through the front or rear entrance.
+### Nearby Accommodations 
 
-### Nearby Lodging
+If you are traveling to the workshop and staying overnight, the following hotels are nearby
 
-If you are traveling to the workshop and staying overnight, the following hotels are within 1 mile of the workshop location. 
+* [**The Inn at Penn**](https://www.hilton.com/en/hotels/phlidhh-the-inn-at-penn/?SEO_id=GMB-AMER-HH-PHLIDHH&y_source=1_MTIyMDg3OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D), a Hilton Hotel (workshop location)
+* [**Sheraton Philadelphia University City Hotel**](https://www.marriott.com/en-us/hotels/phlus-sheraton-philadelphia-university-city-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (under 0.5 mile away)
+* [**The Study at University City**](https://www.thestudyatuniversitycity.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect) (under 0.5 mile away)
 
-* [Courtyard by Marriott Philadelphia City Avenue](https://www.marriott.com/en-us/hotels/phlav-courtyard-philadelphia-city-avenue/overview/)
-* [Hilton Philadelphia City Avenue](https://www.hilton.com/en/hotels/phlphhf-hilton-philadelphia-city-avenue/)
-* [Homewood Suites by Hilton Philadelphia-City Avenue](https://www.hilton.com/en/hotels/phlcahw-homewood-suites-philadelphia-city-avenue)
-* [Residence Inn Philadelphia Bala Cynwyd](https://www.marriott.com/en-us/hotels/phlrb-residence-inn-philadelphia-bala-cynwyd/overview/)
+### Public transportation
+
+* SEPTA is the public transportation system in Philadelphia and the surrounding area.
+* At the airport, and at some SEPTA train stations, you can purchase a SEPTA key card. There are a variety of fare options that can be loaded onto a key card for use on public transportation. SEPTA also accepts cash for travel on any of its transit services.
+* Please refer to the [SEPTA website](https://www5.septa.org/travel/) for more information. (Note: The [SEPTA trip planner](https://beta-plan.septa.org/#/) may be a helpful tool if you plan to travel around the city during your stay.)
+
 
 ## Travel Reimbursement
 
 Travel reimbursement up to $500 is available for participants who must travel over 50 miles to attend the workshop. 
-Reimbursement funds will be dispersed 1-2 weeks after the workshop ends via check or ACH. 
+Reimbursement funds will be dispersed a few weeks after the workshop ends via check or ACH. 
 To qualify for reimbursement:
 
 * You will need to have included this request in your application.
 * You will be required to provide documentation of travel expenses (such as transportation and lodging receipts) and to fill out a reimbursement form after the workshop ends.
 * You must attend the entirety of the workshop.
+ 
+## Health and Safety
 
--->
+Alex’s Lemonade Stand Foundation’s Childhood Cancer Data Lab will comply with any governmental requirements related to health and safety. 
+We encourage workshop participants to adhere to US governmental guidance. 
+You may wish to review the [CDC COVID-19 by County guidance](https://www.cdc.gov/coronavirus/2019-ncov/your-health/covid-by-county.html) and the [Philadelphia, Pennsylvania COVID-19 community level](https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Vaccinations) when planning for workshop attendance.
+
+If you are feeling sick, please do not attend the workshop. 
+We will not withhold your deposit if you cannot attend because you are sick.
