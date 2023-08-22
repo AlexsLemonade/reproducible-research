@@ -29,7 +29,7 @@ It is a largely walkable area with plenty of restaurants and attractions!
 
 ### Nearby Accommodations 
 
-If you are traveling to the workshop and staying overnight, the following hotels are nearby
+If you are traveling to the workshop and staying overnight, the following hotels are nearby.
 
 * [**The Inn at Penn**](https://www.hilton.com/en/hotels/phlidhh-the-inn-at-penn/?SEO_id=GMB-AMER-HH-PHLIDHH&y_source=1_MTIyMDg3OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D), a Hilton Hotel (workshop location)
 * [**Sheraton Philadelphia University City Hotel**](https://www.marriott.com/en-us/hotels/phlus-sheraton-philadelphia-university-city-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (under 0.5 mile away)
