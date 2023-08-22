@@ -46,6 +46,7 @@ If you are traveling to the workshop and staying overnight, the following hotels
 
 Travel reimbursement up to $500 is available for participants who must travel over 50 miles to attend the workshop. 
 Reimbursement funds will be dispersed a few weeks after the workshop ends via check or ACH. 
+
 To qualify for reimbursement:
 
 * You will need to have included this request in your application.
