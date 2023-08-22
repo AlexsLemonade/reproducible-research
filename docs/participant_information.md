@@ -4,7 +4,7 @@ nav_title: Logistics
 ---
 
 
-Find helpful information related to health and safety and the workshop location.
+Find helpful information about the workshop location, travel reimbursement, and healthy and safety.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
