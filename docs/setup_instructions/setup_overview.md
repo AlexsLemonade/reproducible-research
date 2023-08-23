@@ -18,7 +18,4 @@ Finally, you will also need to create a [GitHub](https://github.com) account if 
 - [GitHub and GitKraken setup](github_gitkraken_setup_instructions.md)
 
 
-If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack) (you will find us in the #reproducible-research-practices channel)!
-
-
-
+If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack). We will add you to a training-specific channel after you join the Slack community.
