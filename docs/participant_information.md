@@ -11,14 +11,14 @@ Find helpful information about the workshop location, travel reimbursement, and 
 
 ### Table of Contents
 
-- [Action Items](#action-items)
+- [Tasks to complete before the workshop](#tasks-to-complete-before-the-workshop)
 - [Workshop Location](#workshop-location)
 - [Travel Reimbursement](#travel-reimbursement)
 - [Health and Safety](#health-and-safety)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Action Items
+## Tasks to complete before the workshop
 
 * Please review and sign the [training waiver](https://app.hellosign.com/s/2o2yghCj) before the workshop begins.
 * [Visit the meal form](https://forms.gle/aTfFxAo8R3zucsMs6) to tell us about any dietary restrictions and to RSVP for the group dinner. 
