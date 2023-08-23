@@ -11,11 +11,18 @@ Find helpful information about the workshop location, travel reimbursement, and 
 
 ### Table of Contents
 
+- [Action Items](#action-items)
 - [Workshop Location](#workshop-location)
 - [Travel Reimbursement](#travel-reimbursement)
 - [Health and Safety](#health-and-safety)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Action Items
+
+* Please review and sign the [training waiver](https://app.hellosign.com/s/2o2yghCj) before the workshop begins.
+* [Visit the meal form](https://forms.gle/aTfFxAo8R3zucsMs6) to tell us about any dietary restrictions and to RSVP for the group dinner. 
+* [Join the Slack group](http://ccdatalab.org/slack) that we will use for communication purposes and to stay in touch after the workshop. We will add you to the `#2023-october-training` channel.
 
 ## Workshop Location
 
@@ -31,9 +38,9 @@ It is a largely walkable area with plenty of restaurants and attractions!
 
 If you are traveling to the workshop and staying overnight, the following hotels are nearby.
 
-* [**The Inn at Penn**](https://www.hilton.com/en/hotels/phlidhh-the-inn-at-penn/?SEO_id=GMB-AMER-HH-PHLIDHH&y_source=1_MTIyMDg3OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D), a Hilton Hotel (workshop location)
-* [**Sheraton Philadelphia University City Hotel**](https://www.marriott.com/en-us/hotels/phlus-sheraton-philadelphia-university-city-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (under 0.5 mile away)
-* [**The Study at University City**](https://www.thestudyatuniversitycity.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect) (under 0.5 mile away)
+* [The Inn at Penn](https://www.hilton.com/en/hotels/phlidhh-the-inn-at-penn/?SEO_id=GMB-AMER-HH-PHLIDHH&y_source=1_MTIyMDg3OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D), a Hilton Hotel (workshop location)
+* [Sheraton Philadelphia University City Hotel](https://www.marriott.com/en-us/hotels/phlus-sheraton-philadelphia-university-city-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (under 0.5 mile away)
+* [The Study at University City](https://www.thestudyatuniversitycity.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect) (under 0.5 mile away)
 
 ### Public transportation
 
