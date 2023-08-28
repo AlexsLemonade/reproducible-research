@@ -13,7 +13,7 @@ Find helpful information about the workshop location, travel reimbursement, and 
 
 - [Tasks to complete before the workshop](#tasks-to-complete-before-the-workshop)
 - [Workshop Location](#workshop-location)
-	- 	[Nearby Accommodations](#nearby-accommodations)
+	-  [Nearby Accommodations](#nearby-accommodations)
 	-  [Public Transportation](#public-transportation)
 - [Travel Reimbursement](#travel-reimbursement)
 - [Health and Safety](#health-and-safety)
