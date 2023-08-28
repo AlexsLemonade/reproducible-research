@@ -44,6 +44,7 @@ If you are traveling to the workshop and staying overnight, the following hotels
 * [Sheraton Philadelphia University City Hotel](https://www.marriott.com/en-us/hotels/phlus-sheraton-philadelphia-university-city-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (under 0.5 mile away)
 * [The Study at University City](https://www.thestudyatuniversitycity.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect) (under 0.5 mile away)
 * [Homewood Suites University City](https://www.hilton.com/en/hotels/phluphw-homewood-suites-university-city-philadelphia-pa/?SEO_id=GMB-AMER-HW-PHLUPHW&y_source=1_MjA4NDA0MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D) (under 1 mile away)
+* [Kimpton Hotel Palomar Philadelphia, An IHG Hotel](https://kimptonhotelpalomarphiladelphiaanihghotel.reservationstays.com/hotels/NWEab1vW?expand_params=false) (under 2 miles away)
 * [Sofitel at Rittenhouse Square](https://www.sofitel-philadelphia.com/) (under 2 miles away)
 * [Doubletree Hilton Hotel Center City](https://www.hilton.com/en/hotels/phlbldt-doubletree-philadelphia-center-city/?SEO_id=GMB-AMER-DT-PHLBLDT&y_source=1_MTM3MjczNS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D) (2.5 miles away)
 * [Four Points by Sheraton Philadelphia City Center](https://www.marriott.com/en-us/hotels/phlcp-four-points-philadelphia-city-center/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (2.5 miles away)
