@@ -29,8 +29,10 @@ Find helpful information about the workshop location, travel reimbursement, and 
 ## Workshop Location
 
 **The workshop will be held at The Inn at Penn, a Hilton Hotel, located at [3600 Sansom St, Philadelphia, PA 19104](https://www.google.com/maps/place/The+Inn+at+Penn,+a+Hilton+Hotel/@39.9537829,-75.1983565,17z/data=!3m1!4b1!4m9!3m8!1s0x89c6c6575236ba05:0x2ab1dcf9ee499b6b!5m2!4m1!1i2!8m2!3d39.9537829!4d-75.1957816!16s%2Fg%2F1hc24w67l?entry=ttu)**. 
-We will meet in Conference Room 603. 
-If you have trouble finding the building or the room, please use Slack to direct message `Jen O'Malley`. 
+Please note, the workshop will take place in different rooms each day.
+**On Tuesday, October 24, we will meet in Woodland A&B. 
+On Wednesday, October 25, we will meet in Conference Room 603.**
+If you have trouble finding the building or the rooms, please use Slack to direct message `Jen O'Malley`. 
 
 The Inn at Penn is located in West Philadelphia in the [University City](https://www.universitycity.org/) area.
 The neighborhood is well-known for being home to the University of Pennsylvania and Drexel University.
