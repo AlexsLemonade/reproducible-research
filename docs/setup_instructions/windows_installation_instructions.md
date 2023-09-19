@@ -2,27 +2,10 @@
 title: Windows Installation Instructions
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of contents**
 
-### Table of Contents
-
-- [Windows Subsystem for Linux (WSL)](#windows-subsystem-for-linux-wsl)
-  - [Optional: Enabling copy and paste in Ubuntu](#optional-enabling-copy-and-paste-in-ubuntu)
-- [R and RStudio](#r-and-rstudio)
-  - [Windows Installation of R, RStudio, and R Packages](#windows-installation-of-r-rstudio-and-r-packages)
-    - [R for Windows](#r-for-windows)
-    - [Optional: Install Rtools](#optional-install-rtools)
-    - [RStudio for Windows](#rstudio-for-windows)
-    - [R packages for Windows](#r-packages-for-windows)
-  - [WSL (Ubuntu Linux) Installation of R and R Packages](#wsl-ubuntu-linux-installation-of-r-and-r-packages)
-    - [R for WSL](#r-for-wsl)
-    - [R packages for WSL](#r-packages-for-wsl)
-- [GitKraken](#gitkraken)
-- [A suitable text editor](#a-suitable-text-editor)
-  - [Installing Visual Studio Code](#installing-visual-studio-code)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 
 > Please be aware this setup process may take 1-2 hours to complete!
@@ -130,7 +113,7 @@ Otherwise, we may have to install them twice... [once for Windows](#r-packages-f
 
 #### R for Windows
 
-First, navigate to the CRAN website in the browser: https://cran.r-project.org/.
+First, navigate to the CRAN website in the browser: <https://cran.r-project.org/>.
 Click the link `Download R for Windows`:
 
 <img src="screenshots/windows/cran.png" alt="CRAN Landing Page" width="500">
@@ -157,7 +140,7 @@ Open the downloaded `.exe` file and follow the prompts to allow changes and inst
 
 #### RStudio for Windows
 
-First, navigate to the RStudio website's Download page in the browser: https://www.rstudio.com/products/rstudio/download/#download.
+First, navigate to the RStudio website's Download page in the browser: <https://posit.co/download/rstudio-desktop/#download>.
 Click the button to download RStudio for Windows.
 
 <img src="screenshots/windows/rstudio_download.png" alt="RStudio download page" width=500>
@@ -278,7 +261,7 @@ We will use the GUI (graphical user interface) called `GitKraken` to work with `
 
 
 
-GitKraken can be installed from https://www.gitkraken.com/, where you can click "Download GitKraken Client Free" (_do not pay!!_):
+GitKraken can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
 
 <img src="screenshots/windows/gitkraken_download.png" alt="GitKraken landing page" width="500">
 
@@ -296,11 +279,10 @@ For more information on setting up a GitHub account and the initial GitKraken se
 
 We will use a text editor to write code as part of this workshop, (and more generally, having a good text editor is something you want anyways!).
 We recommend [Visual Studio Code ("VS Code")](https://code.visualstudio.com/), but if you already have a text editor you prefer, please feel free to stick with that!
-Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org), and [Atom](https://atom.io/).
-
+Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/) and [Notepad++](https://notepad-plus-plus.org).
 ### Installing Visual Studio Code
 
-To install VS Code, navigate to https://code.visualstudio.com/download in the browser.
+To install VS Code, navigate to <https://code.visualstudio.com/download> in the browser.
 Click the button labeled "Download for Windows".
 
 <img src="screenshots/windows/vscode_download.png" alt="VSCode landing page">

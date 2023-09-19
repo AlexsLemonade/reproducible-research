@@ -2,21 +2,10 @@
 title: macOS Installation Instructions
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of contents**
 
-### Table of Contents
-
-- [Apple Command Line Tools](#apple-command-line-tools)
-- [R and RStudio](#r-and-rstudio)
-  - [Installing R](#installing-r)
-  - [Installing the RStudio IDE](#installing-the-rstudio-ide)
-  - [Installing necessary R packages](#installing-necessary-r-packages)
-- [GitKraken](#gitkraken)
-- [A suitable text editor](#a-suitable-text-editor)
-  - [Installing Visual Studio Code](#installing-visual-studio-code)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 
 
@@ -162,7 +151,7 @@ The following image shows, for example, what these messages look like for a succ
 ## GitKraken
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop.
-This GUI can be installed from https://www.gitkraken.com/, where you can click "Download GitKraken Client Free" (_do not pay!!_):
+This GUI can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
 
 <img src="screenshots/mac/gitkraken_mac_1.png" alt="GitKraken Landing Page" width="500">
 
@@ -186,7 +175,7 @@ For more information on setting up a GitHub account and the initial GitKraken se
 
 We will use a text editor to write code as part of this workshop, (and more generally, having a good text editor is something you want anyways!).
 We recommend [Visual Studio Code ("VS Code")](https://code.visualstudio.com/), but if you already have a text editor you prefer, please feel free to stick with that!
-Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/), [BBEdit](https://www.barebones.com/products/bbedit/), and [Atom](https://atom.io/).
+Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/) and [BBEdit](https://www.barebones.com/products/bbedit/).
 
 
 
@@ -196,7 +185,7 @@ Some alternatives you may have encountered are [Sublime Text](https://www.sublim
 
 ### Installing Visual Studio Code
 
-If you choose to  install VS Code, navigate to https://code.visualstudio.com/download in the browser.
+If you choose to  install VS Code, navigate to <https://code.visualstudio.com/download> in the browser.
 
 <img src="screenshots/mac/vscode_download.png" alt="Visual Studio Code Download Page" width="500">
 
