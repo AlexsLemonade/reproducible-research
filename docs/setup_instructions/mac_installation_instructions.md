@@ -85,15 +85,13 @@ If you already have R and RStudio installed, you can skip this section!
 
 ### Installing R
 
-First, navigate to the CRAN website in the browser: https://cran.r-project.org/.
+First, navigate to the CRAN website in the browser: <https://cran.r-project.org/>.
 Click the link `Download R for macOS`:
 
 <img src="screenshots/mac/cran_1.png" alt="CRAN Landing Page" width="500">
 
 
-On the next page, click the link to install the **Intel 64-bit** of R, `R-4.2.0.pkg` (blue box in the image below).
-This Intel version will still work on M1 computers.
-We do **NOT** recommend installing the Apple silicon arm64 build (crossed out in the image below) because it tends to conflict with some Bioconductor packages which you may want to use in your own research.
+On the next page, click the link to install either `R-4.3.1-arm64.pkg` for M1/M2 Macs, or `R-4.3.1-x86_64.pkg` for Intel Macs.
 
 
 <img src="screenshots/mac/cran_2.png" alt="Website with link to download R" width="500">
@@ -103,26 +101,22 @@ We do **NOT** recommend installing the Apple silicon arm64 build (crossed out in
 Open the downloaded R installer, and follow instructions to install R onto your computer.
 Make sure to agree to the license in the setup menu and give your computer's password when prompted!
 
-<img src="screenshots/mac/r_installer.png" alt="R 4.2.0 Installer" width="500">
 
+#### An alternative installation approach
 
-
+Instead of manually downloading R, we in the Data Lab have enjoyed using the command-line software [`rig`](https://github.com/r-lib/rig) to manage different versions of R.
+If you are comfortable with command-line software, you are welcome to install `rig` and use it to install your preferred R version.
 
 ### Installing the RStudio IDE
 
 
-First, navigate to the RStudio website's Download page in the browser: https://www.rstudio.com/products/rstudio/download/#download.
+First, navigate to the RStudio website's Download page in the browser: <https://posit.co/download/rstudio-desktop/#download>.
 Click the large link to Download RStudio for Mac:
 
 <img src="screenshots/mac/rstudio.png" alt="RStudio Download Page" width="500">
 
 Open the downloaded RStudio installer, and follow instructions to install it onto your computer.
-Note that if you're using an Apple Silicon (M1) chip, you may be prompted to install something called `Rosetta 2` in order to use RStudio.
-`Rosetta 2` is a software made by Apple to support the Intel to M1 transition, and it is currently needed to run RStudio on M1 chips.
-If prompted to install `Rosetta 2`, agree to the prompt and follow instructions accordingly.
-
 Once the installation process is completed, you can now safely delete (eject) the disk image file.
-
 
 ### Installing necessary R packages
 
