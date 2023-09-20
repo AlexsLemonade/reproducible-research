@@ -2,21 +2,10 @@
 title: macOS Installation Instructions
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of contents**
 
-### Table of Contents
-
-- [Apple Command Line Tools](#apple-command-line-tools)
-- [R and RStudio](#r-and-rstudio)
-  - [Installing R](#installing-r)
-  - [Installing the RStudio IDE](#installing-the-rstudio-ide)
-  - [Installing necessary R packages](#installing-necessary-r-packages)
-- [GitKraken](#gitkraken)
-- [A suitable text editor](#a-suitable-text-editor)
-  - [Installing Visual Studio Code](#installing-visual-studio-code)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 
 
@@ -85,15 +74,13 @@ If you already have R and RStudio installed, you can skip this section!
 
 ### Installing R
 
-First, navigate to the CRAN website in the browser: https://cran.r-project.org/.
+First, navigate to the CRAN website in the browser: <https://cran.r-project.org/>.
 Click the link `Download R for macOS`:
 
 <img src="screenshots/mac/cran_1.png" alt="CRAN Landing Page" width="500">
 
 
-On the next page, click the link to install the **Intel 64-bit** of R, `R-4.2.0.pkg` (blue box in the image below).
-This Intel version will still work on M1 computers.
-We do **NOT** recommend installing the Apple silicon arm64 build (crossed out in the image below) because it tends to conflict with some Bioconductor packages which you may want to use in your own research.
+On the next page, click the link to install either `R-4.3.1-arm64.pkg` for M1/M2 Macs, or `R-4.3.1-x86_64.pkg` for Intel Macs.
 
 
 <img src="screenshots/mac/cran_2.png" alt="Website with link to download R" width="500">
@@ -103,26 +90,22 @@ We do **NOT** recommend installing the Apple silicon arm64 build (crossed out in
 Open the downloaded R installer, and follow instructions to install R onto your computer.
 Make sure to agree to the license in the setup menu and give your computer's password when prompted!
 
-<img src="screenshots/mac/r_installer.png" alt="R 4.2.0 Installer" width="500">
 
+#### An alternative installation approach
 
-
+Instead of manually downloading R, we in the Data Lab have enjoyed using the command-line software [`rig`](https://github.com/r-lib/rig) to manage different versions of R.
+If you are comfortable with command-line software, you are welcome to install `rig` and use it to install your preferred R version.
 
 ### Installing the RStudio IDE
 
 
-First, navigate to the RStudio website's Download page in the browser: https://www.rstudio.com/products/rstudio/download/#download.
+First, navigate to the RStudio website's Download page in the browser: <https://posit.co/download/rstudio-desktop/#download>.
 Click the large link to Download RStudio for Mac:
 
 <img src="screenshots/mac/rstudio.png" alt="RStudio Download Page" width="500">
 
 Open the downloaded RStudio installer, and follow instructions to install it onto your computer.
-Note that if you're using an Apple Silicon (M1) chip, you may be prompted to install something called `Rosetta 2` in order to use RStudio.
-`Rosetta 2` is a software made by Apple to support the Intel to M1 transition, and it is currently needed to run RStudio on M1 chips.
-If prompted to install `Rosetta 2`, agree to the prompt and follow instructions accordingly.
-
 Once the installation process is completed, you can now safely delete (eject) the disk image file.
-
 
 ### Installing necessary R packages
 
@@ -168,7 +151,7 @@ The following image shows, for example, what these messages look like for a succ
 ## GitKraken
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop.
-This GUI can be installed from https://www.gitkraken.com/, where you can click "Download GitKraken Client Free" (_do not pay!!_):
+This GUI can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
 
 <img src="screenshots/mac/gitkraken_mac_1.png" alt="GitKraken Landing Page" width="500">
 
@@ -192,7 +175,7 @@ For more information on setting up a GitHub account and the initial GitKraken se
 
 We will use a text editor to write code as part of this workshop, (and more generally, having a good text editor is something you want anyways!).
 We recommend [Visual Studio Code ("VS Code")](https://code.visualstudio.com/), but if you already have a text editor you prefer, please feel free to stick with that!
-Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/), [BBEdit](https://www.barebones.com/products/bbedit/), and [Atom](https://atom.io/).
+Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/) and [BBEdit](https://www.barebones.com/products/bbedit/).
 
 
 
@@ -202,7 +185,7 @@ Some alternatives you may have encountered are [Sublime Text](https://www.sublim
 
 ### Installing Visual Studio Code
 
-If you choose to  install VS Code, navigate to https://code.visualstudio.com/download in the browser.
+If you choose to  install VS Code, navigate to <https://code.visualstudio.com/download> in the browser.
 
 <img src="screenshots/mac/vscode_download.png" alt="Visual Studio Code Download Page" width="500">
 

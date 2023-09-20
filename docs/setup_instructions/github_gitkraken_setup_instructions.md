@@ -2,26 +2,19 @@
 title: Setting up `git` and GitKraken
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-### Table of Contents
+**Table of contents**
 
-- [Setting up your computer](#setting-up-your-computer)
-- [Creating a GitHub account](#creating-a-github-account)
-- [Enabling Two-Factor Authentication (2FA) on GitHub](#enabling-two-factor-authentication-2fa-on-github)
-- [Setting up GitKraken](#setting-up-gitkraken)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
+* TOC goes here
+{:toc}
 
 ## Setting up your computer
 
-Before setting up `git` and GitKraken, you'll need to follow these steps to install certain softwares on your computer: [Setup for macOS users](./installation_instructions_mac.html) or [Setup for Windows/PC users](./installation_instructions_windows.html). 
+Before setting up `git` and GitKraken, you'll need to follow these steps to install certain softwares on your computer: [Setup for macOS users](./mac_installation_instructions.html) or [Setup for Windows/PC users](./windows_installation_instructions.html).
 
 
 ## Creating a GitHub account
 
-Navigate in the browser to https://github.com, and click "Sign Up" in the top-right corner.
+Navigate in the browser to <https://github.com>, and click "Sign Up" in the top-right corner.
 
 <img src="screenshots/github/github_landing.png" alt="GitHub Sign In or Sign Up Page" width="500">
 
@@ -35,7 +28,7 @@ After you have filled the required information, GitHub will send the email you p
 
 <img src="screenshots/github/github_launchcode.png" alt="GitHub Launch Code Prompt" width="500">
 
-Next, GitHub will prompt you to fill out certain **Optional** personalization settings. 
+Next, GitHub will prompt you to fill out certain **Optional** personalization settings.
 You can skip this if you prefer (yellow arrow below), or you can follow the prompts accordingly.
 
 <img src="screenshots/github/github_personalization.png" alt="GitHub Personalization Page" width="500">
@@ -59,7 +52,7 @@ From the top-right corner Account dropdown icon (looks like weirdly arranged squ
 
 
 From the left-hand menu, select "Password and Authentication."
-Note, you can also take this moment to fill in your GitHub Public Profile, including your public-facing name, picture, email, bio, any anything else you like. 
+Note, you can also take this moment to fill in your GitHub Public Profile, including your public-facing name, picture, email, bio, any anything else you like.
 
 <img src="screenshots/github/github_settings_leftpane.png" alt="GitHub Settings Left Pane" width="500">
 
@@ -70,7 +63,7 @@ Click the large green button to "Enable two-factor authentication":
 You will then see several options for what _type_ of 2FA you can set up.
 _For the best security, we **strongly** recommend that you click "Set up using an app."_
 _The only reason not to choose this option is if you do not have a smartphone._
-This action requires that you install a separate app on your smart phone to generate authentication codes if you don't already have one.  
+This action requires that you install a separate app on your smart phone to generate authentication codes if you don't already have one.
 There are many authenticator app options, including the ones listed by GitHub (1Password, Authy, etc.) or others like Google Authenticator.
 Take a moment to either download a preferred 2FA app on your smartphone, or open a 2FA app if you already have one on your smartphone.
 
@@ -82,7 +75,7 @@ Click "Continue" to proceed with setup.
 
 
 **2FA with an Authenticator App**
- 
+
 After clicking "Continue,", you will see a QR code to scan _into your smartphone app_ (or click "enter this text code" if you prefer not to use the QR code with camera).
 
 <img src="screenshots/github/2fa_qr.png" alt="GitHub 2FA Setup for Authenticator App" width="500">
@@ -144,7 +137,7 @@ If you are _not_ already signed into GitHub in your browser, you will then be pr
 
 <img src="screenshots/github/gitkraken_git_signin.png" alt="GitKraken GitHub signin website" width="500">
 
-Next, you will have to grant GitKraken permission to link with your GitHub account. 
+Next, you will have to grant GitKraken permission to link with your GitHub account.
 Click "Authorize Axosoft:"
 
 <img src="screenshots/github/gitkraken_authorize_axosoft.png" alt="GitKraken Axosoft Authorization " width="500">
@@ -155,8 +148,8 @@ Finally, you will be redirected to a website confirming that you successfully li
 
 <img src="screenshots/github/gitkraken_success.png" alt="GitKraken GitHub Successful connection" width="500">
 
-When you return to GitKraken, you may be prompted to activate a free trial of GitKraken and to agree to the license. 
-We will only be using the free features of GitKraken during the workshop, so don't worry about when the trial will expire. 
+When you return to GitKraken, you may be prompted to activate a free trial of GitKraken and to agree to the license.
+We will only be using the free features of GitKraken during the workshop, so don't worry about when the trial will expire.
 (The paid version adds a number of advanced features, the most useful of which is probably the ability to interact with private repositories on GitHub.)
 
 <img src="screenshots/github/gitkraken_eula.png" alt="GitKraken End User License Agreement" width="400" >
@@ -168,7 +161,7 @@ After agreeing to the GitKraken license, you will be prompted to set up your pro
 Choose your favorite avatar, and add information as follows:
 
 - `Profile Name`: We recommend leaving this at its default, "Default Profile"
-- `Author Name`: Enter the preferred name you wish to be publicly associated with the actions you'll perform on GitHub. 
+- `Author Name`: Enter the preferred name you wish to be publicly associated with the actions you'll perform on GitHub.
 - `Author Email`: Enter the preferred email you wish to be publicly associated with the actions you'll perform on GitHub. This email does not have to be the same as the one you used to sign up for GitHub.
 
 <img src="screenshots/github/gitkraken_profile.png" alt="GitKraken Profile" width="500">
@@ -179,7 +172,7 @@ Click create profile, and on the following screen select to open a "Repo Tab:"
 
 <img src="screenshots/github/gitkraken_repo_terminal.png" alt="GitKraken Choose Repo or Terminal Tab" width="500">
 
- 
+
 Finally, you'll arrive on the GitKraken application's home view, and you're all set!
 
 <img src="screenshots/github/gitkraken_home.png" alt="GitKraken home view" width="500">
