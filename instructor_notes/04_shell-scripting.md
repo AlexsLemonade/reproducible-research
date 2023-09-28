@@ -17,7 +17,7 @@ At the end of this activity, workshop attendees should be able to:
 
 The goal of this activity is to interactively develop a script to download and save these two paired FASTQ files:
 
-+ Paired FASTQ files from (Study ID SRP255885)[https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885], and RNA-seq dataset about medulloblastoma
++ Paired FASTQ files from [Study ID SRP255885](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885), and RNA-seq dataset about medulloblastoma
   + Download links:
     + https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/NC16_S1_L004_R1_001.fastq.gz
     + https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/NC16_S1_L004_R2_001.fastq.gz
@@ -28,9 +28,9 @@ The goal of this activity is to interactively develop a script to download and s
     + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/NC16_S1_L004_R1_001.fastq.gz
       + An uncompressed version is also available: https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-NC16_S1_L004_R1_001.fastq
     + https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-NC16_S1_L004_R2_001.fastq.gz
-  + These links are not shown in the provided solution scripts.
+  + Be aware that these alternative links are not shown in the provided solution scripts.
   When presenting this alternative approach, the instructor should clearly explain that we are specifically and only using these subsetted versions from the repository in order to save time during the workshop.
-  In addition, instructors can navigate to these URLs live to ensure participants more easily can get the links, which are long to type.
+  Instructors can share these URLs in the training-specific Slack channel to easily provide the links to participants.
 
 
 
