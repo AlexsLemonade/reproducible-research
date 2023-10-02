@@ -185,10 +185,11 @@ If you want to quiet the warning, you can go back to the [Install Rtools](#optio
 To install the most recent version of R in the WSL Ubuntu Linux environment, we will follow the [instructions from CRAN](https://cran.r-project.org/bin/linux/ubuntu/#install-r), with some modifications.
 
 First we will need to install some Linux packages that are required for setting up R and for some of the R packages we will be using.
-Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ubuntu)) the following command:
+Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ubuntu)) the following command. 
+(This is a long command! Make sure to get the whole line!):
 
  ```
- sudo apt install --no-install-recommends software-properties-common dirmngr  libcurl4-openssl-dev libssl-dev libxml2-dev
+ sudo apt install --no-install-recommends software-properties-common dirmngr libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libtiff-dev
  ```
 
 You may be prompted to enter your *Linux* password, and then you will see a list of packages that will be installed.
