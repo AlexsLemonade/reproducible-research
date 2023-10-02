@@ -20,6 +20,7 @@ It is a little bit quirky, especially in how it interacts with your "normal" Win
 
 To install WSL, you will first need to use the Command Prompt.
 Type `cmd` in the Windows search box to bring up the Command Prompt, then click the option in the right panel to "Run as administrator".
+(Note that all of the screenshots below were taken with Windows 10; if you have Windows 11, you may see some slight differences, but the steps should be the same)
 
 <img src="screenshots/windows/launch_cmd.png" alt="Launching the Command Prompt as administrator" width="500">
 
@@ -69,13 +70,14 @@ Now type `sudo apt upgrade` and press Enter to apply all of the available update
 You will be shown a list of the packages that will be installed (a long list, most likely!) and asked to confirm the installation.
 Type `y` (or just Enter) to confirm, then wait for all of the installations to complete.
 
-### Optional: Enabling copy and paste in Ubuntu
+### Optional: Enabling copy and paste in Ubuntu on Windows 10
 
-Copy and paste don't work in the Ubuntu app quite as you might expect them to in the rest of Windows.
+On Windows 10, copy and paste may not work in the Ubuntu app quite as you might expect them to in the rest of Windows.
 There are a number of reasons for this, but part of it is that the "control" key (`Ctrl`) is used for different things in Ubuntu, so there is a risk conflicting instructions if you were to use `Ctrl+C` or `Ctrl+V` as you might in the rest of Windows.
 Since some of the later commands are long, you will probably want to be able to paste them in!
 
-You can paste into the Ubuntu terminal by right clicking in the Ubuntu window. You won't see a menu like you might normally expect; whatever you last copied will just paste in immediately.
+You can paste into the Ubuntu terminal by right clicking in the Ubuntu window.
+You will not see a menu like you might normally expect; whatever you last copied will just paste in immediately.
 
 To enable copy and paste with keyboard shortcuts in the Linux environment, right click on the Ubuntu window title bar and select "Properties".
 
@@ -87,7 +89,8 @@ In the "Edit Options" tab, check the "Use Ctrl+Shift+C/V and Copy/Paste" box, th
 
 Now you can use `Ctrl+Shift+C` and `Ctrl+Shift+V` to copy and paste in the Ubuntu window (just don't forget the `Shift`)!
 
-Bonus hint:
+On Windows 11, it seems that the "Properties" menu is gone, but copy and paste work more like you expect.
+Right clicking still pastes immediately though!
 
 ## R and RStudio
 
@@ -119,9 +122,9 @@ Click the link `Download R for Windows`:
 <img src="screenshots/windows/cran.png" alt="CRAN Landing Page" width="500">
 
 
-On the next page, click the link to choose the **base** version of R, then click the `Download R-4.2.0 for Windows` link.
+On the next page, click the link to choose the **base** version of R, then click the `Download R-4.3.1 for Windows` link (or whatever the current version is).
 
-Open the downloaded R installer, `R-4.2.0-win.exe`, and follow the prompts to install R onto your computer.
+Open the downloaded R installer, `R-4.3.1-win.exe`, and follow the prompts to install R onto your computer.
 Note that you will need to give permission to modify your system.
 For the remaining prompts, the default settings will be fine.
 
@@ -132,7 +135,7 @@ However, some packages are only available as source code, and may require compil
 (R will also aggressively warn about missing Rtools every time you install a package, so you may want to install it just to quiet the warnings.)
 
 For this installation, go to https://cran.r-project.org/bin/windows/Rtools.
-Select link the version of Rtools appropriate for your version of R; if you have just installed R above, this will be the "RTools 4.2" link.
+Select link the version of Rtools appropriate for your version of R; if you have just installed R above, this will be the "RTools 4.3" link.
 (Why is the "T" capitalized here and nowhere else? No idea.)
 Find the link for the installer (this page changes somewhat frequently, so you may have to search a bit) and click to download.
 
@@ -296,10 +299,10 @@ When you reach the page titled "Select Additional Tasks", we recommend checking 
 After installation is complete, we can install an extension to enable easier interaction between VS Code and WSL.
 Open Visual Studio Code, and click the icon in the left side panel that looks like 4 squares (with one separated) to open the "Extensions" panel in the left panel.
 In the search box that appears at the top of the left panel, type "WSL".
-Select the "Remote - WSL" item from the list (with the penguin icon) and click the "Install" button.
+Select the "WSL" item from the list (with the penguin icon) and click the "Install" button.
+(In prior versions, this was called "Remotes - WSL", so the screenshot below is not quite accurate)
 
-
-<img src="screenshots/windows/vscode_wsl_extension.png" alt="VSCode options window" width="500">
+<img src="screenshots/windows/vscode_wsl_extension.png" alt="VSCode extension installation" width="500">
 
 VS Code is a very powerful program with a ton of ways to customize it.
 All of the flexibility can be a tad overwhelming!
