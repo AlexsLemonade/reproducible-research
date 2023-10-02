@@ -18,11 +18,9 @@ Times are subject to change, but the overall content should stay the same.
 | 3:15 pm | _Coffee break_ | Woodlands A&B |
 | 3:30 pm | Strategies for data sharing | Woodlands A&B |
 | 4:00 pm | Introduction to UNIX and the command line | Woodlands A&B |
-|         | Introduction to UNIX and the command line | Woodlands A&B |
 |         | [_Resource_: UNIX Reference](resources/unix_reference.html) ||
 |         | [_Resource_: UNIX Cheatsheet (pdf)](resources/unix_quick_reference.pdf) ||
 | 4:30 pm |  Introduction to Git; Forking and cloning a repository | Woodlands A&B |
-6pm 	Group dinner 	Everyone who chooses to attend 	Harper's Garden (31 S 18th St, Philadelphia, PA 19103)
 | 5:00 pm |  _Adjourn_ | |
 | 5:45pm  | _Optional_ Meet in the hotel lobby to walk to dinner | The Inn at Penn Lobby |
 | 6:00 pm | _Optional dinner_ at [Harper's Garden](https://www.harpersgardenphilly.com/) | 31 S 18th St, Philadelphia PA |
