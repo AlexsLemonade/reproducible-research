@@ -20,7 +20,7 @@ It is a little bit quirky, especially in how it interacts with your "normal" Win
 
 To install WSL, you will first need to use the Command Prompt.
 Type `cmd` in the Windows search box to bring up the Command Prompt, then click the option in the right panel to "Run as administrator".
-(Note that all of the screenshots below were taken with Windows 10; if you have Windows 11, you may see some slight differences, but the steps should be the same)
+(Note that all of the screenshots below were taken with Windows 10; if you have Windows 11, you may see some slight differences, but the steps should be the same.)
 
 <img src="screenshots/windows/launch_cmd.png" alt="Launching the Command Prompt as administrator" width="500">
 
@@ -90,7 +90,7 @@ In the "Edit Options" tab, check the "Use Ctrl+Shift+C/V and Copy/Paste" box, th
 Now you can use `Ctrl+Shift+C` and `Ctrl+Shift+V` to copy and paste in the Ubuntu window (just don't forget the `Shift`)!
 
 On Windows 11, it seems that the "Properties" menu is gone, but copy and paste work more like you expect.
-Right clicking still pastes immediately though!
+Right clicking still pastes immediately (with no popup menu) though!
 
 ## R and RStudio
 
@@ -301,7 +301,7 @@ After installation is complete, we can install an extension to enable easier int
 Open Visual Studio Code, and click the icon in the left side panel that looks like 4 squares (with one separated) to open the "Extensions" panel in the left panel.
 In the search box that appears at the top of the left panel, type "WSL".
 Select the "WSL" item from the list (with the penguin icon) and click the "Install" button.
-(In prior versions, this was called "Remotes - WSL", so the screenshot below is not quite accurate)
+(In prior versions, this extension was called "Remotes - WSL", so the screenshot below is not quite accurate)
 
 <img src="screenshots/windows/vscode_wsl_extension.png" alt="VSCode extension installation" width="500">
 
