@@ -57,7 +57,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Antibody Registry](https://www.antibodyregistry.org/)
 + [Jackson Labs](https://www.jax.org/)
 + [Mutant Mouse Resurce and Research Centers](https://www.mmrrc.org/)
-+ [Repositories for sharing scientific data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
++ [NIH-supported repositories for sharing scientific data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
 + [Zenodo](https://zenodo.org/)
 
 ## Shell
