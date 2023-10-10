@@ -36,7 +36,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Happy Git and GitHub for the UseR](https://happygitwithr.com/)
 + [Ten Simple Rules for Taking Advantage of Git and GitHub - Perez-Riverol *et al.* (2016)](https://doi.org/10.1371/journal.pcbi.1004947)
 + [Version control with Git - The Carpentries](https://swcarpentry.github.io/git-novice/)
-+ [New to Git - Gitkraken](https://support.gitkraken.com/start-here/guide/)
++ [New to Git - GitKraken](https://support.gitkraken.com/start-here/guide/)
 
 ## Project Organization
 
@@ -49,14 +49,14 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 
 + [DMPTool](https://dmptool.org/)
 + [Open Science Framework](https://osf.io/)
-+ [protocols.io](https://www.protocols.io/)
++ [`protocols.io`](https://www.protocols.io/)
 
 ### Repositories for sharing
 
 + [Addgene](https://www.addgene.org/)
 + [Antibody Registry](https://www.antibodyregistry.org/)
 + [Jackson Labs](https://www.jax.org/)
-+ [Mutant Mouse Resurce and Research Centers](https://www.mmrrc.org/)
++ [Mutant Mouse Resource and Research Centers](https://www.mmrrc.org/)
 + [NIH-supported repositories for sharing scientific data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
 + [Zenodo](https://zenodo.org/)
 

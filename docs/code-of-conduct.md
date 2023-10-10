@@ -7,28 +7,28 @@ We are committed to creating a friendly and respectful place for learning, teach
 
 All participants in our events and communications are expected to show respect and courtesy to others.
 
-To make clear what is expected, everyone participating in Childhood Cancer Data Lab (CCDL) training activities is required to conform to the Code of Conduct.
-This Code of Conduct applies to all spaces managed by the CCDL including, but not limited to, training workshops, videoconferences, email lists, and online forums such as GitHub, Slack and Twitter.
+To make clear what is expected, everyone participating in Childhood Cancer Data Lab (Data Lab) training activities is required to conform to the Code of Conduct.
+This Code of Conduct applies to all spaces managed by the Data Lab including, but not limited to, training workshops, videoconferences, email lists, and online forums such as GitHub, Slack and Twitter.
 
-If you feel harassed or treated inappropriately at any time, please contact the Director of the CCDL at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org).
+If you feel harassed or treated inappropriately at any time, please contact the Director of the Data Lab at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org).
 
 
 ## Code of Conduct
 
-The CCDL team is dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
+The Data Lab team is dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
 As such, we do not tolerate behavior that is disrespectful to our learners or teachers or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Everyone who participates in CCDL training activities is required to conform to this Code of Conduct.
-It applies to all spaces managed by the CCDL including, but not limited to, training workshops, videoconferences, email lists, and online forums such as GitHub, Slack and Twitter.
-By participating, participants indicate their acceptance of the procedures by which the CCDL resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
+Everyone who participates in Data Lab training activities is required to conform to this Code of Conduct.
+It applies to all spaces managed by the Data Lab including, but not limited to, training workshops, videoconferences, email lists, and online forums such as GitHub, Slack and Twitter.
+By participating, participants indicate their acceptance of the procedures by which the Data Lab resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
 ### Expected behavior
 
 All participants in our events and communications are expected to show respect and courtesy to others.
 All interactions should be professional regardless of platform: either online or in-person.
 
-In order to foster a positive and professional learning environment we encourage the following kinds of behaviors in all CCDL training events and platforms:
+In order to foster a positive and professional learning environment we encourage the following kinds of behaviors in all Data Lab training events and platforms:
 
 - Use welcoming and inclusive language
 
@@ -44,7 +44,7 @@ Note: See the [four social rules](https://www.recurse.com/manual#sub-sec-social-
 
 ### Unacceptable behavior
 
-Examples of unacceptable behavior by participants at any CCDL training event/platform include:
+Examples of unacceptable behavior by participants at any Data Lab training event/platform include:
 
 - written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
 
@@ -72,12 +72,12 @@ Examples of unacceptable behavior by participants at any CCDL training event/pla
 
 - publication of private communication without consent
 
-If you feel harassed or treated inappropriately at any time, please contact the Director of the CCDL at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org).
+If you feel harassed or treated inappropriately at any time, please contact the Director of the Data Lab at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org).
 
 ### Consequences of Unacceptable behavior
 
 Participants who are asked to stop any inappropriate behavior are expected to comply immediately.
-This applies to any CCDL training events and platforms, either online or in-person.
+This applies to any Data Lab training events and platforms, either online or in-person.
 If a participant engages in behavior that violates this code of conduct, the organizers may warn the offender or require them to leave the event or platform.
 
 # Source

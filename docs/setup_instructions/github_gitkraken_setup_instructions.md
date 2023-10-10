@@ -19,7 +19,7 @@ Navigate in the browser to <https://github.com>, and click "Sign Up" in the top-
 <img src="screenshots/github/github_landing.png" alt="GitHub Sign In or Sign Up Page" width="500">
 
 
-GitHub will then lead you through a series of (outerspace-themed!) setup prompts, beginning with your email, password, and username, as shown here for example:
+GitHub will then lead you through a series of (outer space-themed!) setup prompts, beginning with your email, password, and username, as shown here for example:
 
 <img src="screenshots/github/github_email_password_uname.png" alt="GitHub Email and Username Prompt" width="500">
 
@@ -34,7 +34,7 @@ You can skip this if you prefer (yellow arrow below), or you can follow the prom
 <img src="screenshots/github/github_personalization.png" alt="GitHub Personalization Page" width="500">
 
 
-Finally, you'll zoom through outerspace and arrive at your new GitHub home account page:
+Finally, you'll zoom through outer space and arrive at your new GitHub home account page:
 
 
 <img src="screenshots/github/github_home.png" alt="GitHub Home Page" width="500">
