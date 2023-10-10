@@ -28,8 +28,8 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Reproducibility Standards for Machine Learning in the Life Sciences - Heil *et al.* (2021)](https://doi.org/10.1038/s41592-021-01256-7)
 + [Ten Simple Rules for Quick and Dirty Scientific Programming - Balaban *et al.* (2021)](https://doi.org/10.1371/journal.pcbi.1008549)
 + [Ten Simple Rules for Reproducible Computational Research - Sanvde *et al.* (2013)](https://doi.org/10.1371/journal.pcbi.1003285)
-+ [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/toronto_data_workshop.html)
-+ [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/reproducibility.html)
++ [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/events-tdw.html)
++ [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/events-reproducibility.html)
 
 ## Git
 
