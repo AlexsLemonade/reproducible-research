@@ -49,7 +49,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 
 + [DMPTool](https://dmptool.org/)
 + [Open Science Framework](https://osf.io/)
-+ [`protocols.io`](https://www.protocols.io/)
++ [protocols.io](https://www.protocols.io/)
 
 ### Repositories for sharing
 
