@@ -23,7 +23,7 @@ Topics in schedule link to the associated Google Slide deck we will present.
 |         | [_Resource_: UNIX Cheatsheet (pdf)](resources/unix_quick_reference.pdf) ||
 | 4:30 pm |  Introduction to Git; Forking and cloning a repository | Woodlands A&B |
 | 5:00 pm |  _Adjourn_ | |
-| 5:45pm  | _Optional_ Meet in the hotel lobby to walk to dinner | The Inn at Penn Lobby |
+| 5:30 pm  | _Optional_ Meet in the hotel lobby to walk or Lyft to dinner | The Inn at Penn Lobby |
 | 6:00 pm | _Optional dinner_ at [Harper's Garden](https://www.harpersgardenphilly.com/) | 31 S 18th St, Philadelphia PA |
 
 ## Day 2: 9 am - 2 pm in Conference room 603
