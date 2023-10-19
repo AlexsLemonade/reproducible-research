@@ -13,15 +13,15 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | Time | Topic | Location |
 |------|---------|---------|
 | 1:45    | _Participants arrive and check in_ | Woodlands A&B |
-| 2:00 pm | Welcome and introductions | Woodlands A&B |
+| 2:00 pm | [Welcome and introductions](https://docs.google.com/presentation/d/1-mPY76_AbS8rLqxoSAOc2Ews5GyPSo8PVuG2El_S6BE/edit?usp=sharing) | Woodlands A&B |
 |         | [Why does reproducibility matter?](https://docs.google.com/presentation/d/1qfulAR4jD0KS7NfrLHpwT6SWl-7APBmqNnAwGpXX5oo/edit?usp=sharing) | Woodlands A&B |
-| 2:45 pm | Project organization | Woodlands A&B |
+| 2:45 pm | [Project organization](https://docs.google.com/presentation/d/1ncqxXlC0-PGEK-yE7S-nDYnMPhrOUPbI95EJy283wCs/edit?usp=sharing) | Woodlands A&B |
 | 3:15 pm | _Coffee break_ | Woodlands A&B |
 | 3:30 pm | Strategies for data sharing | Woodlands A&B |
 | 4:00 pm | [Introduction to UNIX and the command line](https://docs.google.com/presentation/d/1WPXkItJZEUXMY20cLrdMXHiBC2PyunR14RUSDg4nfIc/edit?usp=sharing) | Woodlands A&B |
 |         | [_Resource_: UNIX Reference](resources/unix_reference.html) ||
 |         | [_Resource_: UNIX Cheatsheet (pdf)](resources/unix_quick_reference.pdf) ||
-| 4:30 pm |  Introduction to Git; Forking and cloning a repository | Woodlands A&B |
+| 4:30 pm | [Introduction to Git; Forking and cloning a repository](https://docs.google.com/presentation/d/1eiGZA4PYBKJx5HDCo3UDOAB7q415gg96TehxilCHwlA/edit?usp=sharing) | Woodlands A&B |
 | 5:00 pm |  _Adjourn_ | |
 | 5:30 pm  | _Optional_ Meet in the hotel lobby to walk or Lyft to dinner | The Inn at Penn Lobby |
 | 6:00 pm | _Optional dinner_ at [Harper's Garden](https://www.harpersgardenphilly.com/) | 31 S 18th St, Philadelphia PA |
@@ -34,8 +34,8 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | 9:00 am  | [Shell scripting](https://docs.google.com/presentation/d/1SDUyYVNgvDDRodVqmDQPVQ5wnjQesWfBTg0EAcdbcSo/edit?usp=sharing) |  Conference room 603 |
 | 9:45 am  | [The Git stage/commit/push workflow](https://docs.google.com/presentation/d/1_YckNhAkp_82PKR6PGS5SdaKDgoueYVTXaPi5pQV9ik/edit?usp=sharing) |  Conference room 603 |
 | 10:30 am | _Coffee break_ |  Conference room 603 |
-| 10:45 am | Organizing code in scripts and notebooks |  Conference room 603 |
-| 11:30 am | Managing packages and environments |  Conference room 603 |
+| 10:45 am | [Organizing code in scripts and notebooks](https://docs.google.com/presentation/d/1AJr6uQhwLnZfis1wNc_e2XY4XSMEuVscIfAsVgnM5Bk/edit?usp=sharing) |  Conference room 603 |
+| 11:30 am | [Managing packages and environments](https://docs.google.com/presentation/d/1GCbu2F6LeEPOu5DzDsTgwu1__9YDVydvPo911fBG1i0/edit?usp=sharing) |  Conference room 603 |
 | 12:15 pm | _Lunch_ |  Conference room 603 |
 | 1:15 pm | [Working with branches in Git](https://docs.google.com/presentation/d/1s7BSHgTSDuXIzI1ROS-JSneB6NXfQVWOec6lhc8eIWA/edit?usp=sharing) |  Conference room 603 |
 | 2:00 pm | _Adjourn_ |  |
