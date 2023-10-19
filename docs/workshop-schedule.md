@@ -6,7 +6,7 @@ nav_title: Schedule
 The schedule below is a tentative schedule for the October 2023 workshop.
 Times are subject to change, but the overall content should stay the same.
 
-Topics in schedule link to the associated Google Slide deck we will present.
+Topics in the schedule link to the associated Google Slide deck we will present.
 
 ## Day 1: 2 - 5 pm in Woodlands A&B
 
