@@ -31,7 +31,7 @@ Topics in schedule link to the associated Google Slide deck we will present.
 | Time | Topic | Location |
 |------|---------|---------|
 | 8:45 am  | _Participants arrive and have breakfast_ |  Conference room 603 |
-| 9:00 am  | [Shell scripting](https://docs.google.com/presentation/d/1SDUyYVNgvDDRodVqmDQPVQ5wnjQesWfBTg0EAcdbcSo/edit#slide=id.g12c5aa18dc7_1_33) |  Conference room 603 |
+| 9:00 am  | [Shell scripting](https://docs.google.com/presentation/d/1SDUyYVNgvDDRodVqmDQPVQ5wnjQesWfBTg0EAcdbcSo/edit?usp=sharing) |  Conference room 603 |
 | 9:45 am  | [The Git stage/commit/push workflow](https://docs.google.com/presentation/d/1_YckNhAkp_82PKR6PGS5SdaKDgoueYVTXaPi5pQV9ik/edit?usp=sharing) |  Conference room 603 |
 | 10:30 am | _Coffee break_ |  Conference room 603 |
 | 10:45 am | Organizing code in scripts and notebooks |  Conference room 603 |
