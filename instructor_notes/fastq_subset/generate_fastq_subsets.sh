@@ -9,7 +9,7 @@ set -euo pipefail
 # Provide a single argument: the FASTQ name, without `.gz` extension
 function subset_fastq() {
     # Grab the file
-    curl -sO https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/$1.gz
+    curl -sO ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/$1.gz
 
     # Unzip and take first 10000 records (40000 lines)
     gunzip -fc $1.gz \
@@ -24,6 +24,6 @@ function subset_fastq() {
 }
 
 
-subset_fastq "NC16_S1_L004_R1_001.fastq"
-subset_fastq "NC16_S1_L004_R2_001.fastq"
+subset_fastq "SRR11518889_1.fastq"
+subset_fastq "SRR11518889_2.fastq"
 
