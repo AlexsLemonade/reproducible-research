@@ -17,7 +17,7 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 |         | [Why does reproducibility matter?](https://docs.google.com/presentation/d/1qfulAR4jD0KS7NfrLHpwT6SWl-7APBmqNnAwGpXX5oo/edit?usp=sharing) | Woodlands A&B |
 | 2:45 pm | [Project organization](https://docs.google.com/presentation/d/1ncqxXlC0-PGEK-yE7S-nDYnMPhrOUPbI95EJy283wCs/edit?usp=sharing) | Woodlands A&B |
 | 3:15 pm | _Coffee break_ | Woodlands A&B |
-| 3:30 pm | Strategies for data sharing | Woodlands A&B |
+| 3:30 pm | [Strategies for data sharing](https://docs.google.com/presentation/d/10NEkqHkAw9KBAbkNV-vtPwLFc9ZHksHEcCFty32efiE/edit?usp=sharing) | Woodlands A&B |
 | 4:00 pm | [Introduction to UNIX and the command line](https://docs.google.com/presentation/d/1WPXkItJZEUXMY20cLrdMXHiBC2PyunR14RUSDg4nfIc/edit?usp=sharing) | Woodlands A&B |
 |         | [_Resource_: UNIX Reference](resources/unix_reference.html) ||
 |         | [_Resource_: UNIX Cheatsheet (pdf)](resources/unix_quick_reference.pdf) ||
