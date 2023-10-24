@@ -50,7 +50,3 @@ mv SRR11518889_2.fastq.gz ../data/raw/fastq/SRP255885/
 # Approach 3: Same as above, but without stdout
 #curl ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz -o ../data/raw/fastq/SRP255885/SRR11518889_1.fastq.g
 ##############################################################
-# Approach 3: Same as above, but without stdout
-#curl https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889/NC16_S1_L004_R2_001.fastq.gz -o ../data/raw/fastq/SRP255885/NC16_S1_L004_R1_001.fastq.gz
-##############################################################
-
