@@ -5,9 +5,9 @@ set -euo pipefail
 STUDY_ID="SRP255885"
 
 # Define file names
-FASTQ_R1="NC16_S1_L004_R1_001.fastq.gz"
-FASTQ_R2="NC16_S1_L004_R2_001.fastq.gz"
-FASTQ_URL="https://sra-download.ncbi.nlm.nih.gov/traces/sra63/SRZ/011518/SRR11518889"
+FASTQ_R1="SRR11518889_1.fastq.gz"
+FASTQ_R2="SRR11518889_2.fastq.gz"
+FASTQ_URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889"
 
 # Define and create destination directory for FASTQ files to live in
 FASTQ_DEST="../data/raw/fastq/$STUDY_ID/"
@@ -25,9 +25,6 @@ curl -O $FASTQ_URL/$FASTQ_R1 # this approach preserves the original internet fil
 echo "The number of lines in $FASTQ_R1 is:"
 gunzip -c $FASTQ_R1 | wc -l
 
-## Note: a fancier option if instructors want to show is - 
-##  NLINES=`gunzip -c $FASTQ_R1 | wc -l`
-##  echo "The number of lines in $FASTQ_R1 is $NLINES"
   
 # Move the file to its destination directory
 mv $FASTQ_R1 $FASTQ_DEST
@@ -62,5 +59,3 @@ mv $FASTQ_R2 $FASTQ_DEST
 # Approach 3: Same as above, but without stdout
 #curl $FASTQ_URL/$FASTQ_R1 -o $FASTQ_DEST/$FASTQ_R1
 ##############################################################
-
-
