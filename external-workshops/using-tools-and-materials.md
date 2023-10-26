@@ -11,7 +11,7 @@ Fork the repository, to create your own copy of the materials.
 
 * Navigate to the [`reproducible-research` repository](https://github.com/AlexsLemonade/reproducible-research) and click `Fork`.
 <img src="screenshots/reproducible-research-header-fork-1.png" width=800>
-
+<br>
 * Make sure you are the owner of the new repository and click `Create Fork`.
 <img src="screenshots/reproducible-research-fork-2.png" width=800>
 
