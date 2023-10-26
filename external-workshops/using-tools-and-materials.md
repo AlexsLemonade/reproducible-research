@@ -6,7 +6,7 @@ The [`setup_instructions` folder](https://github.com/AlexsLemonade/reproducible-
 
 ## Training materials
 
-**1.) The [`reproducible-research` repository](https://github.com/AlexsLemonade/reproducible-research) holds materials such as lecture slides, cheatsheets, and instructor notes that provide guidance for teaching certain activities in this course.**
+**1.) The [`reproducible-research` repository](https://github.com/AlexsLemonade/reproducible-research) holds materials such as lecture slides, cheatsheets, and instructor notes.**
 Fork the repository, to create your own copy of the materials.
 
 * Navigate to the [`reproducible-research` repository](https://github.com/AlexsLemonade/reproducible-research) and click `Fork`.
@@ -15,7 +15,12 @@ Fork the repository, to create your own copy of the materials.
 * Make sure you are the owner of the new repository and click `Create Fork`.
 <img src="screenshots/reproducible-research-fork-2.png" width=800>
 
-* Now you will have your own copy of the repository and can make any modifications to the materials. Be sure to update the `workshop-schedule` and `participant_information` files. These can be found in your copy of the [`docs` folder](https://github.com/AlexsLemonade/reproducible-research/tree/main/docs).
+* Now you will have your own copy of the repository and can make any modifications to the materials. 
+* The`docs` directory contains content for the course website.
+	* Be sure to update the `workshop-schedule` and `participant_information` for your own workshop!
+* The `instructor_notes` directory contains notes for live demonstration instruction. Refer to these notes for helpful guidance on teaching certain activities in this course.
+* The `workshop_materials` directory contains additional workshop materials such as cheatsheets and links to the lecture slides.
+
 
 **2.) You will also be using another repository, called [`rrp-workshop-exercises`](https://github.com/AlexsLemonade/rrp-workshop-exercises).**
 This separate repository holds exercises, data, and scripts used during the interactive portion of the course.
