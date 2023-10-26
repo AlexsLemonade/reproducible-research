@@ -24,7 +24,7 @@ Fork the repository, to create your own copy of the materials.
 
 **2.) You will also be using another repository, called [`rrp-workshop-exercises`](https://github.com/AlexsLemonade/rrp-workshop-exercises).**
 This separate repository holds exercises, data, and scripts used during the interactive portion of the course.
-(During the workshop, participants will also fork and clone`rrp-workshop-exercises` to use as an example repository!)
+(During the workshop, participants will also fork and clone `rrp-workshop-exercises` to use as an example repository!)
 
 Although you will be walking participants through forking this repository in real-time during the course, you should certainly create your own copy and get familiar with the exercises and materials ahead of time. 
 If you will be leading live demonstrations from the same GitHub account where you create this copy, please remember to delete your fork before the workshop.
