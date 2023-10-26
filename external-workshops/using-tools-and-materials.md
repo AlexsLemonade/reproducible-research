@@ -17,7 +17,7 @@ Fork the repository, to create your own copy of the materials.
 
 * Now you will have your own copy of the repository and can make any modifications to the materials. 
 * The`docs` directory contains content for the course website.
-	* Be sure to update the `workshop-schedule` and `participant_information` for your own workshop!
+	* Be sure to update the `workshop-schedule.md` and `participant_information.md` files for your own workshop!
 * The `instructor_notes` directory contains notes for live demonstration instruction. Refer to these notes for helpful guidance on teaching certain activities in this course.
 * The `workshop_materials` directory contains additional workshop materials such as cheatsheets and links to the lecture slides.
 
