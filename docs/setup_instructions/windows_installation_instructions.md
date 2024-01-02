@@ -83,7 +83,7 @@ To enable copy and paste with keyboard shortcuts in the Linux environment, right
 
 <img src="screenshots/windows/ubuntu_properties_menu.png" alt="Ubuntu properties menu" width=250 >
 
-In the "Edit Options" tab, check the "Use Ctrl+Shift+C/V and Copy/Paste" box, then click the "OK" button.
+In the "Edit Options" tab, check the "Use `Ctrl`+Shift+C/V and Copy/Paste" box, then click the "OK" button.
 
 <img src="screenshots/windows/ubuntu_properties.png" alt="Ubuntu properties window" width=250 >
 
@@ -128,18 +128,18 @@ Open the downloaded R installer, `R-4.3.1-win.exe`, and follow the prompts to in
 Note that you will need to give permission to modify your system.
 For the remaining prompts, the default settings will be fine.
 
-#### Optional: Install Rtools
+#### Optional: Install RTools
 
 Most packages for R are available in a "binary" format, which means that they have already been "compiled" for use on Windows.
-However, some packages are only available as source code, and may require compilation locally, for which you will need to install Rtools.
-(R will also aggressively warn about missing Rtools every time you install a package, so you may want to install it just to quiet the warnings.)
+However, some packages are only available as source code, and may require compilation locally, for which you will need to install RTools.
+(R will also aggressively warn about missing RTools every time you install a package, so you may want to install it just to quiet the warnings.)
 
 For this installation, go to https://cran.r-project.org/bin/windows/Rtools.
-Select link the version of Rtools appropriate for your version of R; if you have just installed R above, this will be the "RTools 4.3" link.
+Select link the version of RTools appropriate for your version of R; if you have just installed R above, this will be the "RTools 4.3" link.
 (Why is the "T" capitalized here and nowhere else? No idea.)
 Find the link for the installer (this page changes somewhat frequently, so you may have to search a bit) and click to download.
 
-Open the downloaded `.exe` file and follow the prompts to allow changes and install Rtools, accepting the default settings.
+Open the downloaded `.exe` file and follow the prompts to allow changes and install RTools, accepting the default settings.
 
 #### RStudio for Windows
 
@@ -176,8 +176,8 @@ The following image shows, for example, what these messages look like for a succ
 
 <img src="screenshots/general/install_optparse.png" alt="Shows the process and output for installing the optparse package" width="500">
 
-You may see a warning that "Rtools is required to build R packages", but this can usually be safely ignored unless you see a later error.
-If you want to quiet the warning, you can go back to the [Install Rtools](#optional-install-rtools) section and follow the instructions there.
+You may see a warning that "RTools is required to build R packages", but this can usually be safely ignored unless you see a later error.
+If you want to quiet the warning, you can go back to the [Install RTools](#optional-install-rtools) section and follow the instructions there.
 
 ### WSL (Ubuntu Linux) Installation of R and R Packages
 
@@ -185,7 +185,7 @@ If you want to quiet the warning, you can go back to the [Install Rtools](#optio
 To install the most recent version of R in the WSL Ubuntu Linux environment, we will follow the [instructions from CRAN](https://cran.r-project.org/bin/linux/ubuntu/#install-r), with some modifications.
 
 First we will need to install some Linux packages that are required for setting up R and for some of the R packages we will be using.
-Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ubuntu)) the following command. 
+Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ubuntu)) the following command.
 (This is a long command! Make sure to get the whole line!):
 
  ```
