@@ -1,4 +1,8 @@
-This directory contains teaching notes for instructors for certain activities in the workshop.
-Each instructor notes file is named according to the _slide deck_ (in `../workshop_materials/slides/`) with which it is associated.
+This directory contains teaching notes and related materials for instructor reference.
 
-Please refer to [`00_instructor-setup.md`](./00_instructor-setup.md) for checklist on instructor setup for teaching these materials.
+* `00_instructor-setup.md` contains an instructor setup for teaching workshop workshop_materials.
+* All other numbered markdown files contain instructor notes for the given live demonstration.
+Files are numbered the same order as their corresponding [slides](../workshop_materials/slides/).
+* Bash scripts `<no>variables_download-fastq.sh` contain solution scripts for the ["Shell Scripting" live demonstration](06_shell-scripting.md).
+* The directory `fastq_subset` contains small versions of FASTQ files, as well as the script to create them, which can be used during the "Shell Scripting" live demonstration in the event of poor internet quality.
+
