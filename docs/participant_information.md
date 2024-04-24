@@ -24,33 +24,31 @@ Find helpful information about the workshop location, travel reimbursement, and 
 
 * Please review and sign the [training waiver](https://app.hellosign.com/s/2o2yghCj) before the workshop begins.
 * [Visit the meal form](https://forms.gle/aTfFxAo8R3zucsMs6) to tell us about any dietary restrictions and to RSVP for the group dinner.
-* [Join the Slack group](http://ccdatalab.org/slack) that we will use for communication purposes and to stay in touch after the workshop. We will add you to the `#2023-october-training` channel.
+* [Join the Slack group](http://ccdatalab.org/slack) that we will use for communication purposes and to stay in touch after the workshop. We will add you to the `#2024-may-training` channel.
 
 ## Workshop Location
 
-**The workshop will be held at The Inn at Penn, a Hilton Hotel, located at [3600 Sansom St, Philadelphia, PA 19104](https://www.google.com/maps/place/The+Inn+at+Penn,+a+Hilton+Hotel/@39.9537829,-75.1983565,17z/data=!3m1!4b1!4m9!3m8!1s0x89c6c6575236ba05:0x2ab1dcf9ee499b6b!5m2!4m1!1i2!8m2!3d39.9537829!4d-75.1957816!16s%2Fg%2F1hc24w67l?entry=ttu)**.
+**The training workshop will be held at [One Bala Plaza, Bala Cynwyd, PA 19004](https://www.google.com/maps/place/One+Bala+Plaza/@40.0073079,-75.2221085,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b89e7102a3b5:0x77dce0b150a7df52!8m2!3d40.0073798!4d-75.2199724?utm_campaign=CCDL_Workshops&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--au_kEZpuFGocZ8FYf1EaQarDpWhuIxgKRIAEMUoyCEgNMe6RvyzTDt6SvGjTEYPLaLZrI)**, just outside of Philadelphia. 
+We will meet in the Amenity Suite located on the lower level. Enter through the Center Lobby and take the elevator down one floor (labeled “LL”). 
+The Amenity Suite is the first room you will see after exiting the elevator.
 
-Please note, the workshop will take place in different rooms each day.
-**On Tuesday, October 24, we will meet in Woodland A&B.
-On Wednesday, October 25, we will meet in Conference Room 603.**
+Free parking in available in the front and rear of the building.
+
 If you have trouble finding the building or the rooms, please use Slack to direct message `Jen O'Malley`.
-
-The Inn at Penn is located in West Philadelphia in the [University City](https://www.universitycity.org/) area.
-The neighborhood is well-known for being home to the University of Pennsylvania and Drexel University.
-It is a largely walkable area with plenty of restaurants and attractions!
 
 ### Nearby Accommodations
 
 If you are traveling to the workshop and staying overnight, the following hotels are either walkable or a short car ride away from the training location.
 
-* [The Inn at Penn](https://www.hilton.com/en/hotels/phlidhh-the-inn-at-penn/?SEO_id=GMB-AMER-HH-PHLIDHH&y_source=1_MTIyMDg3OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D), a Hilton Hotel (workshop location)
-* [Sheraton Philadelphia University City Hotel](https://www.marriott.com/en-us/hotels/phlus-sheraton-philadelphia-university-city-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (under 0.5 mile away)
-* [The Study at University City](https://www.thestudyatuniversitycity.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect) (under 0.5 mile away)
-* [Homewood Suites University City](https://www.hilton.com/en/hotels/phluphw-homewood-suites-university-city-philadelphia-pa/?SEO_id=GMB-AMER-HW-PHLUPHW&y_source=1_MjA4NDA0MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D) (under 1 mile away)
-* [Kimpton Hotel Palomar Philadelphia, An IHG Hotel](https://kimptonhotelpalomarphiladelphiaanihghotel.reservationstays.com/hotels/NWEab1vW?expand_params=false) (under 2 miles away)
-* [Sofitel at Rittenhouse Square](https://www.sofitel-philadelphia.com/) (under 2 miles away)
-* [DoubleTree Hilton Hotel Center City](https://www.hilton.com/en/hotels/phlbldt-doubletree-philadelphia-center-city/?SEO_id=GMB-AMER-DT-PHLBLDT&y_source=1_MTM3MjczNS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D) (2.5 miles away)
-* [Four Points by Sheraton Philadelphia City Center](https://www.marriott.com/en-us/hotels/phlcp-four-points-philadelphia-city-center/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (2.5 miles away)
+**ALSF receives a discounted rate at the Courtyard by Marriott Philadelphia City Avenue**. 
+[Use this link to book a reservation](https://www.marriott.com/event-reservations/reservation-link.mi?id=1687786457883&key=CORP&app=resvlink) at the discounted rate.
+
+Other nearby hotels:
+
+* [Hilton Philadelphia City Avenue](https://www.hilton.com/en/hotels/phlphhf-hilton-philadelphia-city-avenue/)
+* [Homewood Suites by Hilton Philadelphia-City Avenue](https://www.hilton.com/en/hotels/phlcahw-homewood-suites-philadelphia-city-avenue/)
+* [Residence Inn Philadelphia Bala Cynwyd](https://www.marriott.com/en-us/hotels/phlrb-residence-inn-philadelphia-bala-cynwyd/overview/)
+
 
 ### Public transportation
 
@@ -74,7 +72,7 @@ To qualify for reimbursement:
 
 Alex’s Lemonade Stand Foundation’s Childhood Cancer Data Lab will comply with any governmental requirements related to health and safety.
 We encourage workshop participants to adhere to US governmental guidance.
-You may wish to review the [CDC COVID-19 by County guidance](https://www.cdc.gov/coronavirus/2019-ncov/your-health/covid-by-county.html) and the [Philadelphia, Pennsylvania COVID-19 community level](https://covid.cdc.gov/covid-data-tracker/#trends_weeklyhospitaladmissions_select_00) when planning for workshop attendance.
+You may wish to review the [Philadelphia, Pennsylvania COVID-19 community level](https://covid.cdc.gov/covid-data-tracker/#trends_weeklyhospitaladmissions_select_00) when planning for workshop attendance.
 
 If you are feeling sick, please do not attend the workshop.
 We will not withhold your deposit if you cannot attend because you are sick.
