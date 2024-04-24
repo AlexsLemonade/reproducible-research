@@ -32,7 +32,7 @@ Find helpful information about the workshop location, travel reimbursement, and 
 We will meet in the Amenity Suite located on the lower level. Enter through the Center Lobby and take the elevator down one floor (labeled “LL”). 
 The Amenity Suite is the first room you will see after exiting the elevator.
 
-Free parking in available in the front and rear of the building.
+Free parking is available in the front and rear of the building.
 
 If you have trouble finding the building or the rooms, please use Slack to direct message `Jen O'Malley`.
 
