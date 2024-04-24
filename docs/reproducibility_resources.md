@@ -69,4 +69,4 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 
 + [Organizing with UNIX - Rafael Irizarry](https://rafalab.github.io/dsbook/unix.html)
 + [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
-+ [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
++ [UNIX Tutorial for Beginners](https://linuxclass.heinz.cmu.edu/doc/Unix-Tutorial-surrey/)
