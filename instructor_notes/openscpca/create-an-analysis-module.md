@@ -25,9 +25,9 @@ The lead instructor should, like particpants, work in their fork of `OpenScPCA-a
    - Take some time to explore the created module, including the environment files
    - Practice activating and deactivating the environment
 
-```bash
-./create-analysis-module.py <module-name> --use-conda
-```
+    ```bash
+    ./create-analysis-module.py <module-name> --use-conda
+    ```
 
 5. Add and commit the skeleton module files
 
