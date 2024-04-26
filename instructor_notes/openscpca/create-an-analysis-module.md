@@ -33,5 +33,6 @@ The lead instructor should, like particpants, work in their fork of `OpenScPCA-a
 
 6. Add some content to the module `README.md` describing the module's goals
     - Explain that for a real analysis, they would fill in the `README.md` as they develop the module
+    - State that in the next demonstration where we continue to develop the module, we'll fill in this `README.md` with additional information
 
 7. Add/commit/push the changes to the `README.md` file
