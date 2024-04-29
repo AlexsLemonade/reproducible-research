@@ -19,7 +19,7 @@ The lead instructor should, like particpants, work in their fork of `OpenScPCA-a
     - Discuss what information we learn from the issue
     - Note that the issue _is not_ about completing an entire analysis top to bottom, but focuses on a highly modular, if you will, task: Establishing a module
 
-3. Locally, check out a feature branch named roughly `<username>/<issue-number>-create-<module-name>`
+3. Locally, check out a feature branch named roughly `<issue-number>-create-<module-name>`
 
 4. Run the module creation script:
    - Take some time to explore the created module, including the environment files
