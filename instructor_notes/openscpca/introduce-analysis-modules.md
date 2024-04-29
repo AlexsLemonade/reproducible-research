@@ -11,7 +11,7 @@
 
 Instructors will explain and demonstrate this activity while participants follow along.
 We expect that participants will take all steps along with the instructor.
-Before this activity, participants should performed all set up to get started with an analysis on a Lightsail for Research instance.
+Before this activity, participants should have performed all set up to get started with an analysis on a Lightsail for Research instance.
 
 ### Part 1: Tour of the modules on GitHub
 
@@ -53,6 +53,7 @@ Participants should follow along and type/code with us to perform these steps:
 Run the conda lines from the module's README:
 
 ```bash
+cd analyses/hello-python
 conda-lock install --name openscpca-hello-python conda-lock.yml
 conda activate openscpca-hello-python
 ```
