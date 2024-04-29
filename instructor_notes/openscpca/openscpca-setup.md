@@ -24,7 +24,7 @@ Different potential activity options are below:
 
 3. Sign into and familiarize with LSfR:
     - [Launch a (small) VSCodium LSfR instance](https://openscpca.readthedocs.io/en/latest/software-platforms/aws/creating-vcs/).
-      - Explain that we are using VSCodium since we plan to write a python module, but we could launch an RStudio instance for R development as well.
+      - Explain that we are using VSCodium since we plan to write a Python module, but we could launch an RStudio instance for R development as well.
       Similarly, if we anticipated needing more computational resources, we could select different instance options.
       - Emphasize the benefits of using volumes when working across several types of instances
 
