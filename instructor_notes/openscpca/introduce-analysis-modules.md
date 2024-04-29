@@ -39,14 +39,21 @@ Participants should follow along and type/code with us to perform these steps:
     - Locally they will need to be signed into AWS with SSO
     - Locally they may need the `--profile` flag
   - Emphasize the `--dryrun` flag
-- Everyone should now run the download script three times (feel free to add more flags if there's time or interest):
+- Everyone should now run the download script three times (feel free to add more flags if there's time or interest).
+The code below shows flags assuming we're running on LSfR, but if we're running locally we may need to add `--profile`.
   - Download test data for an opportunity to explain the benefits of developing with test data:
-    - `./download-data.py --test-data`
+    - `./download-data.py --format AnnData --projects SCPCP000001 --test-data`
+    - Before proceeding, look at the `data` folder structure after download; there should now be a `test` and `current` directory
   - Do a _dry run_ of a download:
     - `./download-data.py --format AnnData --include processed --projects SCPCP000001 --dryrun`
   - Download processed AnnData files from a single project for use with `hello-python`:
     - `./download-data.py --format AnnData --include processed --projects SCPCP000001`
-    - Or, if connectivity is an issue, `./download-data.py --format AnnData --include processed --samples SCPCS000001`
+    - Or, if we are running locally and connectivity is an issue, `./download-data.py --format AnnData --include processed --samples SCPCS000001`
+  - Re-run the last command to show that existing data will not get re-downloaded:
+    - `./download-data.py --format AnnData --include processed --projects SCPCP000001` (or with `--samples SCPCS000001`)
+- Take some time to look at the `data` folder structure now that we've downloaded some real data
+  - Explain that `current` always contains symlinks to whichever type of data (real or test) the script most recently invoked
+
 
 #### Prepare the conda environment
 
@@ -55,6 +62,11 @@ Run the conda lines from the module's README:
 ```bash
 cd analyses/hello-python
 conda-lock install --name openscpca-hello-python conda-lock.yml
+
+# first, list environments to confirm it was created
+conda env list
+
+# now we can activate the environment
 conda activate openscpca-hello-python
 ```
 
@@ -62,7 +74,8 @@ conda activate openscpca-hello-python
 
 Now instructors and partipants will all run the module together, following the instructions in its README.
 
-First, make sure we are working in the correct conda environment, if this is not reflected in the terminal directly:
+First, make sure we are working in the correct conda environment, if this is not reflected in the terminal directly with `(openscpca-hello-python)` at the start of the prompt.
+  - Noting that on LSfR we do expect that this will be shown in the prompt
 
 ```bash
 # The openscpca-hello-python environment should have an asterisk next to it
@@ -72,7 +85,6 @@ conda env list
 Now, run the module:
 
 ```bash
-cd path/to/analysis/module
 bash run_hello-python.sh
 ```
 
