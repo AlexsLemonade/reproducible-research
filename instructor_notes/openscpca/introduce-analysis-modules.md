@@ -108,6 +108,6 @@ The next activity will be to create an analysis module, so now instructors shoul
 
 - Go through the docs together:
   - Analysis skeleton: <https://openscpca.readthedocs.io/en/latest/contributing-to-analyses/analysis-modules/>
-  - (Briefly) script flags: <https://openscpca.readthedocs.io/en/latest/contributing-to-analyses/analysis-modules/creating-a-module/
+  - (Briefly) script flags: <https://openscpca.readthedocs.io/en/latest/contributing-to-analyses/analysis-modules/creating-a-module/>
 - Run `./create-analysis-module.py --help` to see and explain output
   - Note that there are more options than are explicitly described on the website
