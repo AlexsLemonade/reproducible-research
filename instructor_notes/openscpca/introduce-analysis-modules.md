@@ -43,15 +43,25 @@ Participants should follow along and type/code with us to perform these steps:
 - Everyone should now run the download script three times (feel free to add more flags if there's time or interest).
 The code below shows flags assuming we're running on LSfR, but if we're running locally we may need to add `--profile`.
   - Download test data for an opportunity to explain the benefits of developing with test data:
-    - `./download-data.py --format AnnData --projects SCPCP000001 --test-data`
+    ```bash
+    ./download-data.py --format AnnData --projects SCPCP000001 --test-data
+    ```
     - Before proceeding, look at the `data` folder structure after download; there should now be a `test` and `current` directory
   - Do a _dry run_ of a download:
-    - `./download-data.py --format AnnData --projects SCPCP000001 --dryrun`
+    ```bash
+    ./download-data.py --format AnnData --projects SCPCP000001 --dryrun
+    ```
   - Download processed AnnData files from a single project for use with `hello-python`:
-    - `./download-data.py --format AnnData --projects SCPCP000001`
-    - Or, if we are running locally and connectivity is an issue, `./download-data.py --format AnnData processed --samples SCPCS000001`
+    ```bash
+    ./download-data.py --format AnnData --projects SCPCP000001
+
+    # or, if we are running locally and connectivity is an issue:
+    ./download-data.py --format AnnData --samples SCPCS000001
+    ```
   - Re-run the last command to show that existing data will not get re-downloaded:
-    - `./download-data.py --format AnnData --projects SCPCP000001` (or with `--samples SCPCS000001`)
+    ```bash
+    ./download-data.py --format AnnData --projects SCPCP000001 # or with --samples SCPCS000001
+    ```
 - Take some time to look at the `data` folder structure now that we've downloaded some real data
   - Explain that `current` always contains symlinks to whichever type of data (real or test) the script most recently invoked
 
