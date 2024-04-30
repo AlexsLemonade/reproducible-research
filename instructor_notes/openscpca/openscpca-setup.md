@@ -4,7 +4,7 @@
 ## Learning goals
 
 - Understand how to create and launch a Lightsail for Research (LSfR) instance
-- Be prepared to contribute with an OpenScPCA setup, _ideally_ on LSfR (connectivity permitting)
+- Be prepared to contribute with an OpenScPCA setup, _ideally_ on LSfR (connectivity permitting) and (at least partially) locally
 - Learn differences between local and LSfR setup
 
 ## Activity
