@@ -38,7 +38,7 @@ As needed for time, we can skip some of the later steps.
       conda config --set channel_priority strict
 
       # create openscpca environment
-      cd ~/{your disk's name}/OpenScPCA-analysis # or, do this from GitKraken terminal without needing to cd
+      cd ~/{your disks name}/OpenScPCA-analysis # or, do this from GitKraken terminal without needing to cd
       conda env create -f environment.yml
 
       # activate
