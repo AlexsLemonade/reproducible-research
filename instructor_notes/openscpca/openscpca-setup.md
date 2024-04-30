@@ -53,7 +53,7 @@ The goal for this activity is to set everyone up on LSfR, but we if internet con
 
 5. Back on LSfR, [create a volume](https://openscpca.readthedocs.io/en/latest/software-platforms/aws/working-with-volumes/) and attach it to the VSCodium instance.
 
-6. Finally, we can [launch the VSCodium instance](https://lfr.console.aws.amazon.com/ls/research/webapp/home/virtual-computers):
+6. Finally, we can [launch the VSCodium instance](https://lfr.console.aws.amazon.com/ls/research/webapp/home/virtual-computers) and set up:
     - First, launch from the "Access operating system" dropdown
       - Set up the [conda environment](https://openscpca.readthedocs.io/en/latest/software-platforms/aws/starting-development-on-lsfr/#create-and-activate-a-conda-environment):
       !! REVIEWER TODO: We are recommending installing into an openscpca environment here but into base environment for local setup. Do we want to change any docs?
@@ -79,7 +79,8 @@ The goal for this activity is to set everyone up on LSfR, but we if internet con
       - [Set up pre-commit](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/setup-precommit/) via the GitKraken terminal
 
 7. _While keeping the instance window open_, return to the LSfR page to launch the instance as `VSCodium`.
-  - We'll now have two browser windows: One with Ubuntu and one with VS Code that can be used side-by-side
+    - We'll now have two browser windows: One with Ubuntu and one with VS Code that can be used side-by-side
 
 8. Finally, close both windows and _Stop the computer_.
-  - This emphasizes that they should stop their instances computer when they're not using it for the sake of preserving their monthly budget.
+    - This emphasizes that it's helpful to stop their instances when they're not using it for the sake of preserving their monthly budget.
+    - But note also that after a period of low CPU usage, it will shut off automatically
