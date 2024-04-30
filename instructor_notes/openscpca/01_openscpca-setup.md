@@ -66,4 +66,4 @@ As needed for time, we can skip some of the later steps.
 
 8. Finally, close both windows and _Stop the computer_.
     - This emphasizes that it's helpful to stop their instances when they're not using it for the sake of preserving their monthly budget.
-    - But note also that after a period of low CPU usage, it will shut off automatically
+    - But note also that after a period of low CPU usage as specified when the instance was created, it will shut off automatically
