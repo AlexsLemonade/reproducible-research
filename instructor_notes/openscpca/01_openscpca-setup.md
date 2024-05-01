@@ -56,8 +56,9 @@ As needed for time, we can skip some of the later steps.
 
 5. Back on LSfR, [create a volume](https://openscpca.readthedocs.io/en/latest/software-platforms/aws/working-with-volumes/) and attach it to the VSCodium instance.
 
-6. Finally, we can [launch the VSCodium instance](https://lfr.console.aws.amazon.com/ls/research/webapp/home/virtual-computers) and set up. First, launch from the "Access operating system" dropdown, and:
-    - Sign into GitKraken and clone the fork
+6. Finally, we can [launch the VSCodium instance](https://lfr.console.aws.amazon.com/ls/research/webapp/home/virtual-computers) and set up.
+First, launch from the "Access operating system" dropdown, and:
+    - Sign into GitKraken, clone the fork into the attached volume, and add `AlexsLemonade` as upstream
     - Set up conda
     - Set up pre-commit
 
