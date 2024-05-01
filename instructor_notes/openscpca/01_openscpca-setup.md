@@ -58,8 +58,8 @@ As needed for time, we can skip some of the later steps.
 
 6. Finally, we can [launch the VSCodium instance](https://lfr.console.aws.amazon.com/ls/research/webapp/home/virtual-computers) and set up. First, launch from the "Access operating system" dropdown, and:
     - Sign into GitKraken and clone the fork
-    - Setup conda
-    - Setup pre-commit
+    - Set up conda
+    - Set up pre-commit
 
 7. _While keeping the instance window open_, return to the LSfR page to launch the instance as `VSCodium`.
     - We'll now have two browser windows: One with Ubuntu and one with VS Code that can be used side-by-side
