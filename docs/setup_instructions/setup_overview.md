@@ -3,8 +3,67 @@ title: Pre-workshop setup
 nav_title: Setup
 ---
 
-This will be a hands-on workshop, so to maximize our time, we would like you to arrive having completed a number of setup tasks, creating accounts and installing software that we will be using.
-We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the day!
+This will be a hands-on workshop, so to maximize our time, we would like you to arrive having completed a number of setup tasks, namely installing software that we will be using.
+We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the workshop!
+
+For this workshop, please set up your computers following these software installation steps in the [OpenScPCA Project's setup instructions](https://openscpca.readthedocs.io/en/latest/technical-setup/).
+Note that you do not need to complete all setup steps on the OpenScPCA website, since we will be doing some steps together as part of the workshop itself.
+
+Please take the following steps to ensure you have all of the following softwares installed.
+If you already have any of these softwares, you do not need to re-install them.
+
+
+First, you will need to [create a GitHub account](./github_gitkraken_setup_instructions.md#creating-a-github-account) if you do not already have one.
+You should also [turn on two-factor authentication (2FA)](./github_gitkraken_setup_instructions.md#enabling-two-factor-authentication-2fa-on-github) after you create your account.
+
+
+## Workshop software installation for macOS users
+
+1. [Install GitKraken](https://openscpca.readthedocs.io/en/latest/technical-setup/install-a-git-client/#install-gitkraken), a GUI for working with Git
+    - Follow the instructions in the link above to also sign into GitKraken with your GitHub account
+    - [See these instructions](./github_gitkraken_setup_instructions.md#setting-up-gitkraken) for additional information about setting up GitKraken
+2. [Install Miniconda](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/setup-conda/#install-conda), a lightweight distribution of the package management software conda
+    - You do _not_ need to also setup conda; we will do this together during the workshop
+3. [Install R and RStudio](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/install-r-rstudio/#install-r-on-macos)
+4. Install some R packages we will use in the workshop by running the following command in R Console:
+    ```r
+    install.packages(c("renv", "tidyverse", "rmarkdown", "here", "optparse"))
+    ```
+5. Install [Visual Studio Code (VS Code)](https://code.visualstudio.com/), a popular text editor
+    - If you prefer to use a different text editor, that's fine!
+    But, we do _not_ recommend using Mac's native TextEdit application.
+
+
+## Workshop software installation for Windows users
+
+OpenScPCA currently only supports development on macOS or Linux.
+Therefore, you will need to install and set up for development using the Windows Subsystem for Linux, which provides you with a natively-running Ubuntu operating system on your Windows computer.
+
+Therefore, for most of the installations below (all except Visual Studio Code), you will install software directly into the WSL 2 side of your computer, _not_ the Windows side.
+
+
+1. Install [Windows Subsystem for Linux 2]()
+    - Follow all instructions in the link above to install WSL 2, create your Ubuntu account, and update `apt`
+2. [Install GitKraken]() into the WSL 2 side of your computer
+    - Follow the instructions in the link above to also sign into GitKraken with your GitHub account
+3. [Install Miniconda](), a lightweight distribution of the package management software conda, into the WSL 2 side of your computer
+    - You do _not_ need to also setup conda; we will do this together during the workshop
+4. [Install R and RStudio Server]() into the WSL 2 side of your computer
+    - Even if you already have R on the Windows side of your computer, you still need to re-install it into the WSL 2 side per these instructions
+5. Install some R packages we will use in the workshop by running the following command in R Console:
+    ```r
+    install.packages(c("renv", "tidyverse", "rmarkdown", "here", "optparse"))
+    ```
+6. Install [Visual Studio Code (VS Code)](https://code.visualstudio.com/), a popular text editor, into the Windows side of your computer
+    - [Following these instructions](https://code.visualstudio.com/docs/remote/wsl#_getting-started), you should also install and turn on the [WSL 2 extension](https://code.visualstudio.com/docs/remote/wsl#_getting-started) to be able to use VS Code from WSL 2
+
+
+
+
+
+<!--
+
+Regular RRP installation instructions are commented out below.
 
 The main tasks are installation of R, RStudio, GitKraken, and a suitable text editor.
 For Windows users, we will also require the installation of Windows Subsystem for Linux (WSL).
@@ -16,6 +75,6 @@ You may already have some of this software installed, but we encourage you to re
 Finally, you will also need to create a [GitHub](https://github.com) account if you do not already have one and configure the GitKraken application.
 
 - [GitHub and GitKraken setup](github_gitkraken_setup_instructions.md)
-
+-->
 
 If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack). We will add you to a training-specific channel after you join the Slack community.
