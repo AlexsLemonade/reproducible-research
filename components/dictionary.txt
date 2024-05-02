@@ -26,6 +26,7 @@ cheatsheet
 cheatsheets
 checkmarks
 compositional
+conda
 COVID
 customizable
 Cynwyd
@@ -80,9 +81,11 @@ LTS
 Lyft
 macOS
 md
+Miniconda
 Monterey
 Muris
 musculus
+natively
 nonconsensual
 Nüst
 OpenScPCA
@@ -136,6 +139,7 @@ videoconferences
 walkable
 writeable
 WSL
+XCode
 YAML
 Zakeri
 zebrafish
