@@ -1,0 +1,44 @@
+
+name: Spell check Markdown files
+
+# Controls when the action will run.
+# Pull requests to main only.
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  # only one run per branch at a time
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    name: Spell check files
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Spell check action
+        uses: alexslemonade/spellcheck@v0
+        id: spell
+        with:
+          dictionary: components/dictionary.txt
+
+      - name: Upload spell check errors
+        uses: actions/upload-artifact@v4
+        id: artifact-upload-step
+        with:
+          name: spell_check_errors
+          path: spell_check_errors.tsv
+
+      - name: Fail if there are spelling errors
+        if: steps.spell.outputs.error_count > 0
+        run: |
+          echo "There were ${{ steps.spell.outputs.error_count }} errors"
+          column -t spell_check_errors.tsv
+          exit 1
