@@ -28,7 +28,7 @@ jobs:
         id: spell
         with:
           dictionary: components/dictionary.txt
-          files: 'docs/* docs/*/*'
+          files: "docs/* docs/*/*"
 
 
       - name: Upload spell check errors
