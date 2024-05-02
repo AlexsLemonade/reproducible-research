@@ -46,7 +46,6 @@ Even if you already have any of these softwares installed on the Windows side of
 3. [Install Miniconda](), a lightweight distribution of the package management software conda, into the WSL 2 side of your computer
     - You do _not_ need to also setup conda; we will do this together during the workshop
 4. [Install R and RStudio Server]() into the WSL 2 side of your computer
-    - Even if you already have R on the Windows side of your computer, you still need to re-install it into the WSL 2 side per these instructions
 5. Install some R packages we will use in the workshop by running the following command in R Console:
     ```r
     install.packages(c("renv", "tidyverse", "rmarkdown", "here", "optparse"))
