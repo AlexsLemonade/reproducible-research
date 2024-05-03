@@ -65,6 +65,7 @@ hg
 Hippen
 Homebrew
 Homewood
+IAM
 IHG
 io
 Irizarry
@@ -83,12 +84,14 @@ macOS
 md
 Miniconda
 Monterey
+multifactor
 Muris
 musculus
 natively
 nonconsensual
 Nüst
 OpenScPCA
+OpenScPCA's
 personalization
 PHI
 PII
