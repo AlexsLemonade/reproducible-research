@@ -26,6 +26,7 @@ cheatsheet
 cheatsheets
 checkmarks
 compositional
+conda
 COVID
 customizable
 Cynwyd
@@ -64,6 +65,7 @@ hg
 Hippen
 Homebrew
 Homewood
+IAM
 IHG
 io
 Irizarry
@@ -80,12 +82,16 @@ LTS
 Lyft
 macOS
 md
+Miniconda
 Monterey
+multifactor
 Muris
 musculus
+natively
 nonconsensual
 Nüst
 OpenScPCA
+OpenScPCA's
 personalization
 PHI
 PII
@@ -136,6 +142,7 @@ videoconferences
 walkable
 writeable
 WSL
+XCode
 YAML
 Zakeri
 zebrafish
