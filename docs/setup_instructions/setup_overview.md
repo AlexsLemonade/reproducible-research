@@ -6,13 +6,23 @@ nav_title: Setup
 This will be a hands-on workshop, so to maximize our time, we would like you to arrive having completed a number of setup tasks, namely installing software that we will be using.
 We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the workshop!
 
-To prepare for this workshop, you will set up your computers following _some_ these software installation steps in the [OpenScPCA Project's setup instructions](https://openscpca.readthedocs.io/en/latest/technical-setup/), as detailed below.
+## Set up your accounts
+
+Before the workshop begins, you will need to create and configure your GitHub account as well as your OpenScPCA Amazon Web Services (AWS) account:
+
+1. [Create a GitHub account](./github_gitkraken_setup_instructions.md#creating-a-github-account) if you do not already have one.
+    - You should also [turn on two-factor authentication (2FA)](./github_gitkraken_setup_instructions.md#enabling-two-factor-authentication-2fa-on-github) after you create your account.
+
+2. Before the workshop, you will receive an email inviting you to join AWS IAM Identity Center, which will allow you to access OpenScPCA data and compute resources.
+    - [Follow these instructions](https://openscpca.readthedocs.io/en/latest/software-platforms/aws/joining-aws/) to accept this invitation and configure multifactor authentication.
+    - _You are only eligible for an OpenScPCA AWS account after you fill out the [OpenScPCA intake form](https://share.hsforms.com/1MlLtkGYSQa6j23HY_0fKaw336z0) where you agree to [OpenScPCA's policies](https://openscpca.readthedocs.io/en/latest/policies/)._
+
+## Workshop software installations
+
+You will also need to set up your computers following _some_ these software installation steps in the [OpenScPCA Project's setup instructions](https://openscpca.readthedocs.io/en/latest/technical-setup/), as detailed below.
 You should not complete all setup steps on the OpenScPCA website, since we will be doing some steps together as part of the workshop itself, but you should come prepared with all software installed and ready to be further set up.
 
-First, you will need to [create a GitHub account](./github_gitkraken_setup_instructions.md#creating-a-github-account) if you do not already have one.
-You should also [turn on two-factor authentication (2FA)](./github_gitkraken_setup_instructions.md#enabling-two-factor-authentication-2fa-on-github) after you create your account.
-
-## Workshop software installation for macOS users
+## Instructions for macOS users
 
 1. [Install GitKraken](https://openscpca.readthedocs.io/en/latest/technical-setup/install-a-git-client/#install-gitkraken), a GUI for working with Git
     - Follow the instructions in the link above to also sign into GitKraken with your GitHub account
@@ -30,7 +40,7 @@ You should also [turn on two-factor authentication (2FA)](./github_gitkraken_set
     But, we do _not_ recommend using Mac's native TextEdit application.
 
 
-## Workshop software installation for Windows users
+## Instructions for Windows users
 
 OpenScPCA currently only supports development on macOS or Linux.
 Therefore, you will need to install and set up for development using the Windows Subsystem for Linux, which provides you with a natively-running Ubuntu operating system on your Windows computer.
