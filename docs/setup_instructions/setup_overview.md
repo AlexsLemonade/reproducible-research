@@ -8,7 +8,8 @@ We will _not_ have time to do all of the setup on the day of the workshop and ac
 
 ## Set up your accounts
 
-Before the workshop begins, you will need to create and configure your GitHub account as well as your OpenScPCA Amazon Web Services (AWS) account:
+Before the workshop begins, you will need to create and configure your GitHub account.
+You will also need to set up your OpenScPCA Amazon Web Services (AWS) account.
 
 1. [Create a GitHub account](./github_gitkraken_setup_instructions.md#creating-a-github-account) if you do not already have one.
     - You should also [turn on two-factor authentication (2FA)](./github_gitkraken_setup_instructions.md#enabling-two-factor-authentication-2fa-on-github) after you create your account.
@@ -20,6 +21,7 @@ Before the workshop begins, you will need to create and configure your GitHub ac
 ## Workshop software installations
 
 You will also need to set up your computers following _some_ these software installation steps in the [OpenScPCA Project's setup instructions](https://openscpca.readthedocs.io/en/latest/technical-setup/), as detailed below.
+
 You should not complete all setup steps on the OpenScPCA website, since we will be doing some steps together as part of the workshop itself, but you should come prepared with all software installed and ready to be further set up.
 
 ## Instructions for macOS users
@@ -28,7 +30,7 @@ You should not complete all setup steps on the OpenScPCA website, since we will 
     - Follow the instructions in the link above to also sign into GitKraken with your GitHub account
     - [See these instructions](./github_gitkraken_setup_instructions.md#setting-up-gitkraken) for additional information about setting up GitKraken
 2. [Install Miniconda](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/setup-conda/#install-conda), a lightweight distribution of the package management software conda
-    - You do _not_ need to also setup conda; we will do this together during the workshop
+    - You do _not_ need to also set up conda; we will do this together during the workshop
 3. [Install R and RStudio](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/install-r-rstudio/#install-r-on-macos)
     - Follow the instructions to install the additional tools (XCode develop tools and the GNU Fortran compiler) as well.
 4. Install some R packages we will use in the workshop by running the following command in R Console:
@@ -49,13 +51,13 @@ For most of the installations below (all except Visual Studio Code), you will in
 Even if you already have any of these softwares installed on the Windows side of your computer, you still need to install them on the WSL 2 side as described below.
 
 
-1. Install [Windows Subsystem for Linux 2]()
+1. Install [Windows Subsystem for Linux 2](https://openscpca.readthedocs.io/en/latest/technical-setup/install-wsl-2/)
     - Follow all instructions in the link above to install WSL 2, create your Ubuntu account, and update `apt`
-2. [Install GitKraken]() into the WSL 2 side of your computer
+2. [Install GitKraken](https://openscpca.readthedocs.io/en/latest/technical-setup/install-a-git-client/#install-gitkraken-on-windows-with-wsl-2) into the WSL 2 side of your computer
     - Follow the instructions in the link above to also sign into GitKraken with your GitHub account
-3. [Install Miniconda](), a lightweight distribution of the package management software conda, into the WSL 2 side of your computer
-    - You do _not_ need to also setup conda; we will do this together during the workshop
-4. [Install R and RStudio Server]() into the WSL 2 side of your computer
+3. [Install Miniconda](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/setup-conda/#install-conda), a lightweight distribution of the package management software conda, into the WSL 2 side of your computer
+    - You do _not_ need to also set up conda; we will do this together during the workshop
+4. [Install R and RStudio Server](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/install-r-rstudio/) into the WSL 2 side of your computer
 5. Install some R packages we will use in the workshop by running the following command in R Console:
     ```r
     install.packages(c("renv", "tidyverse", "rmarkdown", "here", "optparse"))
