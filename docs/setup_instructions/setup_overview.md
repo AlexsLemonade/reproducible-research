@@ -35,7 +35,7 @@ You should also [turn on two-factor authentication (2FA)](./github_gitkraken_set
 OpenScPCA currently only supports development on macOS or Linux.
 Therefore, you will need to install and set up for development using the Windows Subsystem for Linux, which provides you with a natively-running Ubuntu operating system on your Windows computer.
 
-Therefore, for most of the installations below (all except Visual Studio Code), you will install software directly into the WSL 2 side of your computer, _not_ the Windows side.
+For most of the installations below (all except Visual Studio Code), you will install software directly into the WSL 2 side of your computer, _not_ the Windows side.
 Even if you already have any of these softwares installed on the Windows side of your computer, you still need to install them on the WSL 2 side as described below.
 
 
