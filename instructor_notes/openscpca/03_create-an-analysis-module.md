@@ -11,7 +11,7 @@
 ## Activity
 
 For this activity, instructors will demonstrate creating a module while participants actively follow along.
-The lead instructor should, like particpants, work in their fork of `OpenScPCA-analysis` and lead participants through these steps:
+The lead instructor should, like participants, work in their fork of `OpenScPCA-analysis` and lead participants through these steps:
 
 1. Ensure your fork's `main` branch is up-to-date, following [these instructions](https://openscpca.readthedocs.io/en/latest/contributing-to-analyses/working-with-git/staying-in-sync-with-upstream/).
 
