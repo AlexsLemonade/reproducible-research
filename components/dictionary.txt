@@ -52,7 +52,6 @@ epitope
 errored
 et
 familiaris
-fastq
 FASTQ
 filezilla
 FileZilla
