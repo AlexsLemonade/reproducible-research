@@ -71,6 +71,7 @@ From the VSCodium terminal, we will create a results file and sync it to S3.
 5.  Prove that the result is present by running:
     ```sh
     # first, list their overall bucket
+    # don't forget the slash!
     aws s3 ls "s3://${OPENSCPCA_RESULTS_BUCKET}/"
 
     # now, the analysis results bucket
