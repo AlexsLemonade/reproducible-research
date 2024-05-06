@@ -7,7 +7,7 @@ ALSF
 AnnData
 authenticator
 Authy
-Autocomplete
+autocomplete
 autocompletion
 Axosoft
 Bala
