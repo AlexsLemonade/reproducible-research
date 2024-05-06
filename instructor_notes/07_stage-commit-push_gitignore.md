@@ -1,4 +1,4 @@
-# Instructor Notes: stage/commmit/push and `.gitignore` files
+# Instructor Notes: stage/commit/push and `.gitignore` files
 
 This document provides instructions for teaching stage/commit/push using GitKraken, which then transitions into staging/committing/pushing a `.gitignore` file that they modify during this activity.
 
@@ -7,8 +7,8 @@ This document provides instructions for teaching stage/commit/push using GitKrak
 
 At the end of this activity, workshop attendees should be able to:
 
-* Be able to stage, commit, and push changes from GitKraken 
-* Understand how to interpret file diffs in GitKraken 
+* Be able to stage, commit, and push changes from GitKraken
+* Understand how to interpret file diffs in GitKraken
 * Understand the purpose of a `.gitignore` file, how it influences `git`'s behavior, and how to write (modify) one
 * [Optional and time-pending] Understand the purpose of `.gitkeep` files
 
@@ -17,9 +17,9 @@ At the end of this activity, workshop attendees should be able to:
 * At this time in the workshop, trainees will have written and run a shell script (`download-fastq.sh`) to curl a pair of large (>100 MB each) FASTQ files.
 * The goal of this activity is to stage/commit/push the `download-fastq.sh` script, and then to modify an existing `.gitignore` file to ignore the too-large-for-github FASTQ files.
 
-* Go through slides for git stage/commit/push here, stopping after the GitKraken screenshots. 
+* Go through slides for git stage/commit/push here, stopping after the GitKraken screenshots.
 * Note that several slides after these GitKraken screenshots include analogous screenshots for performing the same tasks on command line; these slides can be presented or skipped (and therefore provided as a reference for trainees) at the instructor's discretion.
-* Then, alongside the trainees as an interactive demonstration, follow the procedure demonstrated in the slides to stage/commit/push the newly-written `download-fastq.sh` script. 
+* Then, alongside the trainees as an interactive demonstration, follow the procedure demonstrated in the slides to stage/commit/push the newly-written `download-fastq.sh` script.
 * As part of this demonstration, show and explain the diff view in GitKraken and how to interpret it so the trainees understand how to look for changes on a more granular level.
     * In this case, the diff should show entirely _new_ lines for the brand new file, `download-fastq.sh`.
 * After the commit has been pushed, instruct the trainees to navigate to their repositories in the browser so they can confirm that their changes were pushed and that their most recent commit appears in their remote.

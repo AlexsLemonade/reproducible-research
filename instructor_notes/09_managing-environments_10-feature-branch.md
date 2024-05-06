@@ -1,8 +1,8 @@
 # Instructor Notes: Project management with `renv`, and using feature branches
 
-This overall activity relies broadly on two new concepts: i) using `renv` to manage R projects, and ii) branching and merging. 
+This overall activity relies broadly on two new concepts: i) using `renv` to manage R projects, and ii) branching and merging.
 This document provides instructions for teaching how to create and push to a feature branch, and subsequently merge into main.
-The feature branch of interest here should contain a `renv.lock` file and other renv-related files from `renv` setup. 
+The feature branch of interest here should contain a `renv.lock` file and other renv-related files from `renv` setup.
 
 ## Learning goals
 
@@ -11,10 +11,10 @@ At the end of this activity, workshop attendees should be able to:
 * Understand how to use `renv` to manage R package versions in R projects
 * Understand the concept of `git` branches and how to make them
 * Understand the concept of `git` merging and how to perform it within a given repository (not across forks)
-  * Merge conflicts will _not_ be covered in depth, but we will mention it  
+  * Merge conflicts will _not_ be covered in depth, but we will mention it
 
 
-## Activity 
+## Activity
 
 ### Part 1: `renv`
 
@@ -29,7 +29,7 @@ At the end of this activity, workshop attendees should be able to:
 ### Part 2: Branches and merging
 
 * At this time, transition to the "Branch" slides to introduce the concepts of branching and merging.
-* After the slides, intreractively demonstrate how to create a new branch, which should be called something like `add-renv`.
+* After the slides, interactively demonstrate how to create a new branch, which should be called something like `add-renv`.
 * Trainees should then stage/commit/push the `renv` files to a remote branch, which will be created during the `push`.
 * GitKraken should now show diverged histories between `main` and `add-renv`.
 

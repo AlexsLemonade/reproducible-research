@@ -10,7 +10,7 @@ At the end of this activity, workshop attendees should be able to:
 
 * Examine the structure of provided shell scripts
 * Run R scripts with arguments from the command line, including the use of `--help`
-* Render Rmarkdown documents/notebooks on the command line
+* Render R Markdown documents/notebooks on the command line
 * Understand how shell scripts can be used to automate multi-step analyses
 * Recognize some limitations of shell scripting to automate analyses
 
@@ -30,7 +30,7 @@ This section is partially a review/reiteration of that content, followed by runn
   * constants (note that in this case these are set after options)
 
 * During the above (notably option setting) demonstrate usage of the R script
-  * Point out optparse section, showing section for each flag
+  * Point out `optparse` section, showing section for each flag
   * Show the help feature you get for free with options:
 
   ```sh
@@ -64,13 +64,13 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 
 * Instruct trainees to open their terminal and navigate to the `rrp-workshop-exercises/analyses/mutation_counts/` directory with `cd` (if they weren't there before), and then run the following code that:
   * Processes the Medulloblastoma MAF file with the R script
-  * Renders the Rmarkdown notebook from the command line 
+  * Renders the Rmarkdown notebook from the command line
   * Note that the LGAT MAF file will likely have previously been run, but if it wasn't, run it here too!
 
     ```sh
     # cd into rrp-workshop-exercises/analyses/mutation_counts/ as needed
 
-    # Have them confirm they are in the correct 
+    # Have them confirm they are in the correct
     #  directory before running this code
     pwd
 
@@ -82,7 +82,7 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 
     # Confirm the output file(s) was/were made and is/are _not empty_!
     ls -h
-    
+
     # Now, run the notebook from the command line.
     #  During this, explain what `-e` does: It allows you to include
     #  a very short script (or generally "chunk of R code") directly from the command line
@@ -104,19 +104,19 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 * At this point, there should be several outputs from this script, including one table for each MAF file in `analyses/mutation_counts/` and one figure for each of LGAT and Medulloblastoma in `plots/mutation_counts/`.
 
 * Have them stage, commit, and push these result files using GitKraken to continue emphasizing GitHub usage.
-* Again, integrated into stage/commit/push, instruct trainees to look at the file diffs so they understand the exact changes they made for this commit. 
+* Again, integrated into stage/commit/push, instruct trainees to look at the file diffs so they understand the exact changes they made for this commit.
 
 
 ## Post-script discussion
 
 * Once the shell script has been discussed and run, have a general discussion with trainees about the _limitations_ of the shell script approach to workflows:
-  * There are no checkpoints. 
+  * There are no checkpoints.
     * With shell scripts, if the script fails or times out, you need to re-run *everything* (or modify the script somehow to work around failures)
   * Added new data files may mean rerunning everything
   * If there are a large number of data sets, only one is processed at a time ("serial processing", not parallel!)
     * There are ways to work around this with shell scripting, but it's more involved and still less robust than a workflow manager
-  
-* _Workflow managers_ like snakemake or nextflow can help mitigate these limitations!
+
+* _Workflow managers_ like snakemake or Nextflow can help mitigate these limitations!
   * _You'll usually need an in-depth understanding of shell scripting to use a workflow manager!_
   * Checkpoints - in other workflow managers, you can "pick up" where you left off (or where you errored out).
   * Parallel processing of datasets
