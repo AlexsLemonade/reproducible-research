@@ -77,3 +77,18 @@ From the VSCodium terminal, we will create a results file and sync it to S3.
     aws s3 ls s3://${OPENSCPCA_RESULTS_BUCKET}/<module-name>
     ```
 
+### [Time pending] Part 3: Fail and fix the pre-commit hook
+
+If we have time, show a quick example of fixing a pre-commmit hook failure.
+Instructors can demonstrate this activity without participants following along, in the interest of time.
+
+This activity is somewhat contrived, but should suffice to generally convey the process of fixing a pre-commit hook failure.
+
+1. Copy a large file > 200KB of your choosing into the analysis directory, and add text to the README "documenting" this file (does not have to be real documentation; this is only for demonstration).
+
+2. In GitKraken, stage and commit both files, as a single commit.
+
+3. The pre-commit hook will then fail because this file is too large.
+    - Show participants how to see the log from the pre-commit hook to diagnose the problematic file.
+    - Unstage the large file, and commit again with only the modified README.
+    - This commit should pass the pre-commit hook.
