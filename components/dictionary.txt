@@ -166,7 +166,7 @@ TSV
 Tung
 ual
 Uber
-Unstage
+unstage
 unstaged
 UseR
 Ventura
