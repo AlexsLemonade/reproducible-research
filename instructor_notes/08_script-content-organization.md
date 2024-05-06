@@ -1,6 +1,4 @@
-# Instructor Notes: Rscript content, usage & simple workflows with shell scripts
-
-
+# Instructor Notes: R script content, usage & simple workflows with shell scripts
 
 This document provides instructions for teaching about the script contents, followed by how to use shell scripting to automatically run related scripts in order, "stitched" together.
 

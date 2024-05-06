@@ -130,7 +130,6 @@ rint
 Rittenhouse
 Riverol
 Rohan
-Rscript
 RStudio
 RStudio's
 RTools
