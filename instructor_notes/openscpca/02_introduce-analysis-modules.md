@@ -11,7 +11,9 @@
 
 Instructors will explain and demonstrate this activity while participants follow along.
 We expect that participants will take all steps along with the instructor.
+
 Before this activity, participants should have performed all set up to get started with an analysis on a Lightsail for Research instance.
+If possible, we prefer to do this activity on Lightsail for Research, but we can do this locally if the internet prefers.
 
 ### Part 1: Tour of the modules on GitHub
 
