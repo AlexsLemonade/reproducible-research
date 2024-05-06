@@ -17,7 +17,7 @@ At the end of this activity, workshop attendees should be able to:
 
 The goal of this activity is to interactively develop a script to download and save these two paired FASTQ files:
 
-+ Paired FASTQ files from [Study ID `SRP255885`](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885), and RNA-seq dataset about medulloblastoma
++ Paired FASTQ files from [Study ID `SRP255885`](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885), and RNA-seq dataset about Medulloblastoma
   + Download links:
     + ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz
     + ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_2.fastq.gz

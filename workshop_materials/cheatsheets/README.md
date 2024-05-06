@@ -1,4 +1,4 @@
-`unix_quick_reference.md` is converted to PDF manually using the MacDown app (0.7.3) on MacOS. 
+`unix_quick_reference.md` is converted to PDF manually using the MacDown app (0.7.3) on macOS.
 
 The script `process_unix_cheatsheets.sh` does the following:
 

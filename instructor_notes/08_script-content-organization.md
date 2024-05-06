@@ -64,7 +64,7 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 
 * Instruct trainees to open their terminal and navigate to the `rrp-workshop-exercises/analyses/mutation_counts/` directory with `cd` (if they weren't there before), and then run the following code that:
   * Processes the Medulloblastoma MAF file with the R script
-  * Renders the Rmarkdown notebook from the command line
+  * Renders the R Markdown notebook from the command line
   * Note that the LGAT MAF file will likely have previously been run, but if it wasn't, run it here too!
 
     ```sh

@@ -78,6 +78,7 @@ Homewood
 IAM
 IHG
 io
+irectory
 Irizarry
 irreproducible
 ITCR
@@ -87,6 +88,7 @@ KeyCastr
 Kimpton
 Korsunsky
 LGAT
+lient
 Lightsail
 lockfile
 LSfR
@@ -98,7 +100,7 @@ MacDown
 macOS
 MAF
 md
-Medulloblastoma
+medulloblastoma
 Miniconda
 Monterey
 multifactor
@@ -110,6 +112,9 @@ nonconsensual
 Nüst
 OpenScPCA
 OpenScPCA's
+ord
+orking
+ove
 personalization
 PHI
 PII
@@ -118,9 +123,10 @@ pre
 Protip
 README
 renv
-Repo
+repo
 reproducibility
 rerio
+rint
 Rittenhouse
 Riverol
 Rohan
@@ -158,6 +164,7 @@ transcriptomic
 transphobic
 TSV
 Tung
+ual
 Uber
 unstaged
 UseR
