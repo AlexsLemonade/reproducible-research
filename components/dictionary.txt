@@ -75,6 +75,7 @@ jekyll
 Jupyter
 Kimpton
 Korsunsky
+LeBus
 lockfile
 Luecken
 Lun
