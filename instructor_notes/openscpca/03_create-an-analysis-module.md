@@ -79,7 +79,7 @@ From the VSCodium terminal, we will create a results file and sync it to S3.
 
 ### [Time pending] Part 3: Fail and fix the pre-commit hook
 
-If we have time, show a quick example of fixing a pre-commmit hook failure.
+If we have time, show a quick example of fixing a pre-commit hook failure.
 Instructors can demonstrate this activity without participants following along, in the interest of time.
 
 This activity is somewhat contrived, but should suffice to generally convey the process of fixing a pre-commit hook failure.
