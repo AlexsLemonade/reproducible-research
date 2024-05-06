@@ -41,6 +41,7 @@ Dockerfiles
 DoubleTree
 Drexel
 dropdown
+EBI
 ectory
 EmptyDrops
 endcase
