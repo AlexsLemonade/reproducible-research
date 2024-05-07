@@ -17,8 +17,8 @@ Before this activity, participants should have performed all set up to get start
 
 First, we'll orient participants to analysis modules in the browser:
 
-- Nagivate to GitHub where analysis modules are stored: <https://github.com/AlexsLemonade/OpenScPCA-analysis/tree/main/analyses> and
-- Nagivate to the docs <https://openscpca.readthedocs.io/en/latest/contributing-to-analyses/>
+- Navigate to GitHub where analysis modules are stored: <https://github.com/AlexsLemonade/OpenScPCA-analysis/tree/main/analyses> and
+- Navigate to the docs <https://openscpca.readthedocs.io/en/latest/contributing-to-analyses/>
   - Show participants where they can find more information about creating and writing analysis modules, and compute/software requirements
   - Make sure to explain that the requirements pages also explain how to manage dependencies within modules
 - Navigate to GitHub to show and explain the contents of the `hello-python` module: <https://github.com/AlexsLemonade/OpenScPCA-analysis/tree/main/analyses/hello-python>
@@ -83,7 +83,7 @@ conda activate openscpca-hello-python
 
 ### Part 3: Run the `hello-python` module
 
-Now instructors and partipants will all run the module together, following the instructions in its README.
+Now instructors and participants will all run the module together, following the instructions in its README.
 
 First, make sure we are working in the correct conda environment, if this is not reflected in the terminal directly with `(openscpca-hello-python)` at the start of the prompt.
   - Noting that on LSfR we do expect that this will be shown in the prompt

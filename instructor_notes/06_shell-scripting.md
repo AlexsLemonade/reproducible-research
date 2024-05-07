@@ -17,7 +17,7 @@ At the end of this activity, workshop attendees should be able to:
 
 The goal of this activity is to interactively develop a script to download and save these two paired FASTQ files:
 
-+ Paired FASTQ files from [Study ID SRP255885](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885), and RNA-seq dataset about medulloblastoma
++ Paired FASTQ files from [Study ID `SRP255885`](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP255885), an RNA-seq dataset about medulloblastoma
   + Download links:
     + ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz
     + ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_2.fastq.gz
@@ -42,7 +42,7 @@ The goal of this activity is to interactively develop a script to download and s
   + Perform some light exploration, for example how many lines (and /4 = how many reads)?
   + Consider that we are going to do all of the same tasks for both files, and we want to avoid bugs!
 + Begin by performing some tasks _interactively_ on the command line as a first pass:
-  + Create a directory for the fastq files
+  + Create a directory for the FASTQ files
     + Goal: `data/raw/fastq/SRP255885`
     + Use this opportunity to introduce `mkdir` and the benefit of `mkdir -p`
   + Curl _one_ of the files: `curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz`
