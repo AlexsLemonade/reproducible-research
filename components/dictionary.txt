@@ -5,6 +5,7 @@ Addgene
 al
 ALSF
 AnnData
+assignees
 authenticator
 Authy
 autocomplete
@@ -172,10 +173,12 @@ Ventura
 videoconferences
 VSCodium
 walkable
+walkthrough
 writeable
 WSL
 XCode
 YAML
 Zakeri
 zebrafish
+ZenHub
 Zenodo

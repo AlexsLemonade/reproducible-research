@@ -12,7 +12,7 @@
 
 1. Start with the showing the following open issue: https://github.com/AlexsLemonade/OpenScPCA-analysis/issues/374
     - Note the link back to the discussion topic. (Do we want to show the form for submitting a new issue and/or discussion topic here?)
-    - Note links to other issues (we probably want to do this from a browser _without_ zenhub)
+    - Note links to other issues (we probably want to do this from a browser _without_ ZenHub)
     - Note assignees as a thing?
 
 2. Show the Pull Request template:
