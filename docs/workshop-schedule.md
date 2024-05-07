@@ -30,7 +30,6 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | 3:45 - 4:15 pm      | [Managing packages and environments](https://docs.google.com/presentation/d/1GCbu2F6LeEPOu5DzDsTgwu1__9YDVydvPo911fBG1i0/edit?usp=sharing)                    |
 | 4:15 - 4:45 pm      | [Working with branches in Git](https://docs.google.com/presentation/d/1s7BSHgTSDuXIzI1ROS-JSneB6NXfQVWOec6lhc8eIWA/edit?usp=sharing)                          |
 | 4:45 pm             | _Adjourn_                                                                                                                                                     |
-| 5:30 pm             | _Optional_ Meet in the hotel lobby to Lyft to dinner                                                                                                          |
 | 5:45 pm             | _Optional dinner_ at [LeBus East Falls](https://www.lebuseastfalls.com/)                                                                                      |
 
 ## Day 2: Introduction to OpenScPCA, 9 am - 5 pm
