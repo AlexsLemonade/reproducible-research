@@ -34,18 +34,18 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 
 ## Day 2: Introduction to OpenScPCA, 9 am - 5 pm
 
-| Time                | Topic                                           |
-| ------------------- | ----------------------------------------------- |
-| 8:45 am             | _Participants arrive and have breakfast_        |
-| 9:00 - 10:00 am     | Introduction to OpenScPCA                       |
-| 10:00 - 11:15 am    | OpenScPCA Setup                                 |
-| 11:15 - 11:30 am    | _Coffee break_                                  |
-| 11:30 am - 12:30 pm | Developing OpenScPCA analysis modules, Part 1   |
-| 12:30 - 1:30 pm     | _Lunch_                                         |
-| 1:30 - 2:15 pm      | Developing OpenScPCA analysis modules, Part 2   |
-|                     | [Using conda](https://docs.google.com/presentation/d/1RsDIR2wtfIkdwg6FDJghlZl9qrwuICmupMrDNTKOAjw/edit?usp=sharing) |
-| 2:15 - 2:45 pm      | [Analytical code review](https://docs.google.com/presentation/d/1aqIn8qmn7ijwgVzFd6mtfxBTD6UPEKaLOxOQNyMYUQs/edit?usp=sharing) |
-| 2:45 - 3:00 pm      | _Coffee break_                                  |
-| 3:00 - 3:45 pm      | Explore a current OpenScPCA analysis            |
-| 3:45 - 5:00 pm      | Open discussion, Q&A, and OpenScPCA exploration |
-| 5:00 pm             | _Adjourn_                                       |
+| Time                | Topic                                                                                                                             |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 8:45 am             | _Participants arrive and have breakfast_                                                                                          |
+| 9:00 - 10:00 am     | [Introduction to OpenScPCA](https://docs.google.com/presentation/d/1jC73Or5tCLKtsx9tl9Z8xpYVmKWb1bkXzA3_BJIA-zU/edit?usp=sharing) |
+| 10:00 - 11:15 am    | [OpenScPCA Setup](https://docs.google.com/presentation/d/1kHhz9M3wIUYp6eRqnfU8xTETeTBdDF6TxXx9jBVScAo/edit?usp=sharing)           |
+| 11:15 - 11:30 am    | _Coffee break_                                                                                                                    |
+| 11:30 am - 12:30 pm | Developing OpenScPCA analysis modules, Part 1                                                                                     |
+| 12:30 - 1:30 pm     | _Lunch_                                                                                                                           |
+| 1:30 - 2:15 pm      | Developing OpenScPCA analysis modules, Part 2                                                                                     |
+|                     | [Using conda](https://docs.google.com/presentation/d/1RsDIR2wtfIkdwg6FDJghlZl9qrwuICmupMrDNTKOAjw/edit?usp=sharing)               |
+| 2:15 - 2:45 pm      | [Analytical code review](https://docs.google.com/presentation/d/1aqIn8qmn7ijwgVzFd6mtfxBTD6UPEKaLOxOQNyMYUQs/edit?usp=sharing)    |
+| 2:45 - 3:00 pm      | _Coffee break_                                                                                                                    |
+| 3:00 - 3:45 pm      | Explore a current OpenScPCA analysis                                                                                              |
+| 3:45 - 5:00 pm      | Open discussion, Q&A, and OpenScPCA exploration                                                                                   |
+| 5:00 pm             | _Adjourn_                                                                                                                         |
