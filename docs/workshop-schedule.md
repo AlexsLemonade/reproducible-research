@@ -44,7 +44,7 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | 12:30 - 1:30 pm     | _Lunch_                                         |
 | 1:30 - 2:15 pm      | Developing OpenScPCA analysis modules, Part 2   |
 |                     | [Using conda](https://docs.google.com/presentation/d/1RsDIR2wtfIkdwg6FDJghlZl9qrwuICmupMrDNTKOAjw/edit?usp=sharing) |
-| 2:15 - 2:45 pm      | Analytical code review                          |
+| 2:15 - 2:45 pm      | [Analytical code review](https://docs.google.com/presentation/d/1aqIn8qmn7ijwgVzFd6mtfxBTD6UPEKaLOxOQNyMYUQs/edit?usp=sharing) |
 | 2:45 - 3:00 pm      | _Coffee break_                                  |
 | 3:00 - 3:45 pm      | Explore a current OpenScPCA analysis            |
 | 3:45 - 5:00 pm      | Open discussion, Q&A, and OpenScPCA exploration |
