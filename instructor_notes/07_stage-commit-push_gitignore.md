@@ -31,7 +31,7 @@ At the end of this activity, workshop attendees should be able to:
 * The final slide in this section provides the text that should be in their `.gitignore` file, also shown below here:
   * Note that _all lines_ except the FASTQ-relevant lines are pre-populated in the `.gitignore` file, so they only need to add the FASTQ lines.
 
-```
+```sh
 # Directory with large FASTQ files
 data/raw/fastq/SRP255885/
 

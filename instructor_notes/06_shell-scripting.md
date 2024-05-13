@@ -32,8 +32,6 @@ The goal of this activity is to interactively develop a script to download and s
   When presenting this alternative approach, the instructor should clearly explain that we are specifically and only using these subsetted versions from the repository in order to save time during the workshop.
   Instructors can share these URLs in the training-specific Slack channel to easily provide the links to participants.
 
-
-
 + On the command line, use `cd` to navigate to the top level of the repository that was just cloned.
 + Discuss at a high level what tasks we wish to perform:
   + Download the file
@@ -49,10 +47,9 @@ The goal of this activity is to interactively develop a script to download and s
     + Again, if the internet speed requires time-saving measures, use the given alternate link above to download a subsetted version from this repository.
   + Use `ls` and then `ls -h` to confirm file was created and then see its size
     + Useful change to practice `ls *gz` or similar
-  + Move the file to destination with `mv`
+  + Move the file to `data/raw/fastq/SRP255885` with `mv`
     + Option: This could also be a moment to slightly break from flow and demonstrate `cp` vs `mv`
   + Explore the contents of the file with piping:
-    + `cd data/raw/fastq/SRP255885`
     + Unzip the file and explain redirection with the following code:
       + `gunzip -c SRR11518889_1.fastq.gz > SRR11518889_1.fastq`
     + Show usage of `less` and `head` to see the uncompressed file
@@ -68,6 +65,40 @@ The goal of this activity is to interactively develop a script to download and s
     + This instructor version is in [`./variables_download-fastq.sh`](./variables_download-fastq.sh)
 
 
+## Quick reference
+
+The code chunk below contains commands to run in order during this activity:
+
+```sh
+# create destination directory
+mkdir -p data/raw/fastq/SRP255885
+
+# curl fastq
+# full version:
+curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz
+# small version:
+curl -O https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-SRR11518889_1.fastq.gz
+
+# confirm curl
+ls -h
+
+# mv the file to destination directory, and navigate there
+mv SRR11518889_1.fastq.gz data/raw/fastq/SRP255885/
+cd data/raw/fastq/SRP255885
 
 
+# unzip the file
+gunzip -c SRR11518889_1.fastq.gz > SRR11518889_1.fastq
 
+# explore the file
+head SRR11518889_1.fastq
+tail SRR11518889_1.fastq
+wc SRR11518889_1.fastq
+wc -l SRR11518889_1.fastq
+
+# remove both file versions before running script
+rm SRR11518889_1.*
+
+# navigate back, leveraging tab as we go to get the right path
+cd ../../../../
+```

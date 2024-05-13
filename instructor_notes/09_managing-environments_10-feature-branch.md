@@ -36,5 +36,5 @@ At the end of this activity, workshop attendees should be able to:
 * Instruct trainees to navigate to their remote repositories in the browser to see their new branch pushed.
 * In particular, make sure trainees see the github message along the lines of "This branch 1 commit behind the main branch" inside the `add-renv` branch view.
 * Return to GitKraken to _merge_ this feature branch into their `main` branch, push to `main`, and then delete the remote (and the local if preferred!) `add-renv` branch.
-
+  * Reiterate point from slides that other types of project workflows might not directly merge branches into `main`
 * Finally, if the local branch was not deleted, ensure trainees end up in their `main` branch locally.

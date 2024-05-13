@@ -44,6 +44,7 @@ As needed for time, we can skip some of the later steps.
       # activate
       conda activate openscpca
       ```
+
     - [Set up pre-commit](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/setup-precommit/) via the GitKraken terminal with `pre-commit install`
     - [Configure AWS CLI](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/configure-aws-cli/) (may wish to show this website during configuration for prompt responses)
       ```bash
@@ -67,4 +68,4 @@ First, launch from the "Access operating system" dropdown, and:
 
 8. Finally, close both windows and _Stop the computer_.
     - This emphasizes that it's helpful to stop their instances when they're not using it for the sake of preserving their monthly budget.
-    - But note also that after a period of low CPU usage as specified when the instance was created, it will shut off automatically
+    - But note also that after a period of low CPU usage as specified when the instance was created, it will shut off automatically, so this isn't _strictly_ needed.
