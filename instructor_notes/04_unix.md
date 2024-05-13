@@ -23,7 +23,7 @@ The instructions below are meant as a guide for what the instructor will synchro
   + Note that both macOS and Windows terminals (when the latter is launched as `Ubuntu`) should automatically be in the home directory
 + Prompt trainees to run `ls` in their home, and then show how output changes when using different flags `lah` one at a time and combined.
 + Prompt trainees to `cd` onto their Desktop, confirm arrival with `pwd`, and explore their own files with `ls`.
-  + Show use of `*` wildcard (e.g. `ls *txt`)
+  + Show use of `*` wildcard (e.g. `ls *.txt`)
   + Navigate a little more around the computer so that trainees can see use of `..` and `tab` autocompletion while crafting paths
 + Now, we need to ensure everyone has a directory like `Projects` or similar where they can keep all their projects moving forward.
   + Have them navigate to where they want this directory to be if it doesn't exist, and use `mkdir` to create it
