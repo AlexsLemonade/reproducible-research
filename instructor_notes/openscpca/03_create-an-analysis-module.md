@@ -1,5 +1,5 @@
 
-# Instructor Notes: Making an analysis module Activity
+# Instructor Notes: Making an analysis module
 
 ## Learning goals
 

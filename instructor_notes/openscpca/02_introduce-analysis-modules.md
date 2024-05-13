@@ -1,4 +1,4 @@
-# Instructor Notes: Introduction to analysis modules Activity
+# Instructor Notes: Introduction to analysis modules
 
 
 ## Learning goals
@@ -29,7 +29,7 @@ First, we'll orient participants to analysis modules in the browser:
 
 ### Part 2: Prepare to run the `hello-python` module
 
-According to the README instructions, we'll need to take two steps before running.
+According to the `README.md` instructions, we'll need to take two steps before running.
 Participants should follow along and type/code with us to perform these steps:
   - Download data
   - Prepare the conda environment
