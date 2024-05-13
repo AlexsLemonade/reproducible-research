@@ -13,7 +13,7 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | Time                | Topic                                                                                                                                                         |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 8:30 am             | _Participants arrive, have breakfast, and check in_                                                                                                           |
-| 9:00 - 10:15 am     | [Welcome and introductions](https://docs.google.com/presentation/d/1-mPY76_AbS8rLqxoSAOc2Ews5GyPSo8PVuG2El_S6BE/edit?usp=sharing)                             |
+| 9:00 - 10:15 am     | [Welcome and introductions](https://docs.google.com/presentation/d/1HPUXRrQsD68QyEQMbexOfM9Roz6VqUeIg_gCs7FSqVg/edit?usp=sharing)                             |
 |                     | [Why does reproducibility matter?](https://docs.google.com/presentation/d/1qfulAR4jD0KS7NfrLHpwT6SWl-7APBmqNnAwGpXX5oo/edit?usp=sharing)                      |
 | 10:15 - 10:45 am    | [Project organization](https://docs.google.com/presentation/d/1ncqxXlC0-PGEK-yE7S-nDYnMPhrOUPbI95EJy283wCs/edit?usp=sharing)                                  |
 | 10:45 - 11:00 am    | _Coffee break_                                                                                                                                                |
