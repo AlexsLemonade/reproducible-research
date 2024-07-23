@@ -1,6 +1,6 @@
 # Instructor Notes: Initializing a git repository on RStudio Server
 
-This document provides instructions for creating a git repository in an existing directory on the CCDL's RStudio Server, as well as setting up associated git credentials.
+This document provides instructions for creating a git repository in an existing directory on the Data Lab's RStudio Server, as well as setting up associated git credentials.
 
 ## Learning goals
 
@@ -103,7 +103,7 @@ git push -u origin main
 
 ## Next steps
 
-Explin that after we complete each training notebook, they should run the following to sync their local repo with GitHub:
+Explain that after we complete each training notebook, they should run the following to sync their local repo with GitHub:
 
 ```sh
 # add files one at a time
