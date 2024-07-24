@@ -159,6 +159,12 @@ git switch -c new-feature-branch
 # add, commit your work
 
 # the first push requires `-u origin <name of remote branch to create>
-git push -u origin
+git push -u origin new-feature-branch
 ```
 
+We can further explain that they can add an additional field to their `.gitconfig` which will automatically create
+any remote branch with:
+
+```sh
+git config --global init.defaultBranch "main"
+```
