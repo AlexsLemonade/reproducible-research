@@ -71,7 +71,8 @@ usethis::use_git_config(
 * Instruct participants to navigate to their GitHub.com account's Developer settings (`Settings > Developer Settings > Personal Access Tokens`)
   * Create a Classic token that lasts for 7 days as follows:
     * Provide an informative token name
-    * Select scopes: `repo`, `user`, and `gist`
+    * Select `repo` scope for this token
+    * Take this moment to discuss scopes in general (in particular `user`, `gist`, and `notifications`): https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps
   * **Before clicking `Generate Token`, make sure the screen share is off.**
   * Once the token is created, copy/paste it and save in a (local) _secure location_.
   Emphasize that if they have a password manager, they should use it!
