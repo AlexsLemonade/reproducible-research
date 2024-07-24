@@ -57,15 +57,16 @@ usethis::use_git_config(
 * In the R Console in the RStudio Server, use the `gitcreds` package to store this information:
   * Run `gitcreds::gitcreds_set()` and paste the PAT into Console.
   * Then, run `gitcreds::gitcreds_get()` to ensure a PAT has been set.
-* Explain that they will have to repeat this step every 12 hours to be able to continue communicating with GitHub because of how we set up caching on RStudio Server.
+* Explain that they will have to repeat this step every 12 hours to be able to continue communicating with GitHub because of how we set up caching on RStudio Server and in their `.gitconfig`
 
 ## Part 2: Create a git repository
 
-* In the Terminal, navigate to the `RNA-Seq` workshop directory, which participants are going to turn into a git repository and create a repository:
+* In the Terminal, navigate to the `training-modules` workshop directory, which participants are going to turn into a git repository and create a repository:
 
 ```sh
-# Navigate to the RNA-seq directory
-cd ~/training-modules/RNA-seq
+# Navigate to the training modules directory
+cd ~/training-modules
+```
 
 # Create a git repository
 git init
@@ -91,7 +92,7 @@ git commit -m "First commit for RNA-seq workshop materials repo"
 For this, instruct participants to create a new repo on GitHub.com
     * _Do not_ initialize the repository with any files (no `README`, `.gitignore`, or `LICENSE`)
 
-* Copy/paste the `https` URL (`{REMOTE-URL}`) and use for the following code back in R:
+* Copy/paste the `https` URL (`{REMOTE-URL}`) and use for the following code back in the terminal:
 ```sh
 # Set the remote repo address
 git remote add origin {REMOTE-URL}
