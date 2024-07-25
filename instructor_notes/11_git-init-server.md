@@ -14,9 +14,7 @@ At the end of this activity, workshop attendees will have:
 
 ### Set up the `~/.gitconfig` file
 
-This can either be done using `git` CLI in Terminal, or with the `usethis` package in R.
-
-In the end, the `~/.gitconfig` file should look like this (where the `init` block is optional but recommended):
+Use git CLI to set up the config file, which should should look like this (where the `init` block is optional but recommended) once it's created:
 
 ```yml
 [user]
@@ -28,70 +26,34 @@ In the end, the `~/.gitconfig` file should look like this (where the `init` bloc
     defaultBranch = "main"
 ```
 
-#### Set up `~/.gitconfig` via Terminal
+To create the file, run these lines in terminal:
 
-```
+```sh
+# Add email and username
 git config --global user.email "your_email@example.com"
 git config --global user.name "name"
+
+# Cache credentials for 12 hours
 git config --global credential.helper "cache --timeout=43200"
 
-# optional but useful
+# Optional but useful: name the default branch `main`
 git config --global init.defaultBranch "main"
 ```
 
-#### Set up `~/.gitconfig` via R
-
-If `usethis` is used, instruct participants to view the `~/.gitconfig` file after each step to see how the file has been modified.
-Note that `usethis::use_git_config()` will not modify (or delete!) other fields besides those provided to the function.
-
-```r
-# Step 1: Create config file with user and email
-# We start with this step on its own because it applies to any system they'll work on
-usethis::use_git_config(
-    user.name = "Participant Name",
-    user.email = "Participant Email",
-    # Optional setting to ensure the config is global for the user
-    scope = "user",
-    # Optional setting to use `main` as default branch when creating a new repo
-    init.defaultBranch = "main"
-)
-# Step 2: Set up credential helper to be able to temporarily store PAT on the server
-# Note that this could be combined with step 1 as an additional argument
-# We do this step separately because it is more specific to RStudio Server usage and may not apply
-#  to other circumstances beyond this workshop.
-usethis::use_git_config(
-    credential.helper = "cache --timeout=43200" # 12 hours
-)
-```
-
-### Add your Personal Access Token
+### Create a Personal Access Token (PAT)
 
 > Maintain security during this activity and turn off the instructor's projector (i.e., do not screen share) when tokens are being displayed.
 
 * Instruct participants to navigate to their GitHub.com account's Developer settings (`Settings > Developer Settings > Personal Access Tokens`)
-  * Create a Classic token that lasts for 7 days as follows:
-    * Provide an informative token name
-    * Select `repo` scope for this token
-    * Take this moment to discuss scopes in general (in particular `user`, `gist`, and `notifications`): https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps
-  * **Before clicking `Generate Token`, make sure the screen share is off.**
-  * Once the token is created, copy/paste it and save in a (local) _secure location_.
+* Create a Classic PAT that lasts for 7 days as follows:
+  * Provide an informative PAT name
+  * Select `repo` scope for this token
+  * Take this moment to discuss scopes in general (in particular `user`, `gist`, and `notifications`): https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps
+* **Before clicking `Generate Token`, make sure the screen share is off.**
+  * Once the PAT is created, copy/paste it and save in a (local) _secure location_.
   Emphasize that if they have a password manager, they should use it!
-* In the R Console in the RStudio Server, use the `gitcreds` package to store this information:
-**Before pasting the token, make sure screen share is off.**
-  * Run `gitcreds::gitcreds_set()` and paste the PAT into Console.
-  * Clear the Console so the PAT is no longer visible before resuming screen share.
-* Run `gitcreds::gitcreds_get()` to ensure a PAT has been set.
-They should see this output if it was successful:
-
-    ```r
-    > gitcreds::gitcreds_get()
-    <gitcreds>
-    protocol: https
-    host    : github.com
-    username: PersonalAccessToken
-    password: <-- hidden -->
-    ```
-* Explain that they will have to repeat this step every 12 hours to be able to continue communicating with GitHub because of how we set up caching on RStudio Server.
+* Explain that participants will use this PAT instead of their password when git prompts them to enter credentials
+  * They will be prompted every 12 hours, per the cache we set up in the last step
 
 ## Part 2: Create a git repository
 
@@ -167,5 +129,5 @@ We can further explain that they can add an additional field to their `.gitconfi
 any remote branch with:
 
 ```sh
-git config --global init.defaultBranch "main"
+git config --global push.autoSetupRemote "true"
 ```
