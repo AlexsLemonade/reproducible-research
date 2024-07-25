@@ -117,7 +117,7 @@ git push
 Note that if they wanted to create a new branch and push it to GitHub, they would do:
 
 ```sh
-# create new branch
+# create new branch and switch to it
 git switch -c new-feature-branch
 
 # add, commit your work
