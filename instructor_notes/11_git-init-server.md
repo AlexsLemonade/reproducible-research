@@ -1,12 +1,12 @@
 # Instructor Notes: Initializing a git repository on RStudio Server
 
-This document provides instructions for creating a git repository in an existing directory on the Data Lab's RStudio Server, as well as setting up associated git credentials.
+This document provides instructions for setting up git credentials and creating/working with a git repository in an existing directory on the Data Lab's RStudio Server.
 
 ## Learning goals
 
 At the end of this activity, workshop attendees will have:
 
-* Learned about git Personal Access Tokens and credentials
+* Learned about credentials and created a GitHub Personal Access Tokens
 * Performed basic git configuration using git CLI
 * Used basic git CLI commands
 
@@ -90,13 +90,14 @@ For this, instruct participants to create a new corresponding repo on GitHub.com
 
 * Copy/paste the `https` URL (`{REMOTE-URL}`) for use in the following code in terminal:
 ```sh
-# Set the remote repo address
+# set the remote repo address
+# note that this only has to be done once for a newly initialized repo
 git remote add origin {REMOTE-URL}
 
 # push to main
-# The `-u origin main` part is only needed the first time you push to a branch that you have not pushed to before,
+# note that the `-u origin main` part is only needed the first time you push to a branch that you have not pushed to before,
 #  or does not exist on the remote
-# Moving forward in this branch, pushing will go to this URL by default
+# moving forward in this branch, pushing will go to this URL by default
 git push -u origin main
 ```
 
@@ -109,6 +110,7 @@ Explain that after we complete each training notebook, they should run the follo
 git add <specific .Rmd file>
 git add <specific .html file>
 
+# commit and push
 git commit -m "Informative message about notebook being added"
 
 git push
@@ -122,7 +124,7 @@ git switch -c new-feature-branch
 
 # add, commit your work
 
-# the first push requires `-u origin <name of remote branch to create>
+# the first push requires `-u origin <name of remote branch to create>`
 git push -u origin new-feature-branch
 
 # note that you can switch back to any existing branch, e.g. main, with:
