@@ -87,7 +87,7 @@ git commit -m "First commit for RNA-seq workshop materials repo"
 For this, instruct participants to create a new repo on GitHub.com
     * _Do not_ initialize the repository with any files (no `README`, `.gitignore`, or `LICENSE`)
 
-* Copy/paste the `https` URL (`{REMOTE-URL}`) and use for the following code back in R:
+* Copy/paste the `https` URL (`{REMOTE-URL}`) and use for the following code back in terminal:
 ```sh
 # Set the remote repo address
 git remote add origin {REMOTE-URL}
