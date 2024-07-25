@@ -14,7 +14,7 @@ At the end of this activity, workshop attendees will have:
 
 ### Set up the `~/.gitconfig` file
 
-Use git CLI to set up the config file, which should should look like this (where the `init` block is optional but recommended) once it's created:
+Use git CLI to set up the `~/.gitconfig` file, which should should look like this (where the `init` block is optional but recommended) once it's created:
 
 ```yml
 [user]
@@ -39,6 +39,7 @@ git config --global credential.helper "cache --timeout=43200"
 # Optional but useful: name the default branch `main`
 git config --global init.defaultBranch "main"
 ```
+
 
 ### Create a Personal Access Token (PAT)
 
