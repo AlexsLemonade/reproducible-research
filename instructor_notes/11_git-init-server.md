@@ -117,13 +117,16 @@ git push
 Note that if they wanted to create a new branch and push it to GitHub, they would do:
 
 ```sh
-# create new branch and switch to it
+# create new branch (-c) and switch to it
 git switch -c new-feature-branch
 
 # add, commit your work
 
 # the first push requires `-u origin <name of remote branch to create>
 git push -u origin new-feature-branch
+
+# note that you can switch back to any existing branch, e.g. main, with:
+git switch main
 ```
 
 We can further explain that they can add an additional field to their `.gitconfig` which will automatically create
