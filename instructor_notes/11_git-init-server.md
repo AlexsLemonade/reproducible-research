@@ -7,7 +7,7 @@ This document provides instructions for creating a git repository in an existing
 At the end of this activity, workshop attendees will have:
 
 * Learned about git Personal Access Tokens and credentials
-* Learned basic git configuration using R tools
+* Performed basic git configuration using git CLI
 * Used basic git CLI commands
 
 ## Part 1: Set up git credentials
