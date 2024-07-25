@@ -26,7 +26,7 @@ Use git CLI to set up the `~/.gitconfig` file, which should should look like thi
     defaultBranch = "main"
 ```
 
-To create the file, run these lines in terminal:
+To create the file, run these lines in terminal, each commented set at a time to explain clearly what each is doing:
 
 ```sh
 # Add email and username
@@ -58,7 +58,7 @@ git config --global init.defaultBranch "main"
 
 ## Part 2: Create a git repository
 
-* In the Terminal, navigate to the `training-modules` workshop directory and create a repository:
+* In the Terminal, navigate to the `~/training-modules` workshop directory and create a repository:
 
 ```sh
 # Navigate to the training-modules directory
@@ -85,10 +85,10 @@ git commit -m "First commit for RNA-seq workshop materials repo"
 ```
 
 * Next, we need a corresponding remote repository to push to.
-For this, instruct participants to create a new repo on GitHub.com
+For this, instruct participants to create a new corresponding repo on GitHub.com
     * _Do not_ initialize the repository with any files (no `README`, `.gitignore`, or `LICENSE`)
 
-* Copy/paste the `https` URL (`{REMOTE-URL}`) and use for the following code back in terminal:
+* Copy/paste the `https` URL (`{REMOTE-URL}`) for use in the following code in terminal:
 ```sh
 # Set the remote repo address
 git remote add origin {REMOTE-URL}
