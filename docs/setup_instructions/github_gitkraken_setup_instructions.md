@@ -111,7 +111,7 @@ Celebrate your new 2FA setup!
 ## Setting up GitKraken
 
 
-Now that you have set up your Git account, you are ready to configure the GitKraken application you previously downloaded onto your computer.
+Now that you have set up your GitHub account, you are ready to configure the GitKraken application you previously downloaded onto your computer.
 
 Open the installed GitKraken application.
 Note that if this is the first time you are opening GitKraken on a Mac, you may see this message; click "Open" if you see this message.
