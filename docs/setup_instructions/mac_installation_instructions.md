@@ -151,19 +151,13 @@ The following image shows, for example, what these messages look like for a succ
 ## GitKraken
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
-This GUI can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
-
-<img src="screenshots/mac/gitkraken_mac_1.png" alt="GitKraken Landing Page" width="500">
+This GUI can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Desktop Free" (_do not pay!!_).
 
 Then, select the appropriate version for your computer's architecture.
-
-<img src="screenshots/mac/gitkraken_mac_2.png" alt="GitKraken Download options" width="500">
-
 The GitKraken installer will now download.
-Double-click the downloaded disk image, and a window will appear where, as the instructions indicate, you should drag the GitKraken icon into the Applications folder icon (all within this window!).
 
+Double-click the downloaded disk image, and a window will appear where, as the instructions indicate, you should drag the GitKraken icon into the Applications folder icon within this window.
 
-<img src="screenshots/mac/gitkraken_mac_3.png" alt="GitKraken Drag Download" width="500">
 
 This action completes the installation, and you can now safely delete (eject) the disk image file.
 For more information on setting up a GitHub account and the initial GitKraken setup, see our [GitHub Setup instructions](github_gitkraken_setup_instructions.md).
