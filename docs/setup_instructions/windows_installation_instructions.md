@@ -261,7 +261,7 @@ You will be asked whether to save your workspace, and we recommend choosing `n`.
 
 ## GitKraken
 
-We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop.
+We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
 
 
 

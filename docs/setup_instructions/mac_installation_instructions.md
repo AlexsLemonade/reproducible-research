@@ -11,7 +11,7 @@ title: macOS Installation Instructions
 
 ## Apple Command Line Tools
 
-Apple provides a suite of "command line tools" to facilitate computer programming, and these tools include `git` which we will use for this workshop.
+Apple provides a suite of "command line tools" to facilitate computer programming, and these tools include Git which we will use for this workshop.
 To install the command line tools, you will need to open the **Terminal** application.
 You can find the Terminal app with a few different approaches:
 
@@ -150,7 +150,7 @@ The following image shows, for example, what these messages look like for a succ
 
 ## GitKraken
 
-We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop.
+We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
 This GUI can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
 
 <img src="screenshots/mac/gitkraken_mac_1.png" alt="GitKraken Landing Page" width="500">
