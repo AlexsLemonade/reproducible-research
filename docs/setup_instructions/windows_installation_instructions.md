@@ -10,87 +10,77 @@ title: Windows Installation Instructions
 
 > Please be aware this setup process may take 1-2 hours to complete!
 
-## Windows Subsystem for Linux (WSL)
+## Windows Subsystem for Linux (WSL 2)
 
 We will be using a number of UNIX-based tools throughout this workshop, and many bioinformatics packages are written for that environment.
 That used to mean that many such tools were not available for Windows computers, and you needed a separate machine (often a server) to run them.
 
-Thankfully, Windows has introduced the Windows Subsystem for Linux (WSL), which essentially allows you to run a full Linux system from within Windows.
+Thankfully, Windows has introduced the Windows Subsystem for Linux (WSL 2), which essentially allows you to run a full Linux system from within Windows.
 It is a little bit quirky, especially in how it interacts with your "normal" Windows files, but it opens up many tools that were not previously available on Windows.
 
-To install WSL, you will first need to use the Command Prompt.
-Type `cmd` in the Windows search box to bring up the Command Prompt, then click the option in the right panel to "Run as administrator".
-(Note that all of the screenshots below were taken with Windows 10; if you have Windows 11, you may see some slight differences, but the steps should be the same.)
+Note that WSL 2 requires that you are on Windows 11 or Windows 10 version 2004+ (Build 19041 and higher).
 
-<img src="screenshots/windows/launch_cmd.png" alt="Launching the Command Prompt as administrator" width="500">
+### Installing WSL 2 and Ubuntu
 
-You will be prompted to allow changes to your system; say yes!
+To install WSL 2, take the following steps.
+Note that these instructions are taken from [these official Windows instructions](https://learn.microsoft.com/en-us/windows/wsl/setup/environment).
 
-When the Command Prompt window is open, type `wsl --install -d ubuntu` and press Enter to install WSL and the Ubuntu version of Linux.
-("Ubuntu" is one of the more popular versions of Linux, and the default version that comes with WSL.)
-You should start to see messages about the progress of the installation, which will take several minutes to complete (it may be a while, depending on the speed of your internet connection).
+Throughout this process you will be prompted about whether you want to all this app to make changes to your device.
+Always click "Yes" when you see these prompts.
 
-<img src="screenshots/windows/wsl_install_1.png" alt="wsl install progress" width="300">
+1. In the Windows Search Bar Menu, search for the "Windows PowerShell" application.
+Open it by clicking "Run as administrator".
 
-If WSL and Ubuntu are already installed, you may see a short message, followed by the Ubuntu app opening.
+1. Run this command in PowerShell to install WSL 2:
 
-When installation is complete (be patient!), you will see a message asking you to reboot your computer to complete the setup.
+    ```sh
+    wsl --install
+    ```
 
-<img src="screenshots/windows/wsl_install_2.png" alt="wsl install complete" width="475">
+1. Once WSL 2 has finished installing, you will be prompted to set up a username and password to use with Ubuntu.
+    - These credentials are _independent_ of the username and password you already have set up on the Windows side of your computer.
+        - Changing one will not affect the other, but you can use the same username for both if you would like.
+    - _Make sure you keep track of your username and password!_
+    You will need to use your password when installing software for Ubuntu.
+    - Note that when you type your password, no symbols will appear - this is expected!
 
-Restart your computer, then use the Windows Start menu to launch the **Ubuntu** app.
 
-When you launch the Ubuntu App, the first thing you may see is that it has more work to do to finish the installation.
+### Accessing Ubuntu via the Windows Terminal
 
-<img src="screenshots/windows/ubuntu_launch.png" alt="Ubuntu installing" width=200>
+You can use the Ubuntu side of your computer via the ["Terminal" application](https://learn.microsoft.com/en-us/windows/terminal/).
+This application opens all types of shells, aka command line prompts, in the same window.
+Compared to other options for launching Ubuntu, it has much better support for handy features such as copy and paste.
 
-When the Linux installation is ready, you will be prompted to create a username and password for the Linux account.
-These are separate from your Windows login; be sure to choose a good password and store it somewhere securely.
-Note that when you are entering the password (which you will do twice for confirmation), you will see no indication of your typing, just a blank line.
-_Your password is still being entered even though you don't see any symbols!_
-After you type your password (each time), hit Enter to proceed to the next step.
+If it is not already installed, you can [install Terminal from the Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-us&gl=US).
 
-<img src="screenshots/windows/ubuntu_password.png" alt="Ubuntu password prompt" width=500>
+You can launch the Ubuntu terminal by clicking "Ubuntu" when searching for the Terminal application in the Windows search menu.
 
+<img src="screenshots/windows/wsl-terminal-start.png" alt="Open the Ubuntu terminal" width=500>
+
+The Terminal application can have different tabs for different shells - for example one tab for Ubuntu terminal, and another tab for PowerShell.
+
+<img src="screenshots/windows/wsl-terminal-tab.png" alt="Ubuntu terminal tabs" width=500>
+
+### Updating Ubuntu packages
 
 At this point, Ubuntu Linux should be installed and usable, but it may not have all of the latest updates, so we will do one more set of steps.
 Most software packages are managed on Ubuntu using a tool called `apt`, so we will use this to check for updates and install them.
 
-In the Ubuntu window, which is a Linux "terminal", type `sudo apt update` and press Enter.
-`sudo` is a command that allows the following commands to be run with elevated privileges, and we use it for commands that may modify the system.
-So here we are running `apt update` with elevated privileges, and you will be prompted again to enter your *Linux* password to allow this.
-(Here again, you won't see your typing, but be assured that the computer is seeing what you type!)
+To do this, run the following command in the Ubuntu terminal to ensure that the package index for `apt`, the native Ubuntu package manager, and all its pre-installed packages are up to date.
 
-You will see messages for a number of files being downloaded, and finally a message that some number of packages can be upgraded.
+  - Ubuntu may prompt you for your newly-created Ubuntu password when you run this command; you can expect to be prompted for a password any time you run a command as [`sudo`](https://www.pluralsight.com/resources/blog/cloud/linux-commands-for-beginners-sudo).
+  - Again, when you type your password, no symbols will appear, as expected.
+  - Enter "Y" if/when you are prompted for whether you want to continue with any package upgrades.
+    ```sh
+    sudo apt update && sudo apt upgrade
+    ```
 
-<img src="screenshots/windows/ubuntu_apt_upgrade.png" alt="Ubuntu apt upgrade" width=500>
+### Copy and paste in Ubuntu
 
-Now type `sudo apt upgrade` and press Enter to apply all of the available updates.
-(If there is a long time between these two `sudo` steps, you may have to enter your password again.)
-You will be shown a list of the packages that will be installed (a long list, most likely!) and asked to confirm the installation.
-Type `y` (or just Enter) to confirm, then wait for all of the installations to complete.
+Be aware that right-clicking in the Ubuntu terminal window has different behavior compared to the rest of your computer.
 
-### Optional: Enabling copy and paste in Ubuntu on Windows 10
+In Ubuntu, right-clicking will _paste_ the contents of your clipboard into the terminal.
 
-On Windows 10, copy and paste may not work in the Ubuntu app quite as you might expect them to in the rest of Windows.
-There are a number of reasons for this, but part of it is that the "control" key (`Ctrl`) is used for different things in Ubuntu, so there is a risk conflicting instructions if you were to use `Ctrl+C` or `Ctrl+V` as you might in the rest of Windows.
-Since some of the later commands are long, you will probably want to be able to paste them in!
-
-You can paste into the Ubuntu terminal by right clicking in the Ubuntu window.
-You will not see a menu like you might normally expect; whatever you last copied will just paste in immediately.
-
-To enable copy and paste with keyboard shortcuts in the Linux environment, right click on the Ubuntu window title bar and select "Properties".
-
-<img src="screenshots/windows/ubuntu_properties_menu.png" alt="Ubuntu properties menu" width=250 >
-
-In the "Edit Options" tab, check the "Use `Ctrl`+Shift+C/V and Copy/Paste" box, then click the "OK" button.
-
-<img src="screenshots/windows/ubuntu_properties.png" alt="Ubuntu properties window" width=250 >
-
-Now you can use `Ctrl+Shift+C` and `Ctrl+Shift+V` to copy and paste in the Ubuntu window (just don't forget the `Shift`)!
-
-On Windows 11, it seems that the "Properties" menu is gone, but copy and paste work more like you expect.
-Right clicking still pastes immediately (with no popup menu) though!
 
 ## R and RStudio
 
@@ -188,7 +178,7 @@ First we will need to install some Linux packages that are required for setting 
 Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ubuntu)) the following command.
 (This is a long command! Make sure to get the whole line!):
 
- ```
+ ```sh
  sudo apt install --no-install-recommends software-properties-common dirmngr libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libtiff-dev
  ```
 
@@ -198,19 +188,19 @@ Type `y` (or just Enter) to confirm, then wait for all of the installations to c
 The next step is to add the "signing key" that verifies the authenticity of the R packages from CRAN.
 Enter the following command (all on one line):
 
-```
+```sh
 wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
 ```
 
 You will see a block of random-looking text printed to the screen, ending with
 
-```
+```console
 ---- END PGP PUBLIC KEY BLOCK -----
 ```
 
 Now we will tell `apt` where to look for the latest version of R, by entering the following command (all on one line):
 
-```
+```sh
 sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
 ```
 
