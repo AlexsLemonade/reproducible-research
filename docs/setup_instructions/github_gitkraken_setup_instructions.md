@@ -134,7 +134,7 @@ Click the "GitHub" icon to proceed to proceed with the authorization process tha
 GitKraken will then open a browser window to link your GitHub account.
 If you are not already signed into GitHub, you first will be prompted to log in.
 
-Once you are loggined in, you should grant GitKraken permission to link with your GitHub account.
+Once you are logged in, you should grant GitKraken permission to link with your GitHub account.
 Click "Authorize Axosoft":
 
 <img src="screenshots/github/gitkraken_authorize_axosoft.png" alt="GitKraken Axosoft Authorization " width="500">
