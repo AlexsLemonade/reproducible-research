@@ -122,6 +122,7 @@ personalization
 PHI
 PII
 png
+PowerShell
 pre
 Protip
 README
