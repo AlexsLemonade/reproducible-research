@@ -267,8 +267,6 @@ We will use the GUI (graphical user interface) called `GitKraken` to work with `
 
 GitKraken can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
 
-<img src="screenshots/windows/gitkraken_download.png" alt="GitKraken landing page" width="500">
-
 
 The GitKraken installer will now download as `GitKrakenSetup.exe`.
 Open this file and follow the prompts to install GitKraken onto your computer.
