@@ -66,7 +66,6 @@ Scan the displayed QR code into your smart phone app, and the app will provide y
 
 Github.com will now show you a list of **recovery codes** that you can use in case you lose access to your phone or authenticator app.
 **Save these codes in a secure location, and do NOT share them, just like passwords!**
-(This is why the screenshot below blacks out the recovery codes - they should not be shared!)
 You can export these code by clicking the "Download" button.
 
 Once you have saved your recovery codes to a secure location, click "I have saved my recovery codes."
