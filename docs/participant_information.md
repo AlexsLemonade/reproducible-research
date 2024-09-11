@@ -28,10 +28,10 @@ Find helpful information about the workshop location, travel reimbursement, and 
 
 ## Workshop Location
 
-The training workshop will be held at Northwestern Mutual Headquarters, located at 805 E. Mason Street, Milwaukee, WI, 53202.
+The training workshop will be held at Northwestern Mutual Headquarters located at 805 E. Mason Street, Milwaukee, WI, 53202.
 We will meet in room 2E on the 2nd floor. 
 
-If you have trouble finding the building or the rooms, please use Slack to direct message `Jen O'Malley`.
+If you have trouble finding the building or the room, please use Slack to direct message `Jen O'Malley`.
 
 ### Security
 
@@ -49,7 +49,6 @@ Nearby hotels:
 * [DoubleTree by Hilton Hotel Milwaukee Downtown](https://www.hilton.com/en/hotels/mkeccdt-doubletree-milwaukee-downtown/)
 * [Hampton Inn & Suites Milwaukee Downtown](https://www.hilton.com/en/hotels/mkedwhx-hampton-suites-milwaukee-downtown/)
 * [Hyatt Regency Milwaukee](https://www.hyatt.com/hyatt-regency/en-US/mkerm-hyatt-regency-milwaukee)
-
 
 ## Travel Reimbursement
 
