@@ -1,5 +1,5 @@
 ---
-title: Setting up `git` and GitKraken
+title: Setting up Git and GitKraken
 ---
 
 **Table of contents**
@@ -9,7 +9,7 @@ title: Setting up `git` and GitKraken
 
 ## Setting up your computer
 
-Before setting up `git` and GitKraken, you'll need to follow these steps to install certain softwares on your computer: [Setup for macOS users](./mac_installation_instructions.html) or [Setup for Windows/PC users](./windows_installation_instructions.html).
+Before setting up Git and GitKraken, you'll need to follow these steps to install certain softwares on your computer: [Setup for macOS users](./mac_installation_instructions.html) or [Setup for Windows/PC users](./windows_installation_instructions.html).
 
 
 ## Creating a GitHub account
@@ -74,69 +74,51 @@ Once you have saved your recovery codes to a secure location, click "I have save
 ## Setting up GitKraken
 
 
-Now that you have set up your `git` account, you are ready to configure the GitKraken application you previously downloaded onto your computer.
+Now that you have set up your GitHub account, you are ready to configure the GitKraken application you previously downloaded onto your computer.
 
 Open the installed GitKraken application.
 Note that if this is the first time you are opening GitKraken on a Mac, you may see this message; click "Open" if you see this message.
 
 <img src="screenshots/github/gitkraken_mac_warning.png" alt="macOS warning about GitKraken" width="200">
 
-
-When GitKraken opens, it will first prompt you to sign up for GitKraken.
+When GitKraken first opens, it will prompt you to either open a repository or sign in.
 GitKraken's parent company Axosoft has its own account system to manage use of the advanced features of its software.
 Luckily, it is easy enough to use your GitHub account to login, which will save you from having to remember a separate login, so we recommend that option.
 
-Click the link to "Sign up with GitHub:"
+Click "Sign In":
 
-<img src="screenshots/github/gitkraken_signup.png" alt="GitKraken Sign up with GitHub" width="500">
+<img src="screenshots/github/gitkraken_signin.png" alt="GitKraken Sign In" width="500">
 
-Your browser will then open for you to proceed with the authorization process that will link your GitHub account to your GitKraken application.
-Click "Continue Authorization" on this website.
+GitKraken will then present different options for signing in.
+Click the "GitHub" icon to proceed to proceed with the authorization process that will link your GitHub account to your GitKraken application.
 
-<img src="screenshots/github/gitkraken_authorize_github.png" alt="GitKraken GitHub Authorization " width="500">
+<img src="screenshots/github/gitkraken_signin_options.png" alt="GitKraken Sign up with GitHub" width="500">
 
+GitKraken will then open a browser window to link your GitHub account.
+If you are not already signed into GitHub, you first will be prompted to log in.
 
-If you are _not_ already signed into GitHub in your browser, you will then be prompted to sign into GitHub:
-
-<img src="screenshots/github/gitkraken_git_signin.png" alt="GitKraken GitHub signin website" width="500">
-
-Next, you will have to grant GitKraken permission to link with your GitHub account.
-Click "Authorize Axosoft:"
+Once you are logged in, you should grant GitKraken permission to link with your GitHub account.
+Click "Authorize Axosoft":
 
 <img src="screenshots/github/gitkraken_authorize_axosoft.png" alt="GitKraken Axosoft Authorization " width="500">
 
 
-Finally, you will be redirected to a website confirming that you successfully linked GitHub and GitKraken:
-
+You will be redirected to a website confirming that you successfully linked GitHub and GitKraken.
 
 <img src="screenshots/github/gitkraken_success.png" alt="GitKraken GitHub Successful connection" width="500">
 
-When you return to GitKraken, you may be prompted to activate a free trial of GitKraken and to agree to the license.
-We will only be using the free features of GitKraken during the workshop, so don't worry about when the trial will expire.
-(The paid version adds a number of advanced features, the most useful of which is probably the ability to interact with private repositories on GitHub.)
+Back in GitKraken, you will now be prompted for your name and email address used for Git commits.
+Fill out the information as follows, and then click "Use These for Git Commits".
 
-<img src="screenshots/github/gitkraken_eula.png" alt="GitKraken End User License Agreement" width="400" >
-
-
-
-
-After agreeing to the GitKraken license, you will be prompted to set up your profile.
-Choose your favorite avatar, and add information as follows:
-
-- `Profile Name`: We recommend leaving this at its default, "Default Profile"
 - `Author Name`: Enter the preferred name you wish to be publicly associated with the actions you'll perform on GitHub.
-- `Author Email`: Enter the preferred email you wish to be publicly associated with the actions you'll perform on GitHub. This email does not have to be the same as the one you used to sign up for GitHub.
-
-<img src="screenshots/github/gitkraken_profile.png" alt="GitKraken Profile" width="500">
-
+- `Author Email`: Enter the preferred email you wish to be publicly associated with the actions you'll perform on GitHub.
+This email does not have to be the same as the one you used to sign up for GitHub.
 
 
-Click create profile, and on the following screen select to open a "Repo Tab:"
+<img src="screenshots/github/gitkraken_confirm_git_details.png" alt="GitKraken Commit Details" width="500">
 
-<img src="screenshots/github/gitkraken_repo_terminal.png" alt="GitKraken Choose Repo or Terminal Tab" width="500">
+Finally, GitKraken will present this screen of options, which means you're all set up!
+You do not need to select any options here - we will do that together in the workshop.
+You can now safely close GitKraken.
 
-
-Finally, you'll arrive on the GitKraken application's home view, and you're all set!
-
-<img src="screenshots/github/gitkraken_home.png" alt="GitKraken home view" width="500">
-
+<img src="screenshots/github/gitkraken_landing.png" alt="GitKraken Getting Started Landing Page" width="500">

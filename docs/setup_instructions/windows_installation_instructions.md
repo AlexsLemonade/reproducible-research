@@ -261,13 +261,11 @@ You will be asked whether to save your workspace, and we recommend choosing `n`.
 
 ## GitKraken
 
-We will use the GUI (graphical user interface) called `GitKraken` to work with `git` in this workshop.
+We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
 
 
 
-GitKraken can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Client Free" (_do not pay!!_):
-
-<img src="screenshots/windows/gitkraken_download.png" alt="GitKraken landing page" width="500">
+GitKraken can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Desktop Free" (_do not pay!!_):
 
 
 The GitKraken installer will now download as `GitKrakenSetup.exe`.
