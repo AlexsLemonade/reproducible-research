@@ -9,12 +9,12 @@ We will _not_ have time to do all of the setup on the day of the workshop and ac
 Please be aware this setup process may take 1-2 hours to complete if you are using Windows, and somewhat less on a Mac.
 
 
+{% if site.include_openrrp %}
 **Table of contents**
 
 * TOC goes here
 {:toc}
 
-{% if site.include_openrrp %}
 ### Only staying for "Reproducible Research Practices"?
 
 If you are only staying for the first half of the workshop and _not_ for the portion about OpenScPCA, you can follow these setup instructions.
