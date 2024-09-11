@@ -23,7 +23,7 @@ Please be aware this setup process may take 1-2 hours to complete.
 ### Only staying for "Reproducible Research Practices"?
 
 If you are only staying for the first half of the workshop and _not_ for the portion about OpenScPCA, you can follow these setup instructions.
-_Otherwise, please proceed to the next section and follow those instructions on this page._
+_Otherwise, please proceed to the next section and follow all other instructions._
 {% endif %}
 
 {% include_relative rrp-setup.md %}
