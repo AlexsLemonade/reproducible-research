@@ -14,4 +14,4 @@ header_pages:
   - workshop-schedule.md
 
 # Workshop type: rrp or openrrp
-workshop: "rrp"
+include-openrrp: false

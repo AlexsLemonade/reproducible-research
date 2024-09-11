@@ -11,7 +11,7 @@ Do not modify this file!
 This will be a hands-on workshop, so to maximize our time, we would like you to arrive having completed a number of setup tasks, namely setting up accounts and installing software that we will be using.
 
 We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the workshop!
-Please be aware this setup process may take 1-2 hours to complete.
+Please be aware this setup process may take 1-2 hours to complete if you are using Windows, and somewhat less on a Mac.
 
 
 **Table of contents**
