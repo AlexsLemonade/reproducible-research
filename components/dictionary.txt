@@ -76,6 +76,7 @@ hg
 Hippen
 Homebrew
 Homewood
+Hyatt
 IAM
 IHG
 io
@@ -119,6 +120,7 @@ orking
 ount
 ove
 personalization
+Pfister
 PHI
 PII
 png
@@ -164,6 +166,7 @@ TPMs
 transcriptome
 transcriptomic
 transphobic
+Tru
 TSV
 Tung
 ual
