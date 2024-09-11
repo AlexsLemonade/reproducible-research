@@ -76,6 +76,7 @@ hg
 Hippen
 Homebrew
 Homewood
+Hyatt
 IAM
 IHG
 io
@@ -109,6 +110,7 @@ multifactor
 Muris
 musculus
 natively
+nd
 Nextflow
 nonconsensual
 Nüst
@@ -119,6 +121,7 @@ orking
 ount
 ove
 personalization
+Pfister
 PHI
 PII
 png
@@ -164,6 +167,7 @@ TPMs
 transcriptome
 transcriptomic
 transphobic
+Tru
 TSV
 Tung
 ual
