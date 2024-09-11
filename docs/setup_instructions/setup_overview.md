@@ -13,9 +13,22 @@ This will be a hands-on workshop, so to maximize our time, we would like you to 
 We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the workshop!
 Please be aware this setup process may take 1-2 hours to complete.
 
-{% if site.workshop == "rrp" %}
-    {% include_relative rrp-setup.md %}
-{% elsif site.workshop == "openrrp" %}
+
+**Table of contents**
+
+* TOC goes here
+{:toc}
+
+{% if site.workshop == "openrrp" %}
+### Only staying for "Reproducible Research Practices"?
+
+If you are only staying for the first half of the workshop and _not_ for the portion about OpenScPCA, you can follow these setup instructions.
+_Otherwise, please proceed to the next section and follow those instructions on this page._
+{% endif %}
+
+{% include_relative rrp-setup.md %}
+
+{% if site.workshop == "openrrp" %}
     {% include_relative openrrp-setup.md %}
 {% endif %}
 
