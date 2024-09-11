@@ -1,4 +1,6 @@
 
+
+
 ## Set up your accounts
 
 Before the workshop begins, you will need to create and configure your GitHub account.
@@ -18,7 +20,7 @@ You will also need to set up your computers following _some_ these software inst
 
 You should not complete all setup steps on the OpenScPCA website, since we will be doing some steps together as part of the workshop itself, but you should come prepared with all software installed and ready to be further set up.
 
-## Instructions for macOS users
+### Instructions for macOS users
 
 1. [Install GitKraken](https://openscpca.readthedocs.io/en/latest/technical-setup/install-a-git-client/#install-gitkraken), a GUI for working with Git
     - Follow the instructions in the link above to also sign into GitKraken with your GitHub account
@@ -36,7 +38,7 @@ You should not complete all setup steps on the OpenScPCA website, since we will 
     But, we do _not_ recommend using Mac's native TextEdit application.
 
 
-## Instructions for Windows users
+### Instructions for Windows users
 
 OpenScPCA currently only supports development on macOS or Linux.
 Therefore, you will need to install and set up for development using the Windows Subsystem for Linux, which provides you with a natively-running Ubuntu operating system on your Windows computer.
