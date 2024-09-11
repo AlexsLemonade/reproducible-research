@@ -15,7 +15,7 @@ The Childhood Cancer Data Lab is an initiative of <b><a href="https://www.alexsl
 We will introduce concepts in reproducible computational research for genomics, including tools and approaches for organizing, managing, and sharing your code.
 
 <!-- These sentences will only appear if the workshop is OpenRRP.-->
-{% if site.workshop == "openrrp" %}
+{% if site.include_openrrp %}
 
 Participants can choose to continue the workshop and learn how to put their skills to use for the [Open Single-cell Pediatric Cancer Atlas (OpenScPCA)](https://openscpca.readthedocs.io/en/latest/), a pediatric cancer research project organized by the Data Lab.
 We will teach you how to contribute and we'll get you completely set up so you can dive right into analysis as soon as the workshop ends!
