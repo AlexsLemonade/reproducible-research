@@ -13,5 +13,5 @@ header_pages:
   - setup_instructions/setup_overview.md
   - workshop-schedule.md
 
-
-
+# Workshop type: rrp (default) or openrrp
+workshop: "openrrp"
