@@ -28,7 +28,7 @@ You should not complete all setup steps on the OpenScPCA website, since we will 
 2. [Install conda](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/setup-conda/#install-conda), the software we use to manage software dependencies in OpenScPCA.
     - You do _not_ need to also set up conda; we will do this together during the workshop
 3. [Install R and RStudio](https://openscpca.readthedocs.io/en/latest/technical-setup/environment-setup/install-r-rstudio/#install-r-on-macos)
-    - Follow the instructions to install the additional tools (XCode developer tools and the GNU Fortran compiler) as well.
+    - Follow the instructions to install the additional tools (XCode command line tools and the GNU Fortran compiler) as well.
 4. Install some R packages we will use in the workshop by running the following command in R Console:
     ```r
     install.packages(c("renv", "tidyverse", "rmarkdown", "here", "optparse"))

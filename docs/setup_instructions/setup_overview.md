@@ -21,11 +21,13 @@ If you are only staying for the first half of the workshop and _not_ for the por
 _Otherwise, please proceed to the next section and follow all other instructions._
 {% endif %}
 
+## Workshop software requirements
+
 You will need to install R, RStudio, several R packages, GitKraken, and a suitable text editor, as well as any system dependencies required for these programs.
 For Windows users, you will also need to install Windows Subsystem for Linux (WSL 2).
 
 You may already have some of this software installed, but we encourage you to read through all of the instructions at the links below that pertain to your system.
-This is especially important for Windows users given the WSL 2 setup.
+This is especially important for Windows users given the WSL 2 setup, which can be quite time-consuming.
 
 Please follow the instructions below for your given operating system:
 
