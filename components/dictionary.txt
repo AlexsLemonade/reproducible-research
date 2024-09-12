@@ -104,7 +104,7 @@ macOS
 MAF
 md
 medulloblastoma
-Miniconda
+Miniforge
 Monterey
 multifactor
 Muris
@@ -114,6 +114,7 @@ nd
 Nextflow
 nonconsensual
 Nüst
+openrrp
 OpenScPCA
 OpenScPCA's
 ord

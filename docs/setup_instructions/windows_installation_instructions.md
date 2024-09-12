@@ -7,9 +7,6 @@ title: Windows Installation Instructions
 * TOC goes here
 {:toc}
 
-
-> Please be aware this setup process may take 1-2 hours to complete!
-
 ## Windows Subsystem for Linux (WSL 2)
 
 We will be using a number of UNIX-based tools throughout this workshop, and many bioinformatics packages are written for that environment.

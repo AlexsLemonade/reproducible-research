@@ -13,5 +13,5 @@ header_pages:
   - setup_instructions/setup_overview.md
   - workshop-schedule.md
 
-
-
+# Whether or not OpenRRP information and setup instructions should be included
+include_openrrp: false
