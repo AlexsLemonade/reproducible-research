@@ -11,11 +11,12 @@ Please be aware this setup process may take 1-2 hours to complete if you are usi
 If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack)!
 We will add you to a training-specific channel after you join the Slack community.
 
-
+{% if site.include_openrrp %}
 **Table of contents**
 
 * TOC goes here
 {:toc}
+{% endif %}
 
 
 ## Workshop software requirements
