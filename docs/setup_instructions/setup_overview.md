@@ -8,18 +8,15 @@ This will be a hands-on workshop, so to maximize our time, we would like you to 
 We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the workshop!
 Please be aware this setup process may take 1-2 hours to complete if you are using Windows, and somewhat less on a Mac.
 
+If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack)!
+We will add you to a training-specific channel after you join the Slack community.
 
-{% if site.include_openrrp %}
+
 **Table of contents**
 
 * TOC goes here
 {:toc}
 
-### Only staying for "Reproducible Research Practices"?
-
-If you are only staying for the first half of the workshop and _not_ for the portion about OpenScPCA, you can follow these setup instructions.
-_Otherwise, please proceed to the next section and follow all other instructions._
-{% endif %}
 
 ## Workshop software requirements
 
@@ -40,7 +37,3 @@ You will also need to [configure the GitKraken application](github_gitkraken_set
 {% if site.include_openrrp %}
     {% include_relative openrrp-setup.md %}
 {% endif %}
-
-
-If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack)!
-We will add you to a training-specific channel after you join the Slack community.
