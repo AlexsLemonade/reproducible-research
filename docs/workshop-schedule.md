@@ -6,12 +6,12 @@ nav_title: Schedule
 The schedule below is a tentative schedule for the 2024 October "Reproducible Research Practices" workshop.
 This schedule is subject to minor changes but the overall content will remain the same.
 
-The workshop will takes place on October 23-24, 2024 at Northwestern Mutual Headquarters in Milwaukee, WI (720 E Wisconsin Ave).
+The workshop will takes place on October 23-24, 2024 at Northwestern Mutual Headquarters in Milwaukee, WI (805 E Mason Ave).
 We will meet in Room 2E on the 2nd floor.
 
 Topics in the schedule link to the associated Google Slide deck we will present.
 
-## Day 1: Wednesday October 23rd, 2:30 - 5:00 PM
+## Day 1: Wednesday October 23rd, 2:30 - 5:30 PM
 
 | Time           | Topic                                                                                                                                                         |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
