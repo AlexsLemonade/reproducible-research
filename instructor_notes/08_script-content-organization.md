@@ -54,7 +54,6 @@ This section is partially a review/reiteration of that content, followed by runn
   * Point out RStudio's "Restart R and Run All Chunks" option
   * Note that not all input files are present, so rendering may fail (Leads into the next part!)
 
-
 ## Activity Part 2: Stitching together parts
 
 The goal of this activity is to show how a shell script can be used to "stitch" together analysis files and automate the workflow.
@@ -103,6 +102,16 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 
 * Have them stage, commit, and push these result files using GitKraken to continue emphasizing GitHub usage.
 * Again, integrated into stage/commit/push, instruct trainees to look at the file diffs so they understand the exact changes they made for this commit.
+
+### Known foibles
+
+Be aware of the following issues which have occurred during previous workshops and how to resolve them:
+
+* Some participants were unable to render the notebook from the command line and/or run the `00_run-mutation-counts.sh` script because they did not have a standalone Pandoc install.
+* We have experienced line-ending problems running scripts in Ubuntu (WSL 2) which were opened in RStudio on Windows, since RStudio changed the line endings.
+  * This setting can be updated in `Global Options > Tools > Code > Saving`.
+  * Ensure line ending conversions are set to either "posix" (this should force a line ending update), and then participants can re-save the file in RStudio with this new setting.
+
 
 
 ## Post-script discussion
