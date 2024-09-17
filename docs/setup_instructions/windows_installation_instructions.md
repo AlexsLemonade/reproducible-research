@@ -246,6 +246,21 @@ You may see some warnings as the installation proceeds related to `timedatectl`,
 After installation is complete, you can exit the R console by typing `q()` and pressing Enter.
 You will be asked whether to save your workspace, and we recommend choosing `n`.
 
+
+### Installing pandoc on WSL 2
+
+As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
+To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.
+(Note that you do not need Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
+
+To install Pandoc on the _WSL 2_ side of your machine, enter this command in the Ubuntu terminal:
+
+```sh
+sudo apt-get install pandoc
+```
+
+You will then be prompted for your password, and Pandoc will install.
+
 ## GitKraken
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
