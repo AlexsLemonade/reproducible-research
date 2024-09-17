@@ -189,7 +189,7 @@ Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ub
 (This is a long command! Make sure to get the whole line!):
 
  ```sh
- sudo apt install --no-install-recommends software-properties-common dirmngr libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libtiff-dev
+ sudo apt install --no-install-recommends software-properties-common dirmngr libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libtiff-dev pandoc
  ```
 
 You may be prompted to enter your *Linux* password, and then you will see a list of packages that will be installed.
@@ -259,21 +259,6 @@ You may see some warnings as the installation proceeds related to `timedatectl`,
 After installation is complete, you can exit the R console by typing `q()` and pressing Enter.
 You will be asked whether to save your workspace, and we recommend choosing `n`.
 
-
-### Installing Pandoc on WSL 2
-
-As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
-To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.
-(Note that you do not need a separate installation of Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
-
-To install Pandoc on the _WSL 2_ side of your machine, enter this command in the Ubuntu terminal:
-
-```sh
-sudo apt-get install pandoc
-```
-
-You may then be prompted for your password, and Pandoc will install.
-
 ## GitKraken
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
@@ -294,6 +279,7 @@ For more information on setting up a GitHub account and the initial GitKraken se
 We will use a text editor to write code as part of this workshop, (and more generally, having a good text editor is something you want anyways!).
 We recommend [Visual Studio Code ("VS Code")](https://code.visualstudio.com/), but if you already have a text editor you prefer, please feel free to stick with that!
 Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/) and [Notepad++](https://notepad-plus-plus.org).
+
 ### Installing Visual Studio Code
 
 To install VS Code, navigate to <https://code.visualstudio.com/download> in the browser.
