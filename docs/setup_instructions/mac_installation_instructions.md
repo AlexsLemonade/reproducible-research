@@ -152,7 +152,7 @@ The following image shows, for example, what these messages look like for a succ
 
 As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
 To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.
-(Note that you do not need Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
+(Note that you do not need a separate installation of Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
 
 Follow these instructions to install Pandoc:
 

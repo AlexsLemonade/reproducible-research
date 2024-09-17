@@ -251,7 +251,7 @@ You will be asked whether to save your workspace, and we recommend choosing `n`.
 
 As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
 To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.
-(Note that you do not need Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
+(Note that you do not need a separate installation of Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
 
 To install Pandoc on the _WSL 2_ side of your machine, enter this command in the Ubuntu terminal:
 
