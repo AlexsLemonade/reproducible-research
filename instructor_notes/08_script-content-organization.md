@@ -108,9 +108,11 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 Be aware of the following issues which have occurred during previous workshops and how to resolve them:
 
 * Some participants were unable to render the notebook from the command line and/or run the `00_run-mutation-counts.sh` script because they did not have a standalone Pandoc install.
-* We have experienced line-ending problems running scripts in Ubuntu (WSL 2) which were opened in RStudio on Windows, since RStudio changed the line endings.
+* Some participants on Windows (WSL 2) were unable to run scripts from the command line due to line-ending incompatibilities.
+This occurs when a Windows user opens a script in RStudio, which sneakily changes line endings, and then attempts to run it in Ubuntu.
+Participants will need to update their line-ending conversion setting and then re-save scripts:
   * This setting can be updated in `Global Options > Tools > Code > Saving`.
-  * Ensure line ending conversions are set to either "posix" (this should force a line ending update), and then participants can re-save the file in RStudio with this new setting.
+  * Ensure line ending conversions are set to "posix" (which should force a line ending update), and then participants can re-save the file in RStudio to trigger a line-ending update, allowing them to run the script in Ubuntu.
 
 
 
