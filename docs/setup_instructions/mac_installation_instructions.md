@@ -148,7 +148,7 @@ The following image shows, for example, what these messages look like for a succ
 > If you see this message, agree to it and follow all installation steps for Command Line Tools.
 
 
-### Installing pandoc
+### Installing Pandoc
 
 As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
 To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.

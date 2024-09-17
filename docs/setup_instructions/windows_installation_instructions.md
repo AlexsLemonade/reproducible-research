@@ -247,7 +247,7 @@ After installation is complete, you can exit the R console by typing `q()` and p
 You will be asked whether to save your workspace, and we recommend choosing `n`.
 
 
-### Installing pandoc on WSL 2
+### Installing Pandoc on WSL 2
 
 As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
 To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.
@@ -265,10 +265,7 @@ You will then be prompted for your password, and Pandoc will install.
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
 
-
-
 GitKraken can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Desktop Free" (_do not pay!!_):
-
 
 The GitKraken installer will now download as `GitKrakenSetup.exe`.
 Open this file and follow the prompts to install GitKraken onto your computer.
