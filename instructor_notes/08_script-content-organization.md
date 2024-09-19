@@ -19,6 +19,8 @@ This section is partially a review/reiteration of that content, followed by runn
 
 * Have trainees navigate to the local copy of their github repository and open the `rrp-workshop-exercises.Rproj` file.
   * Point out the Project menu and discuss the project option settings for reproducibility (`.RData` saving and restore)
+  * Take this opportunity to also explain the "line ending conversion" setting we have used in the project, which is to always convert to Posix.
+  Explain that this is to prevent Windows from changing line endings such that code would no longer run on from the Ubuntu terminal (or any UNIX-like system), and it applies only to files opened within this RStudio project.
 
 * In RStudio, have trainees open `analyses/mutation_counts/01_count-gene-mutations.R`
 * Briefly walk through the components of the R script, including the following:
@@ -108,11 +110,13 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
 Be aware of the following issues which have occurred during previous workshops and how to resolve them:
 
 * Some participants were unable to render the notebook from the command line and/or run the `00_run-mutation-counts.sh` script because they did not have a standalone Pandoc install.
-* Some participants on Windows (WSL 2) were unable to run scripts from the command line due to line-ending incompatibilities.
-This occurs when a Windows user opens a script in RStudio, which sneakily changes line endings, and then attempts to run it in Ubuntu.
+* Some participants on Windows (WSL 2) were unable to run scripts from the Ubuntu command line due to line-ending incompatibilities.
+This occurs when the RStudio setting on Windows for line ending conversions is still set to "Platform Native" (RStudio's default), which in turn might occur because the participant is not working from the RRP RStudio project specifically.
 Participants will need to update their line-ending conversion setting and then re-save scripts:
-  * This setting can be updated in `Global Options > Tools > Code > Saving`.
-  * Ensure line ending conversions are set to "posix" (which should force a line ending update), and then participants can re-save the file in RStudio to trigger a line-ending update, allowing them to run the script in Ubuntu.
+  * Ensure participants are working from the RRP project
+  * Update the setting in `Project Options > Code Editing > Saving`.
+  * Ensure line ending conversions are set to "Posix".
+  Participants can re-save the file in RStudio to trigger the line endings to update, allowing them to run the script in Ubuntu.
 
 
 
