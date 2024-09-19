@@ -111,9 +111,9 @@ Be aware of the following issues which have occurred during previous workshops a
 
 * Some participants were unable to render the notebook from the command line and/or run the `00_run-mutation-counts.sh` script because they did not have a standalone Pandoc install.
 * Some participants on Windows (WSL 2) were unable to run scripts from the Ubuntu command line due to line-ending incompatibilities.
-This occurs when the RStudio setting on Windows for line ending conversions is still set to "Platform Native" (RStudio's default), which in turn might occur because the participant is not working from the RRP RStudio project specifically.
+This occurs when the RStudio setting on Windows for line ending conversions is still set to "Platform Native" (RStudio's default), which in turn might occur because the participant is not working from the `rrp-workshop-exercises.Rproj` project specifically.
 Participants will need to update their line-ending conversion setting and then re-save scripts:
-  * Ensure participants are working from the RRP project
+  * Ensure participants are working from the `rrp-workshop-exercises.Rproj` project
   * Update the setting in `Project Options > Code Editing > Saving`.
   * Ensure line ending conversions are set to "Posix".
   Participants can re-save the file in RStudio to trigger the line endings to update, allowing them to run the script in Ubuntu.
