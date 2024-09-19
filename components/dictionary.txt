@@ -121,11 +121,13 @@ ord
 orking
 ount
 ove
+Pandoc
 personalization
 Pfister
 PHI
 PII
 png
+posix
 PowerShell
 pre
 Protip

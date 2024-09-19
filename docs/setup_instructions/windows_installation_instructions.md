@@ -176,7 +176,7 @@ Open the Ubuntu app and type (or [paste](#optional-enabling-copy-and-paste-in-ub
 (This is a long command! Make sure to get the whole line!):
 
  ```sh
- sudo apt install --no-install-recommends software-properties-common dirmngr libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libtiff-dev
+ sudo apt install --no-install-recommends software-properties-common dirmngr libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libtiff-dev pandoc
  ```
 
 You may be prompted to enter your *Linux* password, and then you will see a list of packages that will be installed.
@@ -250,10 +250,7 @@ You will be asked whether to save your workspace, and we recommend choosing `n`.
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
 
-
-
 GitKraken can be installed from <https://www.gitkraken.com>, where you can click "Download GitKraken Desktop Free" (_do not pay!!_):
-
 
 The GitKraken installer will now download as `GitKrakenSetup.exe`.
 Open this file and follow the prompts to install GitKraken onto your computer.
@@ -269,6 +266,7 @@ For more information on setting up a GitHub account and the initial GitKraken se
 We will use a text editor to write code as part of this workshop, (and more generally, having a good text editor is something you want anyways!).
 We recommend [Visual Studio Code ("VS Code")](https://code.visualstudio.com/), but if you already have a text editor you prefer, please feel free to stick with that!
 Some alternatives you may have encountered are [Sublime Text](https://www.sublimetext.com/) and [Notepad++](https://notepad-plus-plus.org).
+
 ### Installing Visual Studio Code
 
 To install VS Code, navigate to <https://code.visualstudio.com/download> in the browser.

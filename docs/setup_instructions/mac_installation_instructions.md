@@ -148,6 +148,20 @@ The following image shows, for example, what these messages look like for a succ
 > If you see this message, agree to it and follow all installation steps for Command Line Tools.
 
 
+### Installing Pandoc
+
+As part of this workshop, we'll be working with [R Notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).
+To render these documents to HTML from the command line, you will need a separate piece of software called Pandoc.
+(Note that you do not need a separate installation of Pandoc to render these documents from _within RStudio_ - only to render from the command line.)
+
+Follow these instructions to install Pandoc:
+
+1. On the [Pandoc installation page](https://pandoc.org/installing.html), click the link to "Download the latest installer"
+2. This will redirect you to the Pandoc GitHub release page, where you should download the installer that matches your computer architecture (where `X.X` is the given release version):
+   1. Mac Silicon (M-series) chip users should download **`pandoc-X.X-arm64-macOS.pkg`**
+   2. Mac Intel chip users should download **`pandoc-3.4-x86_64-macOS.pkg`**
+3. Open the installer and follow instructions to complete installation
+
 ## GitKraken
 
 We will use the GUI (graphical user interface) called `GitKraken` to work with Git in this workshop.
