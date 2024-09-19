@@ -139,19 +139,6 @@ The downloaded installer will have a name like `RStudio-2022.02.2-win.exe` (the 
 Open this file and follow the prompts to install RStudio onto your computer.
 You may need to give permission to modify your system.
 
-##### Update RStudio line ending setting
-
-Next, we recommend that you update the line ending setting in RStudio to ensure that code we write is compatible across different machines, and in particular between the Windows and WSL/Ubuntu system.
-
-In RStudio, go to `Tools > Global Options` .
-Click `Code` on the left-side menu, and select the `Saving` tab.
-
-On this screen, ensure that "None" is selected from the "Line ending conversion" dropdown.
-Click "Apply" and then "OK" to confirm this updated setting.
-
-<img src="screenshots/windows/rstudio-line-ending.png" alt="RStudio line endings" width=400>
-
-
 #### R packages for Windows
 
 Open RStudio (this assumes both R and RStudio have been installed).
