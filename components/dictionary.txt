@@ -164,6 +164,7 @@ SSO
 subfolder
 symlinks
 TBD
+Tequilaria
 TextEdit
 th
 tidyverse

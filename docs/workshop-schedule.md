@@ -25,7 +25,7 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | 4:30 - 5:00 PM | [Introduction to Git; Forking and cloning a repository](https://docs.google.com/presentation/d/1eiGZA4PYBKJx5HDCo3UDOAB7q415gg96TehxilCHwlA/edit?usp=sharing) |
 | 5:00 - 5:30 PM | [Shell scripting, part 1](https://docs.google.com/presentation/d/1SDUyYVNgvDDRodVqmDQPVQ5wnjQesWfBTg0EAcdbcSo/edit?usp=sharing)                               |
 | 5:30 PM        | _Adjourn_                                                                                                                                                     |
-| 6:30 PM        | Optional dinner at TBD                                                                                                                                        |
+| 6:30 PM        | Group dinner at Blue Bat Kitchen & Tequilaria <br> 249 N Water St, Milwaukee, WI 53202                                                                                                                                       |
 
 ## Day 2: Thursday October 24th, 9:00 AM - 2:00 PM
 
