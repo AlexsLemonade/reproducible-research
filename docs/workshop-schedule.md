@@ -31,7 +31,7 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 
 | Time             | Topic                                                                                                                                            |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8:30 AM          | Breakfast                                                    |
+| 8:30 AM          | _Breakfast_                                                    |
 | 9:00 - 9:45 AM   | Shell scripting, part 2                                                                                                                          |
 | 9:45 - 10:15 AM  | [The Git stage/commit/push workflow](https://docs.google.com/presentation/d/1_YckNhAkp_82PKR6PGS5SdaKDgoueYVTXaPi5pQV9ik/edit?usp=sharing)       |
 | 10:15 - 10:30 AM | _Coffee break_                                                                                                                                   |
