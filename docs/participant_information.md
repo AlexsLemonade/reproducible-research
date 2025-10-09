@@ -42,6 +42,7 @@ Nearby hotels:
 
 * [The Notary Hotel](https://www.marriott.com/en-us/hotels/phlak-the-notary-hotel-philadelphia-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) (Workshop location)
 * [Philadelphia Marriott Downtown](https://www.marriott.com/en-us/hotels/phldt-philadelphia-marriott-downtown/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0)
+* [Holiday Inn Express Philadelphia-Midtown](https://www.ihg.com/holidayinnexpress/hotels/us/en/philadelphia/phlmt/hoteldetail?)
 * [Club Quarters Hotel, Rittenhouse Square](https://www.clubquartershotels.com/philadelphia/rittenhouse-square)
 
 ## Travel Reimbursement
