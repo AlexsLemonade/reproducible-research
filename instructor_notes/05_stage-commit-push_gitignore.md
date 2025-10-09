@@ -10,7 +10,7 @@ At the end of this activity, workshop attendees should be able to:
 * Be able to stage, commit, and push changes from GitKraken
 * Understand how to interpret file diffs in GitKraken
 * Understand the purpose of a `.gitignore` file, how it influences `git`'s behavior, and how to write (modify) one
-* (Optional; time-pending) Understand the purpose of `.gitkeep` files
+* Understand the purpose of `.gitkeep` files
 
 ### Part 1: Introduction to stage/commit/push
 
@@ -57,7 +57,7 @@ data/raw/fastq/SRP255885/
 * Commit and push the `.gitignore` file, and again instruct participants to navigate to their repositories in the browser so they can see that they pushed properly.
 
 
-### [OPTIONAL] Part 3: `.gitkeep` files
+### Part 3: `.gitkeep` files
 
 In the slides, we will introduce the concept of `.gitkeep` files.
 
