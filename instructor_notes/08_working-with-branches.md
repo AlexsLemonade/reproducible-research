@@ -7,7 +7,7 @@ This document provides instructions for teaching how to create and push to a fea
 At the end of this activity, workshop attendees should be able to:
 
 * Understand the concept of `git` branches and how to make them
-* Manange more than one branch with independent sets of changes
+* Manage more than one branch with independent sets of changes
 
 ## Before demonstration
 

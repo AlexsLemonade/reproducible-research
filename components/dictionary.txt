@@ -132,6 +132,7 @@ PowerShell
 pre
 Protip
 README
+redownloading
 renv
 repo
 reproducibility

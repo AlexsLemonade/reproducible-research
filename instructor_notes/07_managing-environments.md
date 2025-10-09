@@ -35,10 +35,10 @@ Begin with the "Managing packages and environments" slides to introduce `renv` a
 * Create a new environment named `alsf-rrp` with `fastp` installed using `conda create -n alsf-rrp fastp`.
 * Show how to activate the environment with `conda activate alsf-rrp`.
 * Save the conda environment with `conda env export > environment.yml`.
-* (Optional) Add FastQC to the environment with `conda install fastqc` and export again.
+* (Optional) Add `FastQC` to the environment with `conda install fastqc` and export again.
 * Show how to deactivate the environment with `conda deactivate`.
 
-### Add fastp to the download-fastq.sh script
+### Add `fastp` to the `download-fastq.sh` script
 
 * Add trimmed and reports directories to the `download-fastq.sh` script and update the `mkdir -p` command to create these directories.
 
@@ -49,7 +49,7 @@ REPORTS_DIR="../reports/fastp"
 mkdir -p $FASTQ_DEST $TRIMMED_DIR $REPORTS_DIR
 ```
 
-* Modify the file download blocks to only download the fastq files if they are not already present.
+* Modify the file download blocks to only download the FASTQ files if they are not already present.
 **Use the `-f` flag to check for the existence of each file.**
 
 ```bash
@@ -58,7 +58,7 @@ if [ ! -f "$FASTQ_DEST/$FASTQ_R1" ]; then
 fi
 ```
 
-* Add the fastp command to the script:
+* Add the `fastp` command to the script:
 *
 ```bash
 ## Trim the files with fastp
