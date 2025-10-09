@@ -28,6 +28,8 @@ We will also introduce merge conflicts and, lightly, how to resolve them.
 
 ### Creating the second branch
 
+Note that this section can be skipped if needed for time.
+
 * Now return to GitKraken to create a separate branch for adding the conda environment.
 * Create a branch off of `main` named `add-fastp`.
 * Make a commit to add the changes to the `download-fastq.sh` script to use `fastp` and avoid redownloading files.
@@ -42,7 +44,7 @@ Following these steps, trainees should have two branches with the following chan
 * `add-renv` branch:
   * `renv.lock`
   * `renv`-created support files
-* `add-fastp` branch:
+* (assuming not skipped) `add-fastp` branch:
   * `environment.yml`
   * modified `download-fastq.sh` script
 
