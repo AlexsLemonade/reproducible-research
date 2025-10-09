@@ -29,7 +29,7 @@ We will add you to the `#2025-november-training` channel.
 ## Workshop Location
 
 **The training workshop will be held at The Notary Hotel located at 21 N Juniper St, Philadelphia, PA 19107.** 
-Specific information about the instruction rooms will be shared via email and slack ahead of the workshop.
+Specific information about the instruction rooms will be shared via email and Slack ahead of the workshop.
  
 If you have trouble finding the location on the days of the event, please use Slack to direct message `Jen O'Malley`.
 
