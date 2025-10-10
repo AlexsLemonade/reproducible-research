@@ -43,17 +43,17 @@ Begin with the "Managing packages and environments" slides to introduce `renv` a
 * Add trimmed and reports directories to the `download-fastq.sh` script and update the `mkdir -p` command to create these directories.
 
 ```bash
-TRIMMED_DIR="../data/trimmed/${STUDY_ID}"
-REPORTS_DIR="../reports/fastp"
+trimmed_dir="../data/trimmed/${study_id}"
+reports_dir="../reports/fastp"
 
-mkdir -p $FASTQ_DEST $TRIMMED_DIR $REPORTS_DIR
+mkdir -p $fastq_dest $trimmed_dir $reports_dir
 ```
 
 * Modify the file download blocks to only download the FASTQ files if they are not already present.
 **Use the `-f` flag to check for the existence of each file.**
 
 ```bash
-if [ ! -f "$FASTQ_DEST/$FASTQ_R1" ]; then
+if [ ! -f "$fastq_dest/$fastq_r1" ]; then
     ...
 fi
 ```
@@ -63,11 +63,11 @@ fi
 ```bash
 ## Trim the files with fastp
 fastp \
-  --in1 $FASTQ_DEST/$FASTQ_R1 \
-  --in2 $FASTQ_DEST/$FASTQ_R2 \
-  --out1 $TRIMMED_DIR/$FASTQ_R1 \
-  --out2 $TRIMMED_DIR/$FASTQ_R2 \
-  --html "$REPORTS_DIR/${STUDY_ID}_report.html"
+  --in1 $fastq_dest/$fastq_r1 \
+  --in2 $fastq_dest/$fastq_r2 \
+  --out1 $trimmed_dir/$fastq_r1 \
+  --out2 $trimmed_dir/$fastq_r2 \
+  --html "$reports_dir/${study_id}_report.html"
 ```
 
 * Run the script to ensure that it works (and doesn't re-download the files).
