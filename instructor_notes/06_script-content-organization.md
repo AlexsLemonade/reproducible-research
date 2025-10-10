@@ -60,7 +60,7 @@ This section is partially a review/reiteration of that content, followed by runn
 
 The goal of this activity is to show how a shell script can be used to "stitch" together analysis files and automate the workflow.
 
-
+* If not created during the [stage/commit/push](./05_stage-commit-push_gitignore.md#part-3-gitkeep-files), create the `rrp-workshop-exercises/results` directory now with a `.gitkeep` file
 * Instruct trainees to open their terminal and navigate to the `rrp-workshop-exercises/analyses/mutation_counts/` directory with `cd` (if they weren't there before), and then run the following code that:
   * Processes the Medulloblastoma MAF file with the R script
   * Renders the R Markdown notebook from the command line
@@ -100,7 +100,7 @@ The goal of this activity is to show how a shell script can be used to "stitch" 
     bash 00_run-mutation-counts.sh
     ```
 
-* At this point, there should be several outputs from this script, including one table for each MAF file in `analyses/mutation_counts/` and one figure for each of LGAT and Medulloblastoma in `plots/mutation_counts/`.
+* At this point, there should be several outputs from this script, including one table for each MAF file in `results/mutation_counts/` and one figure for each of LGAT and Medulloblastoma in `plots/mutation_counts/`.
 
 * Have them stage, commit, and push these result files using GitKraken to continue emphasizing GitHub usage.
 * Again, integrated into stage/commit/push, instruct trainees to look at the file diffs so they understand the exact changes they made for this commit.
