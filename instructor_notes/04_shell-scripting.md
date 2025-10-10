@@ -52,8 +52,9 @@ This may be a good option if many workshop participants are brand new to UNIX in
 + Curl: `curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz`
 + Introduce `ls`: This might include `ls -h` and `ls *gz` glob
 + Introduce `mv`: Move the file to `data/raw/fastq/SRP255885`
-+ Unzip the file and explain redirection: `gunzip -c SRR11518889_1.fastq.gz > SRR11518889_1.fastq`
++ Introduce creating a variable: `data_dir=data/raw/fastq/SRP255885`
++ Unzip the file and introduce using this variable: `gunzip -c $data_dir/SRR11518889_1.fastq.gz > SRR11518889_1.fastq`
 + Explore file contents: contents of the file with piping:
   + Introduce `less` and `head`
   + Introduce `wc`, including `wc -l`
-+ Clean up before writing script: `rm -r data/raw/fastq/SRP255885`
++ Clean up before writing script: `rm -r $data_dir`
