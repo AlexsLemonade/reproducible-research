@@ -14,7 +14,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 * TOC goes here
 {:toc}
 
-## Comprehensive Resources in Reproducibility
+## General Resources for Reproducibility
 
 + [Collections on Reproducibility: Challenges in irreproducible research - _Nature_](https://www.nature.com/collections/prbfkwmwvz)
 + [Good Enough Practices in Scientific Computing - Wilson *et al.* (2017)](https://doi.org/10.1371/journal.pcbi.1005510)

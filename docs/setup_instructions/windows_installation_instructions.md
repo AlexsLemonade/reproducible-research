@@ -86,7 +86,7 @@ In Ubuntu, right-clicking will _paste_ the contents of your clipboard into the t
 ### Installing miniforge
 
 We recommend using the `miniforge` distribution of conda, which is a minimal installer which is preconfigured to only use free package sources.
-As most of the tools we will be using will be designed for Linux, we will be installing the Linux version of miniforge within WSL 2.
+As most of the tools we will be using are Linux-based, we will be installing the Linux version of miniforge within WSL 2.
 To install a version optimized for your system, run the following two commands in the **Ubuntu terminal**:
 
 ```bash
