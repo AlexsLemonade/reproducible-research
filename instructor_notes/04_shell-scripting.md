@@ -23,6 +23,7 @@ The goal of this activity is to interactively develop a script to download and s
     + <https://raw.githubusercontent.com/AlexsLemonade/reproducible-research/main/instructor_notes/fastq_subset/subset-SRR11518889_2.fastq.gz>
   + Be aware that these alternative links are not shown in the provided solution scripts.
   When presenting this alternative approach, the instructor should clearly explain that we are specifically and only using these subsetted versions from the repository in order to save time during the workshop.
+  Instructors can share these URLs in the training-specific Slack channel to easily provide the links to participants.
 
 + Instruct participants to open the `rrp-workshop-exercises` repository in VS code.
 + Create a file `scripts/download-fastq.sh` using VS code.
