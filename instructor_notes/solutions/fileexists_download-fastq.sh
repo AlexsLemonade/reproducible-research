@@ -5,71 +5,71 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
 # Define study ID
-STUDY_ID="SRP255885"
+study_id="SRP255885"
 
 # Define file names
-FASTQ_R1="SRR11518889_1.fastq.gz"
-FASTQ_R2="SRR11518889_2.fastq.gz"
-FASTQ_URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889"
+fastq_r1="SRR11518889_1.fastq.gz"
+fastq_r2="SRR11518889_2.fastq.gz"
+fastq_url="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889"
 
 # Define and create destination directories for FASTQ files to live in
-FASTQ_DEST="../data/raw/fastq/${STUDY_ID}"
-TRIMMED_DIR="../data/trimmed/${STUDY_ID}"
-REPORTS_DIR="../reports/fastp"
+fastq_dest="../data/raw/fastq/${study_id}"
+trimmed_dir="../data/trimmed/${study_id}"
+reports_dir="../reports/fastp"
 
-mkdir -p $FASTQ_DEST $TRIMMED_DIR $REPORTS_DIR
+mkdir -p $fastq_dest $trimmed_dir $reports_dir
 
 ##### Process the R1 file #####
 
 # If the file doesn't exist, then we need to download it
-if [ ! -e "$FASTQ_DEST/$FASTQ_R1" ]; then
+if [ ! -e "$fastq_dest/$fastq_r1" ]; then
 
     # Print an indicator:
-    echo "Obtaining $FASTQ_R1"
+    echo "Obtaining $fastq_r1"
 
     # Curl the file (using one of several approaches)
-    curl -O $FASTQ_URL/$FASTQ_R1 # this approach preserves the original internet file name
+    curl -O $fastq_url/$fastq_r1 # this approach preserves the original internet file name
 
     # Move the file to its destination directory
-    mv $FASTQ_R1 $FASTQ_DEST
+    mv $fastq_r1 $fastq_dest
 
 fi
 
 # Explore: how many lines are in the file?
-echo "The number of lines in $FASTQ_R1 is:"
-gunzip -c $FASTQ_DEST/$FASTQ_R1 | wc -l
+echo "The number of lines in $fastq_r1 is:"
+gunzip -c $fastq_dest/$fastq_r1 | wc -l
 
 
 
 ##### Process the R2 file #####
 
 # If the file doesn't exist, then we need to download it
-if [ ! -e "$FASTQ_DEST/$FASTQ_R2" ]; then
+if [ ! -e "$fastq_dest/$fastq_r2" ]; then
 
     # Print an indicator:
-    echo "Obtaining $FASTQ_R2"
+    echo "Obtaining $fastq_r2"
 
     # Curl the file (using one of several approaches)
-    curl -O $FASTQ_URL/$FASTQ_R2 # this approach preserves the original internet file name
+    curl -O $fastq_url/$fastq_r2 # this approach preserves the original internet file name
 
     # Move the file to its destination directory
-    mv $FASTQ_R2 $FASTQ_DEST
+    mv $fastq_r2 $fastq_dest
 
 fi
 
 # Explore: how many lines are in the file?
-echo "The number of lines in $FASTQ_R2 is:"
-gunzip -c $FASTQ_DEST/$FASTQ_R2 | wc -l
+echo "The number of lines in $fastq_r2 is:"
+gunzip -c $fastq_dest/$fastq_r2 | wc -l
 
 
 ## Trim the files with fastp
 fastp \
-  --in1 $FASTQ_DEST/$FASTQ_R1 \
-  --in2 $FASTQ_DEST/$FASTQ_R2 \
-  --out1 $TRIMMED_DIR/$FASTQ_R1 \
-  --out2 $TRIMMED_DIR/$FASTQ_R2 \
-  --html "$REPORTS_DIR/${STUDY_ID}_report.html" \
-  --json "$REPORTS_DIR/${STUDY_ID}_report.json"
+  --in1 $fastq_dest/$fastq_r1 \
+  --in2 $fastq_dest/$fastq_r2 \
+  --out1 $trimmed_dir/$fastq_r1 \
+  --out2 $trimmed_dir/$fastq_r2 \
+  --html "$reports_dir/${study_id}_report.html" \
+  --json "$reports_dir/${study_id}_report.json"
 
 
 
@@ -81,8 +81,8 @@ fastp \
 ##### For any version, you can always add `-s` to keep it quiet!
 
 # Approach 2: Download directly to the location you want
-#curl $FASTQ_URL/$FASTQ_R1 > $FASTQ_DEST/$FASTQ_R1
+#curl $fastq_url/$fastq_r1 > $fastq_dest/$fastq_r1
 
 # Approach 3: Same as above, but without stdout
-#curl $FASTQ_URL/$FASTQ_R1 -o $FASTQ_DEST/$FASTQ_R1
+#curl $fastq_url/$fastq_r1 -o $fastq_dest/$fastq_r1
 ##############################################################
