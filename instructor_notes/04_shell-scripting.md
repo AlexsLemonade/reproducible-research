@@ -34,8 +34,26 @@ The goal of this activity is to interactively develop a script to download and s
 + Discuss at a high-level what steps we wish to perform:
   + Download a file
   + Move it to the correct location
-    + The destination directory needs to exist 
+    + The destination directory needs to exist
   + Count the number of lines in the FASTQ file
+  + Consider that we are going to do all of the same tasks for both files, and we want to avoid bugs!
+  + Optionally, perform these steps interactively/as a demonstration first to develop a sense of where we're going; specific instructions for this are below.
 + Start writing the script without using variables [`solutions/novariables_download-fastq.sh`](solutions/novariables_download-fastq.sh)
 + Build up to using variables [`solutions/variables_download-fastq.sh`](solutions/variables_download-fastq.sh)
 
+### Optional interactive steps
+
+Optionally, we can perform some of the script steps interactively on the command line as a first pass.
+This may be a good option if many workshop participants are brand new to UNIX in general.
+
++ Navigate to the `rrp-workshop-exercises` directory in terminal with `cd`
++ Introduce `mkdir`: Create a directory for the FASTQ files
+  + Goal: `data/raw/fastq/SRP255885`
++ Curl: `curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz`
++ Introduce `ls`: This might include `ls -h` and `ls *gz` glob
++ Introduce `mv`: Move the file to `data/raw/fastq/SRP255885`
++ Unzip the file and explain redirection: `gunzip -c SRR11518889_1.fastq.gz > SRR11518889_1.fastq`
++ Explore file contents: contents of the file with piping:
+  + Introduce `less` and `head`
+  + Introduce `wc`, including `wc -l`
++ Clean up before writing script: `rm -r data/raw/fastq/SRP255885`
