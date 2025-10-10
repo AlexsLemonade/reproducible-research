@@ -22,8 +22,9 @@ We will teach you how to contribute and we'll get you completely set up so you c
 
 {% endif %}
 
-Before the workshop starts, be sure to visit our [Pre-workshop Setup page](setup_instructions/setup_overview.md) for instructions on preparing your computer for the workshop.
+Before the workshop starts, be sure to visit our [**Pre-workshop Setup page**](setup_instructions/setup_overview.md) for instructions on preparing your computer for the workshop.
 _Completing these setup steps is **required** for full participation in the hands-on activities._
+It may take up to 2 hours to complete all setup steps.
 
 Please also review our [Code of Conduct](code-of-conduct.md).
 

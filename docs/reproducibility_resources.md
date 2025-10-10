@@ -14,22 +14,27 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 * TOC goes here
 {:toc}
 
-## Comprehensive Resources
+## General Resources for Reproducibility
 
-+ [Bioinformatics Data Skills - Vince Buffalo](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/)
 + [Collections on Reproducibility: Challenges in irreproducible research - _Nature_](https://www.nature.com/collections/prbfkwmwvz)
 + [Good Enough Practices in Scientific Computing - Wilson *et al.* (2017)](https://doi.org/10.1371/journal.pcbi.1005510)
 + [Guide for Reproducible Research - The Turing Way](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html)
 + [Introduction to Reproducibility in Cancer Informatics course - Informatics Technology for Cancer Research (ITCR)](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html)
 	+ [References list](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/references.html)
 + [Advanced Reproducibility in Cancer Informatics course - ITCR](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html)
-+ [Learning Bioinformatics at Home - Harvard Informatics Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
 + [Reproducibility 4 Everyone](https://www.repro4everyone.org/)
 + [Reproducibility Standards for Machine Learning in the Life Sciences - Heil *et al.* (2021)](https://doi.org/10.1038/s41592-021-01256-7)
++ [Reproducibility in machine-learning-based research: Overview, barriers, and drivers - Semmelrock *et al.* (2025)](https://doi.org/10.1002/aaai.70002)
 + [Ten Simple Rules for Quick and Dirty Scientific Programming - Balaban *et al.* (2021)](https://doi.org/10.1371/journal.pcbi.1008549)
 + [Ten Simple Rules for Reproducible Computational Research - Sanvde *et al.* (2013)](https://doi.org/10.1371/journal.pcbi.1003285)
-+ [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/events-tdw.html)
-+ [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/events-reproducibility.html)
++ [The Five Pillars of Computational Reproducibility: Bioinformatics and Beyond - Ziemann, Poulain, and Bora (2023)](https://academic.oup.com/bib/article/24/6/bbad375/7326135)
++ [Improving Code Reproducibility: Small Steps with Big Impacts](https://communities.springernature.com/posts/improving-code-reproducibility-small-steps-with-big-impacts)
++ [Reproducible Programming for Biologists Who Code](https://autobencoder.com/2020-06-30-shoulddo/)
+
+## General Bioinformatics Resources
+
++ [Bioinformatics Data Skills - Vince Buffalo](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/)
++ [Learning Bioinformatics at Home - Harvard Informatics Group](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
 
 ## Git
 
@@ -45,6 +50,10 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks - Rule *et al.* (2019)](https://doi.org/10.1371/journal.pcbi.1007007)
 
 ## Data, Materials, and Protocols Sharing
+
++ [FAIR principles of data sharing](https://www.go-fair.org/fair-principles/)
++ [TRUST principles for digital repositories - Lin *et al.* (2020)](https://www.nature.com/articles/s41597-020-0486-7)
+
 ### Resources for sharing
 
 + [DMPTool](https://dmptool.org/)

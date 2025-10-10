@@ -64,8 +64,45 @@ These outrageous times will drop quickly, and the whole process will _really_ ta
 
 
 
+## Conda (with miniforge)
 
+[Conda](https://docs.conda.io/en/latest/) is a package manager that allows you to install and manage software packages and their dependencies, with a very healthy ecosystem of bioinformatics packages available through the [Bioconda project](https://bioconda.github.io/).
 
+### Installing miniforge
+
+We recommend using the `miniforge` distribution of conda, which is a minimal installer which is preconfigured to only use free package sources.
+To install a version optimized for your system, run the following two commands in the Terminal:
+
+```bash
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
+```
+
+- You will be prompted first to view the license; press enter as instructed, read the license (you should be able to scroll with your arrow keys), then press q to return to the installer.
+- Accept the license by typing yes, and then continue following the prompts to complete the installation.
+- You will be asked about the installation location (you can press enter to accept the default, which should be fine).
+- Finally, you will be asked whether you wish to update your shell profile to automatically initialize conda. We recommend selecting yes.
+
+When the installation is complete, you will see the following message:
+
+```
+==> For changes to take effect, close and re-open your current shell. <==
+
+Thank you for installing Miniforge3!
+```
+
+### Setting up Bioconda
+
+Open a _new_ terminal window and run the following commands to set up the conda channels to allow access to Bioconda packages:
+
+```bash
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
+
+That's it!
+You now have conda installed and configured to use the Bioconda channel.
 
 ## R and RStudio
 
