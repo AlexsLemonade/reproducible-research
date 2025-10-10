@@ -14,8 +14,10 @@ Axosoft
 Bala
 Balaban
 BBEdit
+Bioconda
 bioinformatics
 Bootcamp
+Bora
 Bruning
 bulletpoint
 Bundler
@@ -104,7 +106,7 @@ macOS
 MAF
 md
 medulloblastoma
-Miniforge
+miniforge
 Monterey
 multifactor
 Muris
@@ -128,8 +130,10 @@ PHI
 PII
 png
 posix
+Poulain
 PowerShell
 pre
+preconfigured
 Protip
 README
 redownloading
@@ -152,6 +156,7 @@ ScPCA
 scRNA
 scType
 se
+Semmelrock
 SingleCellExperiment
 SingleR
 Slackbot
@@ -195,3 +200,4 @@ Zakeri
 zebrafish
 ZenHub
 Zenodo
+Ziemann
