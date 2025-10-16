@@ -1,9 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-# Set the working directory to the directory of this file
-cd "$(dirname "${BASH_SOURCE[0]}")"
-
 # Make directory to hold FASTQ files
 mkdir -p ../data/raw/fastq/SRP255885/
 
