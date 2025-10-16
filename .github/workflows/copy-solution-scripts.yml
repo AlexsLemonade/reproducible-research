@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - "instructor_notes/solutions/*sh"
+      - "instructor_notes/solutions/*.sh"
 
 jobs:
   file-script-pr:
@@ -40,12 +40,10 @@ jobs:
           # the url from this repo where files will be downloaded from
           base_url=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
 
-          script_paths=$(ls ${instructor_notes/solutions}/*.sh)
-          dest_path=scripts/solutions
-          # get new scripts files and put them in the right place
-          for script in $script_paths
+         # get the current scripts from the exercises repo and download the corresponding 
+          for script in scripts/solutions/*.sh
           do
-            curl --fail -s ${base_url}/${script} > ${dest_path}
+            curl --fail -sS ${base_url}/instructor_notes/scripts/$(basename ${script}) > ${script}
           done
 
       - name: Create PR with updated scripts
