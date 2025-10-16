@@ -14,14 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Load 1Password secrets
-        uses: 1password/load-secrets-action@v1
-        with:
-          export-env: true
-        env:
-          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.TRAINING_OP_SERVICE_ACCOUNT_TOKEN }}
-          ACTION_MONITORING_SLACK: ${{ secrets.OP_ACTION_MONITORING_SLACK }}
-
       - name: Checkout code from rrp-workshop-exercises
         uses: actions/checkout@v4
         with:
@@ -40,7 +32,7 @@ jobs:
           # the url from this repo where files will be downloaded from
           base_url=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
 
-         # get the current scripts from the exercises repo and download the corresponding 
+          # get the current scripts from the exercises repo and download the corresponding
           for script in scripts/solutions/*.sh
           do
             curl --fail -sS ${base_url}/instructor_notes/scripts/$(basename ${script}) > ${script}
@@ -69,14 +61,3 @@ jobs:
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
-
-      # If we have a failure, Slack us
-      - name: Report failure to Slack
-        if: always()
-        uses: ravsamhq/notify-slack-action@v1.1
-        with:
-          status: ${{ job.status }}
-          notify_when: "failure"
-        env:
-          SLACK_WEBHOOK_URL: ${{ env.ACTION_MONITORING_SLACK }}
-          SLACK_MESSAGE: "Copying from reproducible-research to rrp-workshop-exercises failed"
