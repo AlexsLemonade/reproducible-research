@@ -1,0 +1,84 @@
+name: Copy solution scripts to rrp-workshop-exercises
+# Copy instructor_notes/solutions/*sh to rrp-workshop-exercises repo
+
+# This workflow will run when there are changes to solution scripts in THIS repo
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "instructor_notes/solutions/*sh"
+
+jobs:
+  file-script-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Load 1Password secrets
+        uses: 1password/load-secrets-action@v1
+        with:
+          export-env: true
+        env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.TRAINING_OP_SERVICE_ACCOUNT_TOKEN }}
+          ACTION_MONITORING_SLACK: ${{ secrets.OP_ACTION_MONITORING_SLACK }}
+
+      - name: Checkout code from rrp-workshop-exercises
+        uses: actions/checkout@v4
+        with:
+          repository: AlexsLemonade/rrp-workshop-exercises
+          token: ${{ env.DOCS_BOT_GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Get solution scripts from reproducible-research
+        shell: bash
+        run: |
+          # the url from this repo where files will be downloaded from
+          base_url=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
+
+          script_paths=$(ls ${instructor_notes/solutions}/*.sh)
+          dest_path=scripts/solutions
+          # get new scripts files and put them in the right place
+          for script in $script_paths
+          do
+            curl --fail -s ${base_url}/${script} > ${dest_path}
+          done
+
+      - name: Create PR with updated scripts
+        uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          token: ${{ env.DOCS_BOT_GITHUB_TOKEN }}
+          commit-message: Copy updated scripts from reproducible-research
+          signoff: false
+          branch: auto_copy_scripts
+          delete-branch: true
+          title: "GHA: Automated transfer of solution scripts"
+          body: |
+            ### Description:
+            This PR auto-generated from github actions
+              - Copy updated scripts from the reproducible-research repository
+          labels: |
+            automated
+          reviewers: $GITHUB_ACTOR
+
+      # Write out PR info
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+
+      # If we have a failure, Slack us
+      - name: Report failure to Slack
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1.1
+        with:
+          status: ${{ job.status }}
+          notify_when: "failure"
+        env:
+          SLACK_WEBHOOK_URL: ${{ env.ACTION_MONITORING_SLACK }}
+          SLACK_MESSAGE: "Copying from reproducible-research to rrp-workshop-exercises failed"
