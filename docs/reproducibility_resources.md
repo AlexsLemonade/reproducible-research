@@ -49,6 +49,14 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science - Nüst *et al.* (2020)](https://doi.org/10.1371/journal.pcbi.1008316)
 + [Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks - Rule *et al.* (2019)](https://doi.org/10.1371/journal.pcbi.1007007)
 
+## The Command Line and Unix
+
++ [Introduction to the Command Line for Genomics - The Carpentries](https://datacarpentry.org/shell-genomics/)
++ [The Unix Shell - The Carpentries](https://swcarpentry.github.io/shell-novice/)
++ [Organizing with Unix - Rafael Irizarry](https://rafalab.github.io/dsbook/unix.html)
++ [Unix Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
++ [UNIX Tutorial for Beginners](https://linuxclass.heinz.cmu.edu/doc/Unix-Tutorial-surrey/)
+
 ## Data, Materials, and Protocols Sharing
 
 + [FAIR principles of data sharing](https://www.go-fair.org/fair-principles/)
@@ -68,14 +76,3 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Mutant Mouse Resource and Research Centers](https://www.mmrrc.org/)
 + [NIH-supported repositories for sharing scientific data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
 + [Zenodo](https://zenodo.org/)
-
-## Shell
-
-+ [Shell for Genomics - The Carpentries](https://datacarpentry.org/shell-genomics/)
-+ [The UNIX Shell - The Carpentries](https://swcarpentry.github.io/shell-novice/)
-
-## UNIX
-
-+ [Organizing with UNIX - Rafael Irizarry](https://rafalab.github.io/dsbook/unix.html)
-+ [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
-+ [UNIX Tutorial for Beginners](https://linuxclass.heinz.cmu.edu/doc/Unix-Tutorial-surrey/)

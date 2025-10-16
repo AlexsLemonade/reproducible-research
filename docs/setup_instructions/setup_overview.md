@@ -38,3 +38,12 @@ You will also need to [configure the GitKraken application](github_gitkraken_set
 {% if site.include_openrrp %}
     {% include_relative openrrp-setup.md %}
 {% endif %}
+
+## Familiarize yourself with the Unix command line
+
+We will be using command line tools during the workshop, notably when demonstrating the use of shell scripting.
+If you are not familiar with the basics of the Unix command line, including navigating the file system, creating directories and files, and invoking command line tools, we encourage you to spend a little time familiarizing yourself with these concepts.
+(If you understood what the commands in the installation instructions were doing, you are probably well on your way.)
+
+We have provided a number of resources for the Unix command line in our [Reproducibility Resources](../reproducibility_resources.md#the-command-line-and-unix) document, and we encourage you to explore one or more of those.
+
