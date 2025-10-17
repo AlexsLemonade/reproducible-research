@@ -1,0 +1,63 @@
+name: Copy solution scripts to rrp-workshop-exercises
+# Copy instructor_notes/solutions/*sh to rrp-workshop-exercises repo
+
+# This workflow will run when there are changes to solution scripts in THIS repo
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "instructor_notes/solutions/*.sh"
+
+jobs:
+  file-script-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code from rrp-workshop-exercises
+        uses: actions/checkout@v4
+        with:
+          repository: AlexsLemonade/rrp-workshop-exercises
+          token: ${{ env.DOCS_BOT_GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Get solution scripts from reproducible-research
+        shell: bash
+        run: |
+          # the url from this repo where files will be downloaded from
+          base_url=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
+
+          # get the current scripts from the exercises repo and download the corresponding
+          for script in scripts/solutions/*.sh
+          do
+            curl --fail -sS ${base_url}/instructor_notes/scripts/$(basename ${script}) > ${script}
+          done
+
+      - name: Create PR with updated scripts
+        uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          token: ${{ env.DOCS_BOT_GITHUB_TOKEN }}
+          commit-message: Copy updated scripts from reproducible-research
+          signoff: false
+          branch: auto_copy_scripts
+          delete-branch: true
+          title: "GHA: Automated transfer of solution scripts"
+          body: |
+            ### Description:
+            This PR auto-generated from github actions
+              - Copy updated scripts from the reproducible-research repository
+          labels: |
+            automated
+          reviewers: $GITHUB_ACTOR
+
+      # Write out PR info
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
