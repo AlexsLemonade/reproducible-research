@@ -170,6 +170,7 @@ SSO
 subfolder
 symlinks
 TBD
+Taqueria
 Tequilaria
 TextEdit
 th
