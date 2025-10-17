@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+# Make directory to hold FASTQ files
+mkdir -p ../data/raw/fastq/SRP255885/
 
 ##### Process the R1 file #####
 
@@ -14,7 +16,7 @@ curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.
 # Explore: how many lines are in the file?
 echo "The number of lines in SRR11518889_1.fastq.gz is:"
 gunzip -c SRR11518889_1.fastq.gz | wc -l
-  
+
 # Move the file to its destination directory
 mv SRR11518889_1.fastq.gz ../data/raw/fastq/SRP255885/
 
@@ -30,7 +32,7 @@ curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_2.
 # Explore: how many lines are in the file?
 echo "The number of lines in SRR11518889_2.fastq.gz is:"
 gunzip -c SRR11518889_2.fastq.gz | wc -l
-  
+
 # Move the file to its destination directory
 mv SRR11518889_2.fastq.gz ../data/raw/fastq/SRP255885/
 
@@ -38,9 +40,9 @@ mv SRR11518889_2.fastq.gz ../data/raw/fastq/SRP255885/
 
 
 ############### Downloading files with curl ###################
-##### A few alternative approaches for downloading files with curl are shown below, with R1 for example. 
+##### A few alternative approaches for downloading files with curl are shown below, with R1 for example.
 ##### Depending on how the workshop is moving along, multiple versions can be optionally introduced.
-##### The versions shown below will place the downloaded file into the destination directory 
+##### The versions shown below will place the downloaded file into the destination directory
 #####    as part of the same step without needing a separate line to mv.
 ##### For any version, you can always add `-s` to keep it quiet!
 
