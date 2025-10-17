@@ -26,7 +26,7 @@ Instruction on Day 1 will take place in the Juniper Ballroom.
 | 5:00 PM        | _Adjourn_                                                                                                                                                     |
 | 6:00 PM        | [Optional] Group dinner at Mission Taqueria <br> 1516 Sansom St, Philadelphia, PA 19102 <br> _Located on 2nd floor_                                                      |
 
-## Day 2: Thursday November 7th, 9:00 AM - 2:00 PM
+## Day 2: Friday November 7th, 9:00 AM - 2:00 PM
 
 Instruction on Day 2 will take place in the Logan Meeting Room.
 
