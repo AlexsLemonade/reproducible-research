@@ -21,7 +21,7 @@ We will add you to a training-specific channel after you join the Slack communit
 
 ## Workshop software requirements
 
-You will need to install R, RStudio, several R packages, GitKraken, and a suitable text editor, as well as any system dependencies required for these programs.
+You will need to install Conda, R, RStudio, several R packages, GitKraken, and a suitable text editor, as well as any system dependencies required for these programs.
 For Windows users, you will also need to install Windows Subsystem for Linux (WSL 2).
 
 You may already have some of this software installed, but we encourage you to read through all of the instructions at the links below that pertain to your system.
