@@ -57,4 +57,9 @@ This may be a good option if many workshop participants are brand new to UNIX in
 + Explore file contents: contents of the file with piping:
   + Introduce `less` and `head`
   + Introduce `wc`, including `wc -l`
-+ Clean up before writing script: `rm -r $data_dir`
++ Introduce pipe: `gunzip -c $data_dir/SRR11518889_1.fastq.gz | wc -l`
++ Clean up before writing script: 
+  ```
+  rm -r $data_dir # note that this preserves data/raw/fastq/
+  rm SRR11518889_1.fastq
+  ```
