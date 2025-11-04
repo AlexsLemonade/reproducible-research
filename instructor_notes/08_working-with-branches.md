@@ -16,15 +16,16 @@ We will also introduce merge conflicts and, lightly, how to resolve them.
 
 ## Activity
 
+
 ### Creating a single branch
 
 * After the Git part 2 slides, we will demonstrate how to create a new branch, which should be called something like `add-renv`.
-* Trainees should then stage/commit/push the `renv` files to a remote branch, which will be created during the `push`.
-* "Accidentally" include the `environment.yml` file as a second (or third) commit.
-* GitKraken should now show diverged histories between `main` and `add-renv`.
+* Stage/commit/push the `renv` files to a remote branch, which will be created during the `push`.
+GitKraken should now show diverged histories between `main` and `add-renv`.
+* "Accidentally" commit the `environment.yml` file as the second (or third) commit.
 * Instruct trainees to navigate to their remote repositories in the browser to see their new branch pushed.
   * In particular, make sure trainees see the github message along the lines of "This branch is 2 commits ahead of main" inside the `add-renv` branch view.
-  * Point out the pull request button, but do not click it yet.
+  * Point out the pull request button, but do not click it.
 
 ### Creating the second branch
 
@@ -44,9 +45,10 @@ Following these steps, trainees should have two branches with the following chan
 * `add-renv` branch:
   * `renv.lock`
   * `renv`-created support files
+  * `environment.yml` (if the second branch activity is skipped)
 * (assuming not skipped) `add-fastp` branch:
   * `environment.yml`
   * modified `download-fastq.sh` script
 
 Trainees should merge one at a time in into the `main` branch from GitKraken, and then delete the remote (and local, if preferred) branches.
-Instructors should emphasize that there are other types of project workflows, in particular for _collaborative projects_ with multiple contributors, where merging directly into `main` might not be preferred.
+Instructors should emphasize that there are other types of project workflows, in particular for _collaborative projects_ with multiple contributors, where merging directly into `main` might not be preferred, and instead a pull request might be the better option.

@@ -72,5 +72,5 @@ fastp \
 
 * Run the script to ensure that it works (and doesn't re-download the files).
 
-* Trainees should now all have a `renv.lock` file and other renv-related changes in their _main branch_.
+* Trainees should now all have an `environment.yml` file and `renv.lock` file and other renv-related changes in their _main branch_.
 **Do not stage/commit/push any of these changes yet!**
