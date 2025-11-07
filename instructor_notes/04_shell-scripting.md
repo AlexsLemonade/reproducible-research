@@ -45,6 +45,9 @@ The goal of this activity is to interactively develop a script to download and s
 
 Optionally, we can perform some of the script steps interactively on the command line as a first pass.
 This may be a good option if many workshop participants are brand new to UNIX in general.
+If this is desired, the interactive steps should be done _in parallel_ with writing the script, rather than as a separate section.
+
+
 
 + Navigate to the `rrp-workshop-exercises` directory in terminal with `cd`
 + Introduce `mkdir`: Create a directory for the FASTQ files
