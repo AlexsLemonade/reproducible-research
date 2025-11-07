@@ -6,7 +6,7 @@ This document provides instructions for teaching stage/commit/push using GitKrak
 ## Learning goals
 
 
-* At this time in the workshop, participants will have written and run a shell script (`download-fastq.sh`) to curl a pair of large (>100 MB each) FASTQ files.
+* At this time in the workshop, participants will have written and run a shell script (`download-fastq.sh`) to download a pair of large (>100 MB each) FASTQ files.
 * The goals of this activity are to:
 	* Stage/commit/push the `download-fastq.sh` script,
 	* To modify an existing `.gitignore` file to ignore the too-large-for-github FASTQ files
