@@ -28,7 +28,7 @@ Topics in the schedule link to the associated Google Slide deck we will present.
 | 3:30 AM - 4:15 PM | [Managing packages and environments](https://docs.google.com/presentation/d/1GCbu2F6LeEPOu5DzDsTgwu1__9YDVydvPo911fBG1i0/edit?usp=sharing)
 | 4:15 - 5:00 PM    | [Git: Working with branches](https://docs.google.com/presentation/d/1s7BSHgTSDuXIzI1ROS-JSneB6NXfQVWOec6lhc8eIWA/edit?usp=sharing)
 | 5:00 PM           | _Adjourn_
-| TBD               | Dinner, Location TBD
+| TBD               | [Optional] Dinner, Location TBD
 
 ## Day 2: Thursday December 9th, 9:00 AM - 2:00 PM
 
