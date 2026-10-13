@@ -6,16 +6,15 @@ nav_title: Schedule
 The schedule below is the tentative schedule for the 2026 December "Reproducible Research Practices" workshop.
 This schedule is subject to minor changes but the overall content will remain the same.
 
-The workshop will take place on December 8-9, 2026 at One Bala Plaza in  Bala Cynwyd, PA.
+The workshop will take place on December 8-9, 2026 at One Bala Plaza in Bala Cynwyd, PA.
 
 Topics in the schedule link to the associated Google Slide deck we will present.
 
 ## Day 1: Tuesday December 8th, 9:00 am - 5:00 PM
 
-<!-- prettier-ignore -->
 | Time              | Topic
 | ----------------- | ---------------------------
-| 9:00 - 9:45 AM    | [Welcome and introductions](https://docs.google.com/presentation/d/1kNedSbQ-7YV3wkhw7n1KzFKZg3zqZEoilW9PIjE8_ho/edit?usp=sharing)
+| 9:00 - 9:45 AM    | Welcome and introductions
 |                   | [Why does reproducibility matter?](https://docs.google.com/presentation/d/1qfulAR4jD0KS7NfrLHpwT6SWl-7APBmqNnAwGpXX5oo/edit?usp=sharing)
 | 9:45 - 10:15 AM   | [Project organization](https://docs.google.com/presentation/d/1ncqxXlC0-PGEK-yE7S-nDYnMPhrOUPbI95EJy283wCs/edit?usp=sharing)
 | 10:15 - 10:30 AM  | _Coffee Break_
