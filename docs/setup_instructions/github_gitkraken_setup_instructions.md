@@ -9,7 +9,7 @@ title: Setting up Git and GitKraken
 
 ## Setting up your computer
 
-Before setting up Git and GitKraken, you'll need to follow these steps to install certain softwares on your computer: [Setup for macOS users](./mac_installation_instructions.html) or [Setup for Windows/PC users](./windows_installation_instructions.html).
+Before setting up Git and GitKraken, you'll need to follow these steps to install certain software programs on your computer: [Setup for macOS users](./mac_installation_instructions.md) or [Setup for Windows/PC users](./windows_installation_instructions.md).
 
 
 ## Creating a GitHub account
