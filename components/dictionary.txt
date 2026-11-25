@@ -5,6 +5,7 @@ Addgene
 al
 ALSF
 AnnData
+Ardmore
 Asaphs
 assignees
 authenticator
